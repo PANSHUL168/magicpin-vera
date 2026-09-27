@@ -1,0 +1,1232 @@
+{
+ "00e709ad743f738d07f8c694d609b85e": {
+  "body": "Hi Aditya, Karim's Salon here—your appointment is tomorrow. We appreciate your 1 visit since 1 Sep 2025. Reply YES to confirm, or let us know if you need to reschedule.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the message warm and concise, anchored on tomorrow’s appointment and Aditya’s 1 visit since 1 Sep 2025. It ends with the requested single confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu"
+ },
+ "020ec91531348870f9132002a513eb96": {
+  "body": "Hi Lakshmi, Diwali 31 Oct 2026 ko hai—188 din baaki hain, isliye festive planning abhi karna useful rahega. Oct-Dec wedding/festival season mein bridal package bookings 4x baseline hoti hain; Haircut @ ₹99 aur Hair Spa @ ₹499 live hain, jabki Threading + Waxing combo @ ₹299 aur Bridal Trial @ ₹999 abhi try nahi kiye gaye. Kya main aapke liye festive offer aur post draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on Diwali’s date, 188-day lead time and 4x bridal booking pattern. It uses specificity and loss aversion by highlighting two untried category offers alongside the active offers.",
+  "rejected": [],
+  "trigger_id": "trg_006_festival_diwali"
+ },
+ "05b6a99f9fb36c4cb620e4548194d220": {
+  "body": "Hi Ramesh, summer 2026 mein ORS +40%, sunscreen +38% aur antifungal +45% demand badh rahi hai, jabki cold/cough -60% hai. Isliye ORS aur sunscreen counter par, cold/cough back shelf par rakhna sahi rahega; aapke Free Home Delivery > ₹499 aur Senior Citizen 15% OFF offers bhi highlight kar sakte hain. Kya main iske liye ek quick shelf aur offer plan bana doon, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the summer 2026 multi-pharmacy demand shift and turns it into a specific shelf-placement recommendation. It also uses the existing offers without inventing new claims, ending with the required single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_020_summer_demand_shift"
+ },
+ "06afc5d18f91afe6ea3d5cc94906499b": {
+  "body": "Hi Sushma, recent performance mein dip dikh raha hai—calls 22 hain, jabki peers ka average 28 hai, yani 21% neeche. Is gap ko address karne ke liye profile par Haircut @ ₹99 aur Hair Spa @ ₹499 jaise popular category offers clearly dikhana practical fix ho sakta hai. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the performance gap and anchors it in the 22 vs 28 peer comparison and 21% figure. It uses specificity and effort externalization by suggesting two concrete profile fixes and offering to prepare them.",
+  "rejected": [],
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "076bd55421b161db3d3847272deadb38": {
+  "body": "Hi Rashmi, PowerHouse Fitness here. It’s been 57 days since your last visit, so we wanted to make coming back easy with 3 FREE Trial Classes for your weight-loss focus. Weekday evening slots are available to suit you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the tone warm and pressure-free, anchors the message on 57 days and the 3 FREE Trial Classes, and ends with the requested single yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_015_winback_rashmi"
+ },
+ "0955f108f163c02aedbe5708853b0e1b": {
+  "body": "Hi Vivaan, Bright Smile Dental here. We’re reaching out about your next visit, following your last visit on 1 Apr 2026, 25 days ago. Thank you for visiting us 5 times since 1 Sep 2025. Reply YES and we’ll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the note warm and personal while anchoring it in Vivaan’s visit history and the 25-day gap since the last visit. It ends with the required single yes/no booking ask.",
+  "rejected": [],
+  "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent"
+ },
+ "0b0a65bd37bf2f085884068c905870c0": {
+  "body": "Hi Padma, since you want to add a kids yoga program, here’s a starter draft: a playful camp with a welcome circle, fun poses, breathing practice and a calm cool-down, promoted alongside the live First Month @ ₹499 offer. Your 95 active members give us a ready community to share it with. Reply CONFIRM and I'll finalise it, or tell me what to change.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message turns the agreed idea into a concrete, editable camp structure and anchors it on the active ₹499 offer and 95-member community. It ends with the requested single binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_016_kids_yoga_program_drafting"
+ },
+ "0c327e94ffcec219d0b28df98cedb678": {
+  "body": "Hi Suresh, aapke corporate bulk thali package idea par draft banaate hain. Weekday Lunch Thali @ ₹149 live hai, aur 45% orders delivery se aate hain—yeh details package ko practical rakhenge. Reply CONFIRM and I'll put together a first draft you can edit.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message acknowledges Suresh’s earlier yes and moves directly to a draft. It anchors on the ₹149 offer and 45% delivery share, showing why those facts matter while ending with the requested single confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_013_corporate_thali_planning"
+ },
+ "0dbb9c43be228a820efe779f08dcac0e": {
+  "body": "Hi Lakshmi, is week ka check-in: kaunsi service sabse zyada demand mein hai? Haircut @ ₹99 aur Hair Spa @ ₹499 offers live hain, aur Salon India magazine (Apr 2026) ke mutabik citric-acid based keratin alternatives bhi gaining share hain. Tell me the most asked-for service this week and I'll turn it into a Google post for you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the weekly check-in and anchors on the live offers plus the Salon India trend. It makes the reply easy and offers a useful Google post in return.",
+  "rejected": [],
+  "trigger_id": "trg_008_curious_ask_studio11"
+ },
+ "0e367ff58753ed93e5870eefedfde14c": {
+  "body": "Hi Padma, picking up your kids yoga summer camp idea. With 95 active members and your live First Month @ ₹499 and Free Body Composition Analysis offers, I’m moving straight to a practical first draft for you to edit. Reply CONFIRM and I’ll put together a first draft you can edit.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the plan on Zen Yoga Studio’s 95 active members and current offers, while moving directly to a draft as requested. Ends with the single binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_016_kids_yoga_program_drafting"
+ },
+ "0f745ae3468031e94f186e91a79fc717": {
+  "body": "Hi Rashmi, it’s been 57 days since your last visit, and we’d love to welcome you back. Since your focus is weight loss, you can try our 3 FREE Trial Classes at a weekday evening slot that suits you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "A warm, low-pressure welcome-back message anchored on 57 days and the 3 FREE Trial Classes. It connects her weight-loss focus and weekday evening preference, ending with the requested single binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_015_winback_rashmi"
+ },
+ "0fcd92a0ffcc32ca27233d8fb78d7f99": {
+  "body": "Hi Anjali, Salon India magazine (Apr 2026) ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain—keratin/smoothening ko dobara highlight karna timely ho sakta hai. Keratin Treatment ₹2,499 aur Haircut ₹99 abhi try nahi kiye gaye hain, jabki CTR 2.2% hai vs peer average 4.0%. Kya main bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the timely industry insight and connects the untried category offers to Glamour Lounge’s lower CTR. It uses curiosity and loss aversion without mentioning the prior silence or subscription.",
+  "rejected": [],
+  "trigger_id": "trg_025_dormancy_glamour"
+ },
+ "110e903c953271113a350de95730a711": {
+  "body": "Hi Suresh, aaj Sun 26 Apr ko 7:30pm Arun Jaitley Stadium mein DC vs MI hai. magicpin order data (Apr 2026) mein Saturday IPL matches par home-watch parties ki wajah se restaurant covers Saturday average se 12% down rahe. Isliye aaj dine-in offer ke bajay delivery push karna better rahega, kyunki Buy 1 Pizza Get 1 Free sirf Tue-Thu chalta hai. Kya main aaj raat ke match ke liye ek delivery post draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message match timing aur venue se immediately relevant banta hai, phir Saturday IPL data ke 12% figure se delivery angle anchor karta hai. Existing Tue-Thu offer ko Sunday context mein rakhkar ask ko practical banaya gaya hai.",
+  "rejected": [],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "125fd18e283a7e75953a0046be50e429": {
+  "body": "Hi Padma\nCalls are up 15% over the last 7 days, usually around 18—kids yoga post ne attention pakda lagta hai. Views are up 10%, and your 6.2% CTR is 38% above the 4.5% peer average, so let’s build on that curiosity. Want me to line up two more posts like the one that worked?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the recent call and view growth, anchors it in the kids yoga post, and highlights the 6.2% CTR versus the 4.5% peer average. It uses specificity and curiosity to support the suggested next step.",
+  "rejected": [],
+  "trigger_id": "trg_024_perf_spike_zen"
+ },
+ "133c47d71d41f7cb575a4271c5b27ad8": {
+  "body": "Hi Reyansh, Asha Dental Care here. We wanted to check in and thank you for your 5 visits since 1 Sep 2025. We’d be happy to welcome you back whenever it suits you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the tone warm and low-pressure, anchoring on Reyansh’s 5 visits since 1 Sep 2025. It uses gratitude as reciprocity and ends with the requested single YES/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis"
+ },
+ "14e9ad54118d89e35625e06820466b10": {
+  "body": "Hi Anjali, Salon India magazine, April 2026 ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain. Aapke category mein Keratin Treatment ₹2,499 aur Haircut ₹99 abhi try nahi hue, jabki CTR 2.2% hai—peer average 4.0% se 45% neeche. Yeh gap dekhkar, inmein se ek ko smartly reopen karna useful ho sakta hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the timely industry signal and connects the untried category offers to Glamour Lounge’s 2.2% CTR versus the 4.0% peer average. It uses curiosity and loss aversion without overpromising, ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_025_dormancy_glamour"
+ },
+ "17a294def68ce195ee792d94c8dc171c": {
+  "body": "Dr. Meera, DCI ke 4 Nov 2026 circular ke mutabik 15 Dec 2026 se radiograph dose limit revise ho rahi hai. IOPA exposure ka max dose 1.5 mSv se 1 mSv hoga—E-speed film limit meet karta hai, D-speed nahi; RVG sensors unaffected hain. Dec 15 se pehle X-ray setup audit karke SOPs mein E-speed ya RVG document karna easy compliance step rahega. Kya main deadline se pehle ki ek quick checklist bana doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message change ko early flag karta hai, exact DCI source aur dose limit anchor karta hai, aur compliance ko simple audit-and-document step ke roop mein frame karta hai.",
+  "rejected": [],
+  "trigger_id": "trg_002_compliance_dci_radiograph"
+ },
+ "1a40fc6c54973bb3df82c1d754f08be3": {
+  "body": "Hi Suresh, naya competitor khula hai, par panic ki zaroorat nahi—Mylari ka CTR 3.2% hai, jabki peers ka 2.5%, yani 28% upar. Mar-Apr IPL season mein Tue/Wed/Thu match-night promos par focus karke apni alag pehchaan dikhate hain, weekends par nahi. Kya main ek post draft kar doon jo dikhaye ki aap alag kyun hain?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the trigger and anchors on Mylari’s stronger 3.2% CTR and 28% peer advantage. It uses the IPL-season timing and specific weekdays to suggest a focused, non-price-based response, ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf"
+ },
+ "1e35165905b450beb8f3272386f8289f": {
+  "body": "Hi Vikas, Google profile abhi verified nahi hai—postcard ya phone call se verification ka estimated uplift 30% hai. Last 30 days mein 720 profile views aur 14 calls aaye; CTR 4.1% hai, jo 3.8% peer average se 8% upar hai, isliye verification se missed visibility kam ho sakti hai. Want me to walk you through the verification steps?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on recent profile activity, CTR performance and the estimated 30% uplift. It makes the fix feel simple while highlighting the visibility opportunity and offering help with the steps.",
+  "rejected": [],
+  "trigger_id": "trg_021_unverified_gbp_sunrise"
+ },
+ "1fb06d9a9ff9ea72242d2f1c6ecae767": {
+  "body": "Hi Suresh, aapne idea pasand kiya, toh 18 orders/day avg ko base maan kar first editable outline bhej rahi hoon:\n- Proposed corporate-bulk version: Weekday Lunch Thali @ ₹149 ko base rakhenge.\n- Order flow: covers, lunch slot aur delivery/pickup details lekar confirmation.\n- 45% orders delivery hain, isliye delivery option bhi include kar sakte hain.\nKya main ise Google post aur share karne layak WhatsApp mein badal doon, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message turns the approved idea into an editable package outline, anchored on 18 daily orders, the ₹149 thali, and 45% delivery share. It uses a single yes/no commitment for the next deliverable.",
+  "rejected": [],
+  "trigger_id": "trg_013_corporate_thali_planning"
+ },
+ "1fd4ee9d9ca5048f4e6abcc00a4f5762": {
+  "body": "Hi Suresh, weekly check-in ke liye message kar rahi hoon—Mylari South Indian Cafe ke views pichhle 7 din mein 5% badhe hain, aur Weekday Lunch Thali @ ₹149 active hai. Is interest ko content mein turn karne ke liye, Is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the 5% increase in views and the active ₹149 offer, then offers a practical Google post in return for Suresh’s input.",
+  "rejected": [],
+  "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf"
+ },
+ "24937e49bb797b0bceb08ea96284b8ff": {
+  "body": "Dr. Meera, IDA Delhi ka “Digital impressions — 2026 state of the art” session Sat 2 May, 7pm ko hai—2 CDE credits ke saath, isliye ek useful, low-effort learning opportunity hai. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; members ke liye free hai. Kya main registration details bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the specific 2 May, 7pm session and 2 CDE credits, while highlighting the practical solo-practice ROI angle. It ends with the requested yes/no ask only.",
+  "rejected": [],
+  "trigger_id": "trg_022_cde_webinar_dentists"
+ },
+ "26b92d10f979289fbae6cc5f9c5e6641": {
+  "body": "Hi Pooja, festival season aa raha hai—plan early karna smart rahega. Category mein First Month @ ₹499 aur Personal Training Demo @ ₹199 jaise clear offers profile par nahi hain, while your CTR is 4.2% vs 4.5% peer average (7% lower). Want me to draft a festive offer, a Google post and a WhatsApp blast for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the upcoming festival, the missing ₹499/₹199 offers, and the 4.2% versus 4.5% CTR gap. It uses specificity and loss aversion by suggesting clear offers to address the below-peer comparison.",
+  "rejected": [],
+  "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang"
+ },
+ "281417e084d8d9f758a7a3504e180afd": {
+  "body": "Hi Suresh, weekly check-in ke liye ping kar raha hoon. Aapka Weekday Lunch Thali @ ₹149 live hai, aur aapke “what would it look like” idea ko dhyan mein rakhte hue, popular dish ko Google post mein highlight karna useful rahega. Tell me the most asked-for dish this week and I'll turn it into a Google post for you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message acknowledges the earlier request, anchors on the live ₹149 offer, and makes an easy, reciprocal content offer with one open-ended ask.",
+  "rejected": [],
+  "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf"
+ },
+ "286f3cb2eaf2b024bf36061dc0ffc39d": {
+  "body": "Hi Padma, since you want to add a kids yoga program, here’s a first cut: a kids-focused yoga offering, sign-ups through your live First Month @ ₹499 offer, and outreach to your 95 active members, with Free Body Composition Analysis as a supporting offer. Reply CONFIRM and I’ll finalise it, or tell me what to change.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This turns Padma’s request into a concrete first cut with audience, sign-up route and outreach base. It anchors on the live ₹499 offer and 95 active members, using a single binary confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_016_kids_yoga_program_drafting"
+ },
+ "28ac6a89a2efd9668530a7c13d3a41ec": {
+  "body": "Hi Sushma, recent performance mein dip dikh raha hai: calls 22 hain, peers ke 28 ke muqable 21% neeche. CTR 5.8% hai—peer average 4.0% se 45% upar—so attention aa rahi hai; calls improve karne ke liye specific service details clearly highlight karna useful hoga. Kya main is hafte ke liye do quick fixes bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message dip ko plainly name karta hai aur calls-versus-peers comparison par anchor karta hai. Strong CTR ko leverage karke specificity-based fix offer karta hai, bina unsupported services ya promises ke.",
+  "rejected": [],
+  "retry_of": "cd2bc62a0c970dcf2a1b7cc0f1e5a9ea",
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "28d1426ff9b7d91aa796ee266956209c": {
+  "body": "Dr. Meera, whitening aur aligners wali request noted hai. DCI ki 4 Nov 2026 circular ke mutabik, 15 Dec 2026 se IOPA limit 1.5 mSv se 1 mSv hogi; E-speed film pass karta hai, D-speed nahi, aur RVG unaffected hai. Dec 15 se pehle X-ray setup audit karke SOPs mein E-speed ya RVG document karna easy compliance step rahega. Deadline se pehle ki quick checklist chahiye?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message flags the upcoming DCI change with its source and deadline, while clearly linking the dose limit to the practical E-speed/RVG SOP update. It acknowledges the earlier whitening and aligners request and ends with the single requested yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_002_compliance_dci_radiograph"
+ },
+ "29520cab06b6bd9c6b4b43c7941d925f": {
+  "body": "Hi Diya, our First Month @ ₹499 offer is on right now. We noticed it’s been 25 days since your last visit on 1 Apr 2026, after your 9 visits since 1 Sep 2025. Reply YES and we’ll find you a slot.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the active offer front and centre, while using Diya’s visit history to make the message specific and relevant. The single YES reply makes booking easy by having the studio handle the slot search.",
+  "rejected": [
+   "doesn't say which shop is writing"
+  ],
+  "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch"
+ },
+ "2a3725f7df8d3804aeafa7d5b0d9a1ee": {
+  "body": "Hi Vikas, Google profile abhi verify nahi hai—postcard ya phone call se verification ho sakta hai, aur estimated uplift 30% hai. Last 30 days mein 720 profile views aur 14 calls aaye; CTR 4.1% hai, peers ke 3.8% se 8% upar, isliye pehle yeh easy fix karna sahi rahega. Kya main verification ke steps yahin ek-ek karke bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the unverified profile, recent profile activity, and CTR outperforming peers. It recommends the low-effort verification fix while clearly framing the uplift as estimated.",
+  "rejected": [],
+  "trigger_id": "trg_021_unverified_gbp_sunrise"
+ },
+ "2bf944b21cf84ab72030e46bcf3eeaaa": {
+  "body": "Hi Vikas, recent performance mein achha jump dikha—CTR 4.1% raha, peer average 3.8% se 8% upar. Apr-Jun ke summer surge mein ORS, sunscreen, anti-fungal aur deodorant jaise products ne is trend ko support kiya. Want me to line up more of what worked?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the performance spike with the specified CTR comparison and connects it to the Apr-Jun summer surge categories. It ends with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p"
+ },
+ "2e69bf854506d52eacefd14778f9628d": {
+  "body": "Hi Diya, Zen Yoga Studio here. Our First Month @ ₹499 offer is on now, and we loved seeing you for 9 visits since 1 Sep 2025. Reply YES and we’ll find you a slot.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the offer front and centre while using Diya’s 9 visits as a warm, specific reminder. It makes booking effortless through one clear yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch"
+ },
+ "2f1f3e50405bbbb775786e1be0636f6d": {
+  "body": "Hi Mukesh, milestone reach karna worth celebrating hai. Aapka CTR 5.3% hai, compared to 2.5% peer average—yeh strong response aapko aur aage le ja sakta hai. Mar-Apr IPL season mein Tue/Wed/Thu match-night promos par focus kar sakte hain, weekends par nahi. Kya main aapke happy customers ke liye ek short review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the milestone and anchors on the 5.3% versus 2.5% peer comparison. It connects that social proof to a specific IPL-season timing lever while keeping the single requested yes/no ask last.",
+  "rejected": [],
+  "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur"
+ },
+ "301ad627c7abe1016f8d26bfc914a92e": {
+  "body": "Hi Suresh, aaj Sun 26 Apr ko 7:30pm DC vs MI hai Arun Jaitley Stadium mein. Weekend match ke liye dine-in promo skip karna better rahega—magicpin order data (Apr 2026) mein Saturday IPL matches par covers Saturday average se 12% down rahe; isliye existing Buy 1 Pizza Get 1 Free ko aaj delivery-only exception bana sakte hain. Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the Sunday match and the 12% Saturday IPL covers decline from magicpin’s April 2026 data. It uses the practical lever of shifting the existing Tue-Thu offer to a delivery-only exception instead of pushing dine-in.",
+  "rejected": [],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "302ca5274b54331a0b3898d831bbf240": {
+  "body": "Hi Reyansh, Daily Care Medicos here. 1 Sep 2025 se aapki 12 visits ke liye thank you—jab convenient ho, wapas aana easy rahega. YES reply kijiye, hum aapke liye convenient time book kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message warm tone mein 12 visits since 1 Sep 2025 ko acknowledge karta hai, reciprocity ka feel deta hai, aur sirf ek simple YES commitment maangta hai.",
+  "rejected": [],
+  "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci"
+ },
+ "30849dec16b68bcd88312b0c732d0c25": {
+  "body": "Hi Ramesh, summer 2026 ka demand shift aa gaya hai. Apr 2026 multi-pharmacy aggregate mein ORS +40%, sunscreen +38%, antifungal +45% aur cold/cough -60% raha—ORS-sunscreen counter par, cold/cough back shelf par rakhein. Aapke earlier “list please” request ke liye Free Home Delivery > ₹499, Senior Citizen 15% OFF aur Diabetic Care Combo ₹999 bhi include kar sakte hain. Kya iske liye quick shelf-and-offer plan bhejun?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message seasonal demand numbers par anchored hai aur unhe clear shelf actions aur existing offers se jodta hai. Earlier request ko briefly acknowledge karke loss-aversion angle use kiya gaya hai, bina extra ask ke.",
+  "rejected": [],
+  "trigger_id": "trg_020_summer_demand_shift"
+ },
+ "341a66eb6d260b0bab0ea2677171e053": {
+  "body": "Hi Priya, Aapka 6-month cleaning 12 Nov 2026 tak due hai, isliye reminder bhej rahe hain. Weekday evening ke liye 5 Nov, 6pm aur 6 Nov, 5pm slots available hain; Dental Cleaning @ ₹299 hai. Reply 1 for 5 Nov, 6pm or 2 for 6 Nov, 5pm, or tell us a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the 12 Nov 2026 due date and ₹299 cleaning offer. It makes booking easy with two specific evening slots and one clear reply choice.",
+  "rejected": [],
+  "trigger_id": "trg_003_recall_due_priya"
+ },
+ "34849d368256129a298671582951c577": {
+  "body": "Hi Suresh, 145 reviews ho gaye—150 se bas 5 door. Peers ka average 142 hai, aur pichhle 30 days mein 22 reviews ne thali quality mention ki hai. Aapka 3.2% CTR bhi peers ke 2.5% se upar hai, toh ab happy customers ko review ke liye nudge karna sahi rahega. Kya main aapke happy customers ke liye 2-line review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the 145-to-150 milestone and uses peer average, recent thali feedback, and CTR to add social proof and specificity. The suggested review nudge externalizes the effort while keeping the single yes/no ask last.",
+  "rejected": [],
+  "trigger_id": "trg_012_milestone_mylari"
+ },
+ "3866586be5a00afcca4855e9ec7313f8": {
+  "body": "Namaste Sharma ji, Apollo Health Plus Pharmacy se—metformin, atorvastatin aur telmisartan ka refill Tue 28 Apr ko due hai. Aapka delivery address saved hai; ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF active hai. CONFIRM reply kijiye, hum saved address par deliver kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Names the pharmacy in the first sentence and keeps the message precise, respectful, and effortless. It anchors on the refill date and uses the saved address and active offers to support one binary confirmation.",
+  "rejected": [],
+  "retry_of": "3d86b2354686ae5c76d2a5613c1fa2a3",
+  "trigger_id": "trg_019_chronic_refill_grandfather"
+ },
+ "3a9e90d10be2d768569a5ba90c54b63c": {
+  "body": "Dr. Bharat, pichhle 7 din mein calls 50% down hain—usually around 12. CTR 1.8% hai, peer average 3.0% ke mukable, aur Google profile verify nahi hai; ₹299 Dental Cleaning aur ₹1,499 Teeth Whitening profile par add karna quick fix hoga. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop and anchors it with the 7-day and usual-call figures. It connects the low CTR and unverified profile to two specific profile fixes, using specificity and effort externalization.",
+  "rejected": [],
+  "trigger_id": "trg_004_perf_dip_bharat"
+ },
+ "3c4ca0d4c337de899aecaa49d9c48361": {
+  "body": "Hi Diya, our First Month @ ₹499 offer is on now. You’ve visited us 9 times since 1 Sep 2025, so we’d be happy to help you book your next class. Reply YES and we'll find you a slot.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the offer upfront, uses Diya’s 9 visits and date for a personal touch, and makes booking easy with one clear yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch"
+ },
+ "3c687e4ad9400d58e9b1dab2e2749790": {
+  "body": "Hi Sushma, recent performance mein dip dikh raha hai: calls 22 hain, peers ke 28 ke mukable 21% neeche. CTR 5.8% hai, peers ke 4% se 45% upar—so listing ko balayage, highlights ya keratin jaise specific services ke around sharpen karna worth trying hai. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop while contrasting it with the stronger CTR. It suggests a specific service-wording fix without promising results.",
+  "rejected": [
+   "service words not in the brief: balayage, highlights, keratin"
+  ],
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "3d86b2354686ae5c76d2a5613c1fa2a3": {
+  "body": "Namaste Sharma ji, metformin, atorvastatin aur telmisartan ka refill Tue 28 Apr ko due hai. Aapka saved delivery address hai; ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF active hai. CONFIRM reply kijiye, hum saved address par deliver kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the refill timing and names the medicines for precision. It reduces effort by using the saved address and mentions the relevant offers before one clear confirmation ask.",
+  "rejected": [
+   "doesn't say which shop is writing"
+  ],
+  "trigger_id": "trg_019_chronic_refill_grandfather"
+ },
+ "3f0065163775f0bf90b1b62338bc22e8": {
+  "body": "Hi Vikas, Google profile abhi verify nahi hai—postcard ya phone call se ek easy fix ho sakta hai. Pichhle 30 days mein 720 profile views aur 14 calls aaye, aur 4.1% CTR peers ke 3.8% se 8% upar hai; verification se estimated 30% uplift ka clear upside hai. Kya main verification ke steps yahin ek-ek karke bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the unverified profile and explains the low-effort postcard or phone-call fix. It anchors on the profile activity, above-peer CTR, and estimated 30% uplift to make the upside relevant to Vikas.",
+  "rejected": [],
+  "trigger_id": "trg_021_unverified_gbp_sunrise"
+ },
+ "42b5c4c6be3a733380c7ba1305fdbf16": {
+  "body": "Hi Lakshmi, Diwali 31 Oct 2026 ko hai—188 days hain, aur wedding/festival season mein bridal package bookings 4x baseline hoti hain. Early planning ke liye Threading + Waxing combo @ ₹299 ya Bridal Trial @ ₹999 ko festive offer bana sakte hain, warna season ka opportunity miss ho sakta hai. Kya main aapke liye festive offer, Google post aur WhatsApp blast draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on Diwali’s date, 188-day lead time and 4x bridal booking pattern. It uses specific untried offers and loss aversion to encourage early planning.",
+  "rejected": [],
+  "trigger_id": "trg_006_festival_diwali"
+ },
+ "4675dedc530c8471cc1dec5092119ec0": {
+  "body": "Dr. Meera, aapke whitening aur aligners focus ko dhyan mein rakhte hue, IDA Delhi ka Digital Impressions — 2026 state of the art session Sat 2 May, 7pm par hai, 2 CDE credits ke saath. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; IDA members ke liye free, non-members ke liye ₹500. Kya main registration details bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message acknowledges her earlier whitening and aligners focus while highlighting a specific, low-effort professional session. It uses the speaker, technologies, timing, credits and pricing to create relevant curiosity.",
+  "rejected": [],
+  "trigger_id": "trg_022_cde_webinar_dentists"
+ },
+ "4b69be076c6eacaa66a1d00bcdb5677c": {
+  "body": "Hi Diya, Zen Yoga Studio here—our First Month @ ₹499 offer is on right now. It’s been 25 days since your last visit on 1 Apr 2026, after your 9 visits since 1 Sep 2025. Reply YES and we’ll find you a slot.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the offer timely and anchors the message on Diya’s last visit and visit history. It reduces booking effort to a single yes/no reply.",
+  "rejected": [],
+  "retry_of": "29520cab06b6bd9c6b4b43c7941d925f",
+  "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch"
+ },
+ "4e135898f5f0aaf9200b76b8e26ba46c": {
+  "body": "Hi Suresh, DC vs MI Arun Jaitley Stadium mein Sun 26 Apr ko 7:30pm hai. magicpin order data (Apr 2026) ke hisaab se IPL Saturdays par home-watch parties ki wajah se restaurant covers Saturday average se 12% down rahe. Aapka Buy 1 Pizza Get 1 Free offer Tue-Thu live hai—match-day angle interesting ho sakta hai. Kya main aapke current offer par ek match-day post draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the 26 Apr match timing and the 12% covers decline from magicpin’s Apr 2026 order data. It creates curiosity by connecting the weekend match pattern with SK Pizza Junction’s existing Tue-Thu offer.",
+  "rejected": [],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "4e24345d4ba95885fe2ec8bef9c5dee1": {
+  "body": "Hi Pooja, festival season is coming up, so let’s plan early with a concrete offer. Your profile is getting 5,934 views vs 1,100 for peers, but CTR is 4.2% vs 4.5%—let’s turn that attention into action. Want me to draft a festive offer, a Google post and a WhatsApp blast for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the greeting and timely festival planning, then connects strong profile views with the below-peer CTR. It uses specificity and loss aversion by highlighting the opportunity to convert existing attention before the season.",
+  "rejected": [],
+  "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang"
+ },
+ "4e87a30fdfd5308cef2a29215e9239d1": {
+  "body": "Hi Suresh, aap 145 reviews par ho—150 se bas 5 door, aur peers ke 142 average se aage. Last 30 days mein 22 reviews ne thali quality mention ki, plus CTR 3.2% hai versus peers ke 2.5%, so happy customers ka feedback clearly help kar raha hai. Aapke earlier request ke liye short draft ready kar doon—want me to draft a short review request for your happy customers?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the 145-to-150 milestone with peer and recent thali-quality social proof, while linking the 3.2% CTR to customer feedback. It acknowledges the earlier request and offers practical help with exactly one final yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_012_milestone_mylari"
+ },
+ "513681b487efbabc17aeee3b7dc717a1": {
+  "body": "Hi Lakshmi, Diwali 31 Oct 2026 ko hai—188 din baaki hain, isliye festive planning abhi start karna practical rahega. Oct-Dec primary wedding/festival season hota hai, jab bridal package bookings 4x baseline hoti hain; Haircut @ ₹99 aur Hair Spa @ ₹499 ke saath Threading + Waxing combo @ ₹299 ya Bridal Trial @ ₹999 add kar sakte hain. Kya main aapke liye festive offer, Google post aur WhatsApp blast draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the 31 Oct 2026 Diwali date, 188 days away, and the 4x bridal booking pattern to justify early planning. It uses specific existing and category offers to create a practical loss-aversion angle.",
+  "rejected": [],
+  "trigger_id": "trg_006_festival_diwali"
+ },
+ "51a3fe7070c7f54a6967a8ea01a7fb3d": {
+  "body": "Hi Vivaan, Bright Smile Dental here—just checking in about your next visit. We’re glad to have seen you 5 times since 1 Sep 2025. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the note warm, brief and non-promotional while anchoring it in Vivaan’s 5 visits since 1 Sep 2025. It ends with the required single yes/no booking ask.",
+  "rejected": [],
+  "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent"
+ },
+ "5efa4193a99870247a82cbb352f451f1": {
+  "body": "Hi Mukesh, milestone reached—celebrate karna banta hai. Aapka CTR 5.3% hai, versus peers ka 2.5%—112% above, so interest strong hai. Is momentum ko specific offers se push kar sakte hain: Weekday Lunch Thali ₹149 ya Match-night Combo ₹399; review request ka draft main bana dungi. Kya main aapke happy customers ke liye 2-line review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the milestone and anchors on the 5.3% CTR versus the 2.5% peer average and 112% uplift. It uses specific category offers and externalizes the review-draft effort while ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur"
+ },
+ "60362f33e837c91558cbedbb573a68c9": {
+  "body": "Hi Anjali, Salon India magazine (Apr 2026) ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain. Aapke profile par Keratin Treatment ₹2,499 aur Haircut ₹99 jaise popular offers nahi hain, aur CTR 2.2% vs peer average 4.0% hai—yeh gap test karna useful ho sakta hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the timely Salon India insight and connects missing profile offers to the 2.2% CTR versus the 4.0% peer average. It uses curiosity and practical loss-aversion without promising results.",
+  "rejected": [],
+  "trigger_id": "trg_025_dormancy_glamour"
+ },
+ "6441bb4390a0adc3c78bdcee3f069401": {
+  "body": "Hi Aditya, your appointment at Karim's Salon is tomorrow. We’re looking forward to seeing you. Reply YES to confirm, or let us know if you need to reschedule.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the message warm, brief, and focused on the customer’s appointment tomorrow. It ends with the single requested binary confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu"
+ },
+ "64459734f6ad8f59adc9a4b26ca320b1": {
+  "body": "Hi Karthik, views are down 30% over the last 7 days, but this is the expected seasonal dip. Apr-Jun is the lowest acquisition window, so let’s focus on retaining your 245 active members—your 5.2% CTR is already ahead of the 4.5% peer average. Want me to draft a retention challenge to keep your current members coming in?",
+  "model": "gpt-5.6-luna",
+  "rationale": "This reassures Karthik that the dip is seasonal, then shifts focus to retention using the active-member count and stronger CTR. It ends with the requested yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_014_seasonal_acquisition_dip_powerhouse"
+ },
+ "644b29ac3968b0e97bc820922c6cdbc8": {
+  "body": "Hi Riya\nBeauty Lounge by Renu se, kal ke appointment ke liye short confirmation bhej rahe hain. 1 Sep 2025 se aapki 2 visits ke liye dhanyavaad. Confirm karne ke liye YES reply kijiye, ya reschedule ke liye bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the note brief and personal, anchoring it on tomorrow’s appointment and Riya’s 2 visits since 1 Sep 2025. It ends with the requested single confirmation/rescheduling ask.",
+  "rejected": [],
+  "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc"
+ },
+ "6708435b51b139f93fe913e6b8c329b5": {
+  "body": "Hi Anjali, Salon India magazine (Apr 2026) ke mutabik formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain. Aapke category mein Keratin Treatment ₹2,499 aur Haircut ₹99 abhi try nahi hue, jabki CTR 2.2% hai vs peer average 4.0%—45% neeche. Want me to share how this could work for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the April 2026 Salon India insight and connects untried category offers with the 45% CTR gap. It uses curiosity and loss aversion without making unsupported promises.",
+  "rejected": [],
+  "trigger_id": "trg_025_dormancy_glamour"
+ },
+ "67fcae4951a59ae4c2669e7890cf2f96": {
+  "body": "Hi Lakshmi, pichhle 7 din mein calls 20% badhe hain, aur Haircut @ ₹99 aur Hair Spa @ ₹499 offers active hain—interest ke beech aapka answer useful rahega. Is hafte kis service ki sabse zyada demand rahi? Bataiye, main uska Google post bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message weekly momentum par anchored hai, with calls up 20% and active offers as relevant context. The single open question creates an easy reply and offers useful content in return.",
+  "rejected": [],
+  "retry_of": "de335aa7cc0679a69cb28f9e8c89a3a1",
+  "trigger_id": "trg_008_curious_ask_studio11"
+ },
+ "68bb039d4b5cb485e491363947eea0e6": {
+  "body": "Hi Ramesh, CDSCO alert Apr 2026 ke baad atorvastatin batches AT2024-1102 aur AT2024-1108 ka voluntary recall hai—dono sub-potency ke liye flagged hain. 240 chronic-prescription customers ki repeat-Rx list se in batches ko check karke affected customers ko inform karna hoga; replacement distributor return chain se available hai. Kya main affected customers ke liye note aur replacement-pickup plan draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the CDSCO alert, exact batch numbers, and the 240-customer list to make the next step specific without implying all 240 are affected. It stays urgent but calm while offering to handle the customer note and replacement plan.",
+  "rejected": [],
+  "trigger_id": "trg_018_supply_atorvastatin_recall"
+ },
+ "695ab9b3d639b9fd3bb335868dbc8bd8": {
+  "body": "Hi Aditya, your appointment at Karim's Salon is tomorrow. We’re glad to have welcomed you for 1 visit since 1 Sep 2025. Reply YES to confirm, or let us know if you need to reschedule.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the message warm, brief and non-promotional while anchoring it to tomorrow’s appointment and the customer’s 1 visit since 1 Sep 2025. It ends with the single requested confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu"
+ },
+ "6bd5600cd803e681f2c28bc45f741d9f": {
+  "body": "Hi Priya, Dr. Meera's Dental Clinic se reminder: aapka 6-month cleaning 12 Nov 2026 tak due hai. Weekday evening aapko suit karta hai, aur Dental Cleaning @ ₹299 available hai. 5 Nov, 6pm ke liye 1 ya 6 Nov, 5pm ke liye 2 reply kijiye, ya apna time bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the reminder on the 12 Nov 2026 due date and the ₹299 cleaning offer. It uses her weekday-evening preference and makes booking a single binary choice.",
+  "rejected": [],
+  "trigger_id": "trg_003_recall_due_priya"
+ },
+ "6c28ee1b2aeb082d41bc4bec6eac8dae": {
+  "body": "Hi Padma, kids yoga summer camp ke liye yeh editable plan ready hai:\n- Proposed 4-week program, 3 classes/week, for ages 7-12\n- Each class: warm-up, yoga practice, mindful activity and cool-down\n- Proposed fee: ₹2,499; live offers can support the studio: First Month @ ₹499 and Free Body Composition Analysis\nWant me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message answers what the program would look like with a concrete, editable structure and clearly labels the earlier fee as proposed. It uses the active offers as supporting context and ends with the requested single yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_016_kids_yoga_program_drafting"
+ },
+ "6d15b4f65d2ee7ab60e382ae90ce88db": {
+  "body": "Hi Vikas, recent performance mein achha jump dikh raha hai—CTR 4.1% hai, peer average 3.8% se 8% upar. Is momentum ko specific offers se build kar sakte hain: profile par Diabetic Care Combo (Glucometer + 50 strips @ ₹999) aur Free BP & Sugar Check add nahi hain. Kya main isi tarah ke do aur posts plan kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the CTR improvement with the provided peer comparison, then uses specific missing profile offers to create curiosity and build on the positive signal.",
+  "rejected": [],
+  "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p"
+ },
+ "75d99e68e0d7a5282b5bc0a7027990ff": {
+  "body": "Hi Padma, calls are up 15% in the last 7 days, likely driven by your kids yoga post—nice work. Your CTR is 6.2%, 38% above the 4.5% peer average, with 95 active members and both offers live: First Month @ ₹499 and Free Body Composition Analysis. Want me to line up more of what worked?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the call jump and connects it to the kids yoga post, then anchors the momentum with CTR, active members and live offers. It ends with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_024_perf_spike_zen"
+ },
+ "769b367efa62968b71b0bdf3f6f47eda": {
+  "body": "Hi Anand, Zomato partner update (Apr 2026) ke hisaab se ‘verified’ badge Tier-1 cities mein 24% zyada impressions se correlate karta hai. Aapke 2,189 profile views, peers ke 4,800 ke muqable 54% kam hain—Weekday Lunch Thali ₹149 ya Match-night Combo ₹399 se is gap par kaam karna worth trying lagta hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the timely Zomato partner update and connects the 24% correlation to Chai Point Cafe’s 54% profile-view gap. It uses the untried category offers as practical levers while ending with the required single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura"
+ },
+ "7b2c5b09843bc7625d0b75f2e69e7771": {
+  "body": "Hi Suresh, aapke corporate bulk thali package ka first cut yeh hai: Weekday Lunch Thali @ ₹149 ko base rakhein, 45% delivery orders ko include karein, aur isse 4,200 unique customers tak le jaayein. CONFIRM reply kijiye, main ise final kar doongi, ya bataiye kya badalna hai.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message existing offer, delivery share and customer base ko ek practical first cut mein jodta hai. Yeh effort externalize karke sirf ek binary confirmation maangta hai.",
+  "rejected": [],
+  "trigger_id": "trg_013_corporate_thali_planning"
+ },
+ "7be456871b9ba569fe2589edb83dfd0c": {
+  "body": "Hi Riya, Beauty Lounge by Renu se. Kal aapka appointment hai, isliye booking confirm karna chahte hain. Aapki last visit 1 Apr 2026 ko thi, aur 1 Sep 2025 se aap 2 baar aa chuki hain. Confirm karne ke liye YES reply kijiye, ya reschedule ke liye bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the greeting and appointment reminder, then uses the last-visit date and visit count to make the confirmation feel personal. It ends with the required single binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc"
+ },
+ "7bfab820e03fd4bd5ffe0d5f03d7f25d": {
+  "body": "Hi Rashmi, it’s been 57 days since your last visit, and we’d love to welcome you back. Since your focus is weight loss, you can use our 3 FREE Trial Classes in a weekday evening slot that suits you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message warmly anchors on 57 days since Rashmi’s last visit and connects her weight-loss focus with the active trial-class offer. It uses a low-pressure, binary commitment with her preferred weekday evening timing.",
+  "rejected": [
+   "doesn't say which shop is writing"
+  ],
+  "trigger_id": "trg_015_winback_rashmi"
+ },
+ "7c8764a50f88b3d9b448dd5c6ea67d0f": {
+  "body": "Hi Suresh, competitor open hua hai, isliye calm rehkar price cut ke bajay aapki strength dikhani chahiye—CTR 3.2% hai vs peers ke 2.5%, yani 28% above. Profile par popular category offers nahi hain: Match-night Combo @ ₹399 aur Family Sunday Brunch @ ₹699/pax; inki specificity se aap alag nazar aa sakte hain. Kya main ek Google post draft kar doon jo dikhaye ki aap alag kyun hain, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the stronger-than-peer CTR and the two missing category offers. It recommends specificity over price cuts while using the competitor opening as the reason to act now.",
+  "rejected": [],
+  "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf"
+ },
+ "7d83be6c28241bf8e5e8a58d8d51b363": {
+  "body": "Hi Padma, since you want to add a kids yoga program, here’s a first cut: use your 95 active members as the starting audience, with First Month @ ₹499 and Free Body Composition Analysis as the live offers. Reply CONFIRM and I’ll finalise it, or tell me what to change.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This anchors the plan in Padma’s 95 active members and the two live offers, while making the next step a simple binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_016_kids_yoga_program_drafting"
+ },
+ "7eea41c137400b5f0bf7b14ef386fad2": {
+  "body": "Hi Aditya, Karim's Salon here—your appointment is tomorrow. We’re looking forward to welcoming you back after your 1 visit since 1 Sep 2025. Reply YES to confirm, or let us know if you need to reschedule.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the message warm and concise, anchored on the appointment tomorrow and Aditya’s 1 visit since 1 Sep 2025. It ends with the requested single binary confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu"
+ },
+ "7f78188f1423934191f0b9d0c5ee4169": {
+  "body": "Hi Ramesh, CDSCO alert Apr 2026 ke hisaab se MfrZ ke atorvastatin batches AT2024-1102 aur AT2024-1108 voluntary recall mein hain—sub-potency flagged hai, safety risk nahi. In batches ko pull karke 240 chronic-prescription customers ko repeat-Rx list se WhatsApp inform karna hoga; replacement distributor return chain se available hai. Kya main affected customers ke liye note aur replacement-pickup plan draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the CDSCO alert, exact batch numbers and 240 affected chronic-prescription customers. It stays urgent but calm, and offers to handle the customer note and replacement plan.",
+  "rejected": [],
+  "trigger_id": "trg_018_supply_atorvastatin_recall"
+ },
+ "8075352e48799ffff0ad7e60feb7fbf8": {
+  "body": "Hi Rashmi, PowerHouse Fitness here. It’s been 57 days since your last visit, so we wanted to make coming back easy. You can try 3 FREE Trial Classes, with weekday evening slots available to suit you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on 57 days since Rashmi’s last visit and the active 3 FREE Trial Classes offer. It uses a warm, low-pressure reciprocity angle with one clear yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_015_winback_rashmi"
+ },
+ "82d447a3bf70b8d847b3ef15ca20748b": {
+  "body": "Hi Anand, Zomato partner update (Apr 2026) ke mutabik, ‘verified’ badge Tier-1 cities mein +24% impressions se correlate karta hai. Aapke profile views 2,189 hain, jabki peer average 4,800 hai—Weekday Lunch Thali ₹149 ya Match-night Combo ₹399 jaise offers explore karna useful ho sakta hai. Kya main bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message current Zomato update aur profile-view gap par anchored hai. It uses curiosity and loss aversion by highlighting the peer gap and untried category offers, while ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura"
+ },
+ "8479a02ae3ee043ece189df4fcad07a7": {
+  "body": "Hi Anjali, Salon India magazine (Apr 2026) ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain. Aapke profile par Keratin Treatment ₹2,499 aur Haircut ₹99 offers nahi hain, aur CTR 2.2% hai versus peers ka 4.0%—inhe highlight karna worth trying lagta hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the timely category shift and anchors the recommendation in the cited source. It connects missing popular offers with the 2.2% versus 4.0% CTR gap, using a practical, low-pressure suggestion and the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_025_dormancy_glamour"
+ },
+ "887136bf958ada9f0c1c304a50c0a35f": {
+  "body": "Hi Diya, Zen Yoga Studio here. Our First Month @ ₹499 offer is on now, and we’ve loved having you visit 9 times since 1 Sep 2025. Reply YES and we'll find you a slot.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Keeps the active offer and visit history specific, making the message feel relevant while removing booking effort. It ends with the requested single yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch"
+ },
+ "8b1251cd634cf8199354fdc04881c796": {
+  "body": "Dr. Meera, DCI ke 4 Nov 2026 circular ke hisaab se radiograph dose limit 15 Dec 2026 se revise ho rahi hai. IOPA exposure limit 1.5 mSv se 1.0 mSv hogi; E-speed film new limit pass karta hai, D-speed nahi, aur digital RVG unaffected hai. Dec 15 se pehle X-ray setup audit karke SOPs mein E-speed ya RVG document karna practical rahega. Kya main deadline se pehle ki 1-page checklist bana doon, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the DCI circular, effective date, and exact dose change. It makes compliance feel manageable by recommending a focused audit and SOP update, ending with the specified checklist ask.",
+  "rejected": [],
+  "trigger_id": "trg_002_compliance_dci_radiograph"
+ },
+ "8b785544ee95bd8a037ef5a74036f13b": {
+  "body": "Hi Suresh, naya competitor khula hai, toh calm rehkar apni strength ko clearly dikhana sahi rahega. Aapka CTR 3.2% hai, jabki peers ka 2.5%—28% upar—so price pe nahi, differentiation pe focus karein. Mar-Apr IPL season mein Tue/Wed/Thu match-night promos test kar sakte hain, weekends skip karke. Kya main ek Google post draft kar doon jo dikhaye ki aap alag kyun hain, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the 3.2% CTR versus the 2.5% peer average and uses IPL match-night timing as a focused, non-price lever. It keeps the tone calm and competitive while ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf"
+ },
+ "8ce35fbb462c47f17d6ef41860e39d20": {
+  "body": "Hi Suresh, is hafte ka quick check-in: Weekday Lunch Thali @ ₹149 offer live hai. Is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the weekly check-in and anchors on the active ₹149 offer. It uses an easy demand question and offers a Google post in return.",
+  "rejected": [],
+  "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf"
+ },
+ "8e65ba27801c668bf7b1c0677292249e": {
+  "body": "Hi Suresh, aaj Sun 26 Apr ko 7:30pm DC vs MI hai Arun Jaitley Stadium mein. magicpin ke Apr 2026 order data mein Saturday IPL matches par covers Saturday average se 12% kam rahe—orders home-watch delivery ki taraf jaate hain, toh aaj dine-in promo skip karke delivery push karna better rahega. Buy 1 Pizza Get 1 Free normally Tue-Thu hai, par isse aaj delivery-only match special bana sakte hain. Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the Sunday match and the 12% Saturday IPL covers decline, using it to recommend delivery over dine-in. It creates curiosity by suggesting the existing Tue-Thu offer be adapted into a match-night delivery special.",
+  "rejected": [
+   "repeats itself: delivery only match special"
+  ],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "8f3836396dfd82ea5b4c54788b0f34ac": {
+  "body": "Dr. Meera, 8 Apr 2026 ko 1.3 km door Smile Studio ne Dental Cleaning @ ₹199 ke saath opening ki hai. Aapka Dental Cleaning @ ₹299 offer live hai, aur 18 calls vs 12 peer average ke saath patients aap tak aa rahe hain; 5 recent reviews mein aapka patiently samjhana bhi highlight hua hai. Kya main ek post draft kar doon jo dikhaye ki aap alag kyun hain?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message stays calm and competitive by anchoring on 18 vs 12 calls and 5 positive reviews about Dr. Meera’s manner, while acknowledging the nearby ₹199 offer without competing only on price.",
+  "rejected": [],
+  "trigger_id": "trg_023_competitor_opened_dentist"
+ },
+ "9003f0ab59030eecc9b5d4e421b10167": {
+  "body": "Hi Priya\nAapka 6-month cleaning 12 Nov 2026 tak due hai, isliye reminder bhej rahe hain. Dental Cleaning @ ₹299 available hai, aur aapke preferred weekday evening ke liye 5 Nov, 6pm aur 6 Nov, 5pm slots hain. 5 Nov, 6pm ke liye 1 ya 6 Nov, 5pm ke liye 2 reply kijiye, ya apna time bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the reminder warm and specific, anchored on the 12 Nov 2026 due date and ₹299 offer. It reduces booking effort with two clear weekday evening options and one binary reply ask.",
+  "rejected": [
+   "doesn't say which shop is writing"
+  ],
+  "trigger_id": "trg_003_recall_due_priya"
+ },
+ "90202976f817b1a95731bcf60abd8088": {
+  "body": "Hi Anand, Zomato ke Apr 2026 partner update ke hisaab se ‘verified’ badge Tier-1 cities mein +24% impressions se correlate karta hai. Chai Point Cafe ke profile views 2,189 hain, jabki peer average 4,800 hai; Weekday Lunch Thali ₹149 aur Match-night Combo ₹399 jaise offers is gap par kaam aa sakte hain. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the message on the 24% Zomato partner-update figure and the 2,189 vs 4,800 profile-view gap. It uses the two relevant category offers to create practical curiosity and a clear reason to re-engage.",
+  "rejected": [],
+  "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura"
+ },
+ "9122a5bfedca0dbc878d5ab61c5b1f3d": {
+  "body": "Hi Padma, calls are up 15% over the last 7 days from a baseline of 18—looks like the kids yoga post is pulling interest. Your 6.2% CTR is 38% above the 4.5% peer average, with 95 active members and both offers live: First Month @ ₹499 and Free Body Composition Analysis. Want me to line up more of what worked?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Celebrates the recent call jump and connects it to the kids yoga post. It uses CTR, peer comparison, active members and live offers to build curiosity around repeating what worked.",
+  "rejected": [],
+  "trigger_id": "trg_024_perf_spike_zen"
+ },
+ "915793f5a3e4534dacad822d1597ab8f": {
+  "body": "Hi Sushma, recent performance mein dip dikh raha hai: calls 22 hain, peers ke 28 ke mukable 21% neeche. CTR 5.8% hai, peers ke 4% se 45% upar—so calls ke gap ko address karne ke liye listing messaging ko aur specific karne ke do quick fixes suggest karungi. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop while balancing it with the stronger CTR comparison. It uses specificity as the concrete lever and externalizes the effort by offering to prepare two fixes.",
+  "rejected": [],
+  "retry_of": "3c687e4ad9400d58e9b1dab2e2749790",
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "927286151620355d07981ae35fb582f2": {
+  "body": "Hi Suresh, competitor open hua hai, aur aapka CTR 3.2% hai—peer average 2.5% se 28% upar, so apni strength dikhana important hai. Aapke earlier request ke liye, Mar-Apr IPL season mein Tue/Wed/Thu match-night promos ko focus kar sakte hain, weekends par nahi. Want me to draft a post that shows what sets you apart?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message acknowledges the earlier request and anchors on the 3.2% CTR versus the 2.5% peer average. It uses the competitor trigger and IPL timing to create urgency without relying on price or unsupported claims.",
+  "rejected": [],
+  "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf"
+ },
+ "92bfde1a71f0b118d9ea5dd46edf27a7": {
+  "body": "Hi Mukesh, milestone reach hua—nice progress. Aapka CTR 5.3% hai vs peers ke 2.5% average, yani 112% above peers; peers average 142 reviews, so review momentum par focus karna sensible hai. Kya main aapke happy customers ke liye 2-line review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the milestone and anchors on the strong 5.3% CTR versus the 2.5% peer average, while using the 142-review benchmark to suggest a practical next step.",
+  "rejected": [],
+  "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur"
+ },
+ "939cff68c9bd6528145dea40e7b83485": {
+  "body": "Dr. Meera, Smile Studio 1.3 km door 8 Apr 2026 ko khula hai, Dental Cleaning @ ₹199 ke saath. Aapka Dental Cleaning @ ₹299 offer live hai, aur 18 calls vs 12 peer average ke saath 5 recent reviews mein patients ne aapke patient explanations ko appreciate kiya hai. Kya main ek Google post draft kar doon jo dikhaye ki aap alag kyun hain, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message acknowledges the nearby low-price competitor but anchors on stronger evidence: above-peer calls and five positive reviews about Dr. Meera’s manner. It uses specificity and social proof rather than recommending a price response.",
+  "rejected": [],
+  "trigger_id": "trg_023_competitor_opened_dentist"
+ },
+ "94abe8e7d2ac618f20f97aff865a58ef": {
+  "body": "Hi Reyansh, Daily Care Medicos here. Aapse ek chhota sa check-in kar rahe hain—1 Sep 2025 se aapke 12 visits ke liye dhanyavaad. YES reply kijiye, hum aapka agla order pickup ya home delivery ke liye ready kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message stays warm and pressure-free, acknowledges Reyansh’s 12 visits since 1 Sep 2025, and offers a simple pickup or home-delivery option. It uses one clear yes/no ask without repeating the offer.",
+  "rejected": [],
+  "retry_of": "b3a2a26a06c3110d28b5a2868521e8b3",
+  "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci"
+ },
+ "95fe5f5be241f355744c71b1aad14bbc": {
+  "body": "Hi Lakshmi, Diwali 31 Oct 2026 ko hai—188 din baaki hain. Oct-Dec wedding/festival season mein bridal package bookings 4x baseline hoti hain, isliye Threading + Waxing combo @ ₹299 ya Bridal Trial @ ₹999 ko early festive offer ke liye plan kar sakte hain. Kya main aapke liye ek festive offer aur post draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message Diwali ki 31 Oct 2026 date aur 188 din ko anchor karta hai, phir 4x bridal booking pattern se early planning ka reason deta hai. ₹299 aur ₹999 ke untried offers specificity aur loss-aversion angle support karte hain.",
+  "rejected": [],
+  "trigger_id": "trg_006_festival_diwali"
+ },
+ "9622a1664455d285a217e2fdde21570b": {
+  "body": "Hi Ramesh, summer 2026 mein demand shift aa gaya hai: ORS +40%, sunscreen +38% aur antifungal +45%, jabki cold/cough -60% hai. ORS aur sunscreen counter par rakhein, cold/cough ko back shelf par shift karein; aapke Free Home Delivery > ₹499 aur Senior Citizen 15% OFF offers is shift ka fayda lene mein help kar sakte hain. Kya main iske liye ek quick shelf aur offer plan bana doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message seasonal demand data ko anchor karta hai aur specific shelf placement plus active offers ko action se jodta hai. Isse Ramesh ko demand miss hone ka risk dikhte hue ek clear next step milta hai.",
+  "rejected": [],
+  "trigger_id": "trg_020_summer_demand_shift"
+ },
+ "962990015e40cd8a339c17ed636a5a9b": {
+  "body": "Hi Riya, kal aapka appointment hai. 1 Sep 2025 se Beauty Lounge by Renu par aapki 2 visits ke liye shukriya. Reply YES to confirm, ya agar reschedule karna ho toh bata dijiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message is a warm, concise booking confirmation anchored on the appointment tomorrow and Riya’s 2 visits since 1 Sep 2025. It ends with the required single binary confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc"
+ },
+ "99074be4371c16a30a5c8d534e88a149": {
+  "body": "Hi Vikas, Google profile abhi verify nahi hua hai—postcard ya phone call se verification ho sakta hai, aur estimated uplift 30% hai. Last 30 days mein 720 profile views aur 14 calls aaye; CTR 4.1% hai, peer average 3.8% ke mukable 8% zyada. Kya main verification ke steps bata doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the unverified profile and ties the simple fix to a clear 30% estimated uplift. It uses recent profile activity and above-peer CTR to make the opportunity specific and relevant.",
+  "rejected": [],
+  "trigger_id": "trg_021_unverified_gbp_sunrise"
+ },
+ "9a38e43e65e2d1b52805d17327b7e1c9": {
+  "body": "Hi Padma, calls are up 15% over the last 7 days, from a baseline of 18—looks like your kids yoga post is creating curiosity. Your CTR is 6.2% vs 4.5% for peers, with 95 active members and both offers live: First Month @ ₹499 and Free Body Composition Analysis. Want me to line up more of what worked?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Celebrates the call increase and connects it to the kids yoga post. It anchors the message in the CTR gap and active-member base, then uses curiosity to support the single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_024_perf_spike_zen"
+ },
+ "9c2297a6bca7ed0df148dd42ec00145d": {
+  "body": "Namaste Sharma ji, Apollo Health Plus Pharmacy se—metformin, atorvastatin aur telmisartan ka refill Tue 28 Apr se pehle due hai. Aapka delivery address saved hai; ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF available hai. CONFIRM reply kijiye, hum saved address par deliver kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Names the pharmacy in the first sentence and keeps the refill timing, saved address, and applicable offers. It makes the refill effortless with one clear confirmation ask.",
+  "rejected": [],
+  "retry_of": "b19ca322df1b90a08064f3aaca3e90f6",
+  "trigger_id": "trg_019_chronic_refill_grandfather"
+ },
+ "a3de4f4f496de0b62a57eee47b0ff6eb": {
+  "body": "Hi Padma, picking up your kids yoga summer camp idea. I’ll shape a first draft around your 95 active members, with your live First Month @ ₹499 and Free Body Composition Analysis offers in view. Reply CONFIRM and I'll put together a first draft you can edit.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This moves directly from Padma’s stated interest to a concrete draft, reducing her effort. It anchors on 95 active members and the two live offers while keeping the commitment binary.",
+  "rejected": [],
+  "trigger_id": "trg_016_kids_yoga_program_drafting"
+ },
+ "a643b7f5ca3b7791ae3e8b923e9d90e9": {
+  "body": "Namaste Sharma ji. Metformin, atorvastatin aur telmisartan ka refill due hai, stock Tue 28 Apr ko khatam ho jayega. Aapka delivery address saved hai; ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF available hai. Reply CONFIRM aur hum saved address par deliver kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message refill ki urgency ko Tue 28 Apr se anchor karta hai aur saved address ke saath delivery ko effortless banata hai. Aakhri sentence mein sirf binary CONFIRM ask hai.",
+  "rejected": [],
+  "trigger_id": "trg_019_chronic_refill_grandfather"
+ },
+ "a6b04fb42428e4aabe9f025ca3783b35": {
+  "body": "Hi Suresh, DC vs MI Arun Jaitley Stadium mein Sun 26 Apr, 7:30pm par hai. magicpin ke Apr 2026 order data ke hisaab se Saturday IPL matches mein home-watch parties ki wajah se restaurant covers Saturday average se 12% down rahe. Aapka Buy 1 Pizza Get 1 Free offer Tue-Thu active hai. Kya main aapke current offer par ek match-day post draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message match timing ko Saturday IPL data aur current Tue-Thu offer se connect karta hai, taaki Suresh ko weekend performance ka practical context mile. Tone warm, specific aur curiosity-led rakhi gayi hai.",
+  "rejected": [],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "a7fe6afa006d040b3d288681ba84132d": {
+  "body": "Hi Suresh, weekly check-in: Mylari South Indian Cafe ke views pichhle 7 din mein 5% badhe hain, aur Weekday Lunch Thali ₹149 par active hai. Interest bana hua hai—kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the check-in on the 5% seven-day view increase and the active ₹149 offer, then connects that momentum to a practical content follow-up. Ends with the single requested open question and deliverable.",
+  "rejected": [],
+  "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf"
+ },
+ "aa35044613f697faf2591d5f16b42d95": {
+  "body": "Hi Lakshmi, is hafte ke check-in mein dekhna hai ki kaunsi service sabse zyada demand mein rahi. Haircut @ ₹99 aur Hair Spa @ ₹499 ke active offers ko dekhte hue, aapke answer par content bana sakti hoon. Is hafte kis service ki sabse zyada demand rahi? Bataiye, main uska Google post bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the two active offers and makes the weekly demand question easy to answer. It offers a clear return by turning Lakshmi’s answer into a Google post.",
+  "rejected": [],
+  "trigger_id": "trg_008_curious_ask_studio11"
+ },
+ "ad1fadbbce1d4cd16cd9957aead815fe": {
+  "body": "Hi Suresh, competitor open hua hai, par panic ki zaroorat nahi—apni strengths ko clearly dikhate hain. Weekday Lunch Thali ₹149 par live hai, CTR 3.2% hai vs 2.5% peer average, aur last 30 days mein 22 reviews ne thali quality mention ki hai. Kya main ek Google post draft kar doon jo dikhaye ki aap alag kyun hain, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message acknowledges the competitor without speculation and anchors on the 3.2% CTR, 28% stronger peer comparison, ₹149 thali, and 22 recent quality mentions. It recommends leaning on specificity and social proof rather than price cuts, ending with the requested yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf"
+ },
+ "afa45257fb7cba6bebfaf75f22cf3708": {
+  "body": "Hi Ramesh, Summer 2026 mein ORS +40%, sunscreen +38% aur antifungal +45% demand badh rahi hai, jabki cold/cough -60% hai. ORS aur sunscreen counter par rakhein, cold/cough back shelf par; Free Home Delivery ₹499 se upar aur Senior Citizen 15% OFF ko saath highlight karna practical rahega. Kya main iske liye ek quick shelf aur offer plan bana doon, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the message in the summer 2026 demand shift and turns it into a specific shelf-visibility action. It also uses the active offers as a relevant conversion lever without adding unsupported claims.",
+  "rejected": [],
+  "trigger_id": "trg_020_summer_demand_shift"
+ },
+ "b04f18f9555c263857f30759be2b465d": {
+  "body": "Hi Anjali, subscription pause hue 38 din ho gaye, aur tab se performance 30% down hai—24 aur clients lapse hue. Is beech 2.2% CTR, peer average 4.0% ke muqable, aur Haircut ₹99 aur Hair Spa ₹499 jaise category offers abhi try nahi hue; 380 unique clients ka base hai. Kya main 3 steps mein restart karne ka process bata doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the 38-day lapse, 30% performance drop, and 24 additional lapsed clients to show what changed without blame. It adds specificity through CTR, client base, and untried offers, creating a practical loss-aversion angle.",
+  "rejected": [],
+  "trigger_id": "trg_009_winback_glamour"
+ },
+ "b09657e7e59d50da1bf840cf1fec1d13": {
+  "body": "Hi Anjali, subscription pause hue 38 din ho gaye hain, aur tab se performance 30% down hai—24 aur clients lapse hue. Aapke 380 unique clients ke beech CTR 2.2% hai, jabki peer average 4.0% hai; Haircut @ ₹99 aur Hair Spa @ ₹499 jaise popular offers profile par nahi hain. Kya main 3 steps mein restart karne ka process bata doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the lapse and performance decline, then anchors on the CTR gap and missing popular offers. It uses specific losses and missed opportunities without guilt, ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_009_winback_glamour"
+ },
+ "b19ca322df1b90a08064f3aaca3e90f6": {
+  "body": "Namaste Sharma ji, aapki metformin, atorvastatin aur telmisartan ka refill Tue 28 Apr se pehle due hai. Aapka delivery address saved hai, aur ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF available hai. CONFIRM reply kijiye, hum saved address par deliver kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the refill deadline and names the medicines to make the next step effortless. It uses the saved address and applicable offers while ending with the required single confirmation ask.",
+  "rejected": [
+   "doesn't say which shop is writing"
+  ],
+  "trigger_id": "trg_019_chronic_refill_grandfather"
+ },
+ "b2c92b5caf1db6bf8ca5a4177fc2e43a": {
+  "body": "Hi Reyansh, aap kuch time se Daily Care Medicos nahi aaye, isliye bas pyaar se check-in kar rahe hain. 1 Sep 2025 se aapki 12 visits ke liye shukriya—jab convenient ho, wapas aana easy rahega. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message warmly acknowledges the customer’s 12 visits since 1 Sep 2025 and uses gratitude to create a low-pressure reason to return. It ends with the required single yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci"
+ },
+ "b3a2a26a06c3110d28b5a2868521e8b3": {
+  "body": "Hi Reyansh, Daily Care Medicos se bol rahe hain. Aapki recent visit nahi hui, toh bas check-in kar rahe hain. 1 Sep 2025 se aapke 12 visits ke liye dhanyavaad—jab bhi zarurat ho, hum aapka agla order pickup ya home delivery ke liye ready kar denge. YES reply kijiye, hum aapka agla order pickup ya home delivery ke liye ready kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message warmly acknowledges Reyansh’s 12 visits since 1 Sep 2025 and gives a low-pressure reason to return. It ends with the requested single yes/no commitment and delivery options.",
+  "rejected": [
+   "repeats itself: hum aapka agla order"
+  ],
+  "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci"
+ },
+ "b455ff5b6568c9c7a80217735cba4503": {
+  "body": "Hi Suresh, aap 145 reviews par ho—150 se bas 5 door, aur peers ka average 142 hai. Last 30 days mein 22 reviews ne thali quality mention ki hai, plus aapka CTR 3.2% hai vs peers ka 2.5%, so happy customers se specific review lena smart rahega. Kya main aapke happy customers ke liye 2-line review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the 145-to-150 milestone, peer average, recent thali mentions, and stronger CTR to celebrate progress and recommend a specific, low-effort review ask.",
+  "rejected": [],
+  "trigger_id": "trg_012_milestone_mylari"
+ },
+ "b486ffa587bb6dc0965cae392ab1aa4e": {
+  "body": "Hi Suresh, SK Pizza Junction ke liye aaj Sun 26 Apr, 7:30pm ke DC vs MI match ko dhyan mein rakhkar delivery push karna better rahega. magicpin ke Apr 2026 order data mein Saturday IPL matches par covers Saturday average se 12% down rahe, kyunki orders home-watch parties mein shift hue; Buy 1 Pizza Get 1 Free Sunday ko nahi chalta. Kya main aaj raat ke match ke liye ek delivery post draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message weekend match ke timing aur Saturday IPL order data ke 12% covers drop par anchored hai. Yeh dine-in ke bajay delivery push karne ka practical reason deta hai aur brief ka single yes/no ask rakhta hai.",
+  "rejected": [],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "b5558347d4a5c033b4c831c88a279ee8": {
+  "body": "Hi Ramesh, summer 2026 mein ORS +40%, sunscreen +38% aur antifungal +45% demand mein hain, jabki cold/cough -60% hai. ORS aur sunscreen counter par rakhein, cold/cough back shelf par; ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF ko saath dikhana useful rahega. Kya main iske liye ek quick shelf aur offer plan bana doon, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the summer 2026 demand shift and translates it into specific shelf placement. It also uses the active offers to make the seasonal plan more actionable without adding unsupported claims.",
+  "rejected": [],
+  "trigger_id": "trg_020_summer_demand_shift"
+ },
+ "b6f465f23764ea5bc53228d1682b997e": {
+  "body": "Hi Aditya, Karim's Salon here. Just a quick reminder that your appointment with us is tomorrow. We last saw you on 1 Apr 2026, 25 days ago. Reply YES to confirm, or let us know if you need to reschedule.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the message warm, clear, and focused on confirming the appointment. It anchors the reminder with the last-visit date and the single binary commitment requested.",
+  "rejected": [],
+  "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu"
+ },
+ "b7ae9152ceeec21bd7c3d2301ab66fce": {
+  "body": "Hi Suresh, aapke yes ke basis par draft: corporate bulk thali package mein weekday lunch thali ₹149 per thali, bulk delivery coordination aur simple order format rakhein. Delivery already 45% orders ka share hai, aur isse aapke 4,200 unique customers tak offer clearly pahunch sakta hai. CONFIRM reply kijiye, main ise final kar doongi, ya bataiye kya badalna hai.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message turns the agreed idea into an editable starter package, anchored on the ₹149 offer, 45% delivery share and 4,200 customers. It ends with the required single binary confirmation ask.",
+  "rejected": [],
+  "trigger_id": "trg_013_corporate_thali_planning"
+ },
+ "b8b8af92107f0729fa971b3373d86784": {
+  "body": "Hi Suresh, aap 145 reviews par ho—150 se bas 5 door, aur peers ka average 142 hai. Pichhle 30 days mein 22 reviews ne thali quality mention ki, plus aapka CTR 3.2% hai versus peers ka 2.5%, yani 28% upar. Kya main aapke happy customers ke liye ek short review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the 150-review milestone and anchors it in peer comparison, recent thali feedback and stronger CTR. It uses social proof and offers to handle the drafting effort, ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_012_milestone_mylari"
+ },
+ "b974a968e7978172f0dcc9600e0e2730": {
+  "body": "Hi Padma, calls are up 15% over the last 7 days, usually around 18—likely your kids yoga post is pulling people in. CTR is 6.2% versus 4.5% for peers, so there’s a clear signal to build on, with your ₹499 First Month and Free Body Composition Analysis offers live. Want me to line up two more posts like the one that worked?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the recent call increase and connects it to the kids yoga post. It uses the stronger CTR as a reason to repeat the specific content angle, while noting the live offers.",
+  "rejected": [],
+  "trigger_id": "trg_024_perf_spike_zen"
+ },
+ "bb71f6a21c59bea69a7794057b2de4c9": {
+  "body": "Dr. Bharat, pichhle 7 din mein calls 50% down hain—usually around 12—and views bhi 22% gire hain. CTR 1.8% hai, peer average 3.0%, aur Google profile verified nahi hai; pehla quick fix verification hoga. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the call and view drop, then connects the below-peer CTR to the unverified Google profile. It offers a specific, low-effort fix while keeping the single yes/no ask exactly as requested.",
+  "rejected": [],
+  "trigger_id": "trg_004_perf_dip_bharat"
+ },
+ "bb734c34247c95ff1388d89527b087fa": {
+  "body": "Hi Rashmi, PowerHouse Fitness here. It’s been 57 days since your last visit, and we’d love to welcome you back. Since your focus is weight loss, you can use our 3 FREE Trial Classes in a weekday evening slot that suits you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Names PowerHouse Fitness in the first sentence and keeps the message warm, specific, and low-pressure. It anchors on 57 days, the weight-loss focus, and the 3 FREE Trial Classes, ending with one binary ask.",
+  "rejected": [],
+  "retry_of": "7bfab820e03fd4bd5ffe0d5f03d7f25d",
+  "trigger_id": "trg_015_winback_rashmi"
+ },
+ "bc151e8e1c340cef8cf2d16aba1d7ac6": {
+  "body": "Dr. Bharat, pichhle 7 din mein calls 50% down hain—usually around 12. CTR 1.8% hai vs peer average 3%, aur Google profile abhi verified nahi hai. Main Dental Cleaning ₹299 aur Teeth Whitening ₹1,499 offers ke saath do quick fixes bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop and anchors it to 1.8% CTR, the 3% peer average, and the unverified profile. It offers specific, low-effort fixes while ending with one natural yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_004_perf_dip_bharat"
+ },
+ "bd8103482ca656fb1967abd3ef9b3b04": {
+  "body": "Hi Reyansh, Daily Care Medicos here. 1 Sep 2025 se aapke 12 visits ke liye dil se shukriya. Aapke liye wapas aana easy rahe, isliye hum convenient time book kar denge—YES reply kijiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message warmly acknowledges Reyansh’s 12 visits since 1 Sep 2025 and uses reciprocity by offering to book a convenient time. It ends with the required single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci"
+ },
+ "c2524c14c0a4679c76e235fbc88644d0": {
+  "body": "Hi Riya, Beauty Lounge by Renu here. Kal aapka appointment hai. 1 Sep 2025 se ab tak 2 visits ke liye dhanyavaad. Confirm karne ke liye YES reply kijiye, ya reschedule ke liye bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Yeh message kal ke appointment ko seedhe aur vinamr tareeke se confirm karta hai, aur 1 Sep 2025 se 2 visits ka personal context deta hai. Ant mein ek hi clear confirmation ask hai.",
+  "rejected": [],
+  "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc"
+ },
+ "c4cc4d6b1a0b18d7211e7b38f0aaa35e": {
+  "body": "Hi Anand, ek useful update: Zomato partner update (Apr 2026) ke mutabik ‘verified’ badge Tier-1 cities mein +24% impressions se correlate karta hai. Aapke profile views 2,189 hain, peers ke 4,800 ke muqable—isi liye Weekday Lunch Thali ₹149 aur Match-night Combo ₹399 jaise offers profile par dikhana worth considering hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the timely Zomato partner update and connects the 24% figure to Anand’s lower profile views. It uses the two relevant category offers as practical levers without making unsupported promises.",
+  "rejected": [],
+  "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura"
+ },
+ "c9f340da81eea95e95583ea7ac99c748": {
+  "body": "Namaste Sharma ji, Apollo Health Plus Pharmacy se. Metformin, atorvastatin aur telmisartan ka refill Tue 28 Apr se pehle chahiye hoga; aapka delivery address saved hai. ₹499 se upar Free Home Delivery aur Senior Citizen 15% OFF bhi lagu hain. CONFIRM reply kijiye, hum saved address par deliver kar denge.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message refill ki due date aur specific medicines par anchored hai, taaki Sharma ji ke liye process effortless rahe. Saved address aur applicable offers effort kam karte hain, aur end mein ek clear binary confirmation ask hai.",
+  "rejected": [],
+  "trigger_id": "trg_019_chronic_refill_grandfather"
+ },
+ "cad55bfbd6ff41b32b44d9a07d2e0909": {
+  "body": "Hi Priya, Dr. Meera's Dental Clinic se message hai. Aapka 6-month cleaning 12 Nov 2026 tak due hai, isliye reminder bhej rahe hain. Dental Cleaning @ ₹299 ke liye 5 Nov, 6pm ya 6 Nov, 5pm slots available hain. 5 Nov, 6pm ke liye 1 ya 6 Nov, 5pm ke liye 2 reply kijiye, ya apna time bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message names the clinic in the first sentence and anchors the reminder on the 12 Nov 2026 due date. It highlights the ₹299 cleaning and preferred weekday evening slots, ending with the requested single booking action.",
+  "rejected": [
+   "repeats itself: ya 6 nov 5pm"
+  ],
+  "retry_of": "9003f0ab59030eecc9b5d4e421b10167",
+  "trigger_id": "trg_003_recall_due_priya"
+ },
+ "cd2bc62a0c970dcf2a1b7cc0f1e5a9ea": {
+  "body": "Hi Sushma, recent performance mein dip dikh raha hai: calls 22 hain, peers ke 28 ke muqable 21% neeche. CTR 5.8% hai—peer average 4.0% se 45% upar—so attention aa rahi hai; calls improve karne ke liye balayage, highlights ya keratin jaise specific services clearly highlight karna useful hoga. Kya main is hafte ke liye do quick fixes bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message calls ke drop ko plainly names karta hai, while strong CTR shows attention is already coming in. Specific service naming is offered as a practical fix, with the requested yes/no ask as the only close.",
+  "rejected": [],
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "ce9a7d32932cda9a52f3314ba6b619b8": {
+  "body": "Hi Reyansh, Asha Dental Care here—we wanted to reach out as it’s been a little while. Thank you for visiting us 5 times since 1 Sep 2025; we’d be happy to welcome you back whenever it suits you. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the tone warm and pressure-free while acknowledging the soft lapse without mentioning how long. It anchors on Reyansh’s 5 visits since 1 Sep 2025 and uses a single binary commitment as the ask.",
+  "rejected": [],
+  "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis"
+ },
+ "d2e4be62fbd4deb5bff0bf3883c67aa4": {
+  "body": "Hi Vivaan, Bright Smile Dental here. We noticed you’ve visited us 5 times since 1 Sep 2025, so we wanted to share a quick note about your next visit. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the message warm and non-promotional while anchoring it on Vivaan’s 5 visits since 1 Sep 2025. It ends with the required single yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent"
+ },
+ "d3273d1ae36742fb65f54156ffc6e179": {
+  "body": "Hi Priya, Dr. Meera's Dental Clinic here— aapki 6-month cleaning 12 Nov 2026 tak due hai. Weekday evening ke liye 5 Nov, 6pm aur 6 Nov, 5pm slots available hain, aur Dental Cleaning @ ₹299 hai. 5 Nov, 6pm ke liye 1 ya 6 Nov, 5pm ke liye 2 reply kijiye, ya apna time bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the reminder timely and specific, anchoring it on the 12 Nov 2026 due date, available weekday evening slots, and the ₹299 cleaning offer. It reduces booking effort with one clear binary reply choice.",
+  "rejected": [],
+  "trigger_id": "trg_003_recall_due_priya"
+ },
+ "d46caae741ebeb9b3f6b3579dea60655": {
+  "body": "Hi Priya, Dr. Meera's Dental Clinic here. Aapki 6-month cleaning 12 Nov 2026 tak due hai, aur Dental Cleaning @ ₹299 available hai. Aapke weekday evening preference ke hisaab se 5 Nov, 6pm aur 6 Nov, 5pm slots available hain. 5 Nov, 6pm ke liye 1 ya 6 Nov, 5pm ke liye 2 reply kijiye, ya apna time bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the clinic and timely cleaning reminder, then connects the ₹299 offer and preferred evening slots to make booking easy. It ends with the requested single slot-selection ask.",
+  "rejected": [],
+  "trigger_id": "trg_003_recall_due_priya"
+ },
+ "d590c2f548e2c6ce4ff9194d6fd5c42d": {
+  "body": "Dr. Meera, IDA Delhi ka “Digital impressions — 2026 state of the art” session Sat 2 May, 7pm par hai, jisme 2 CDE credits milenge. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; members ke liye free hai, non-members ke liye ₹500. Kya main registration details bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the upcoming IDA Delhi session, its practical solo-practice focus, speaker, and clear member pricing. The message uses specificity and curiosity to frame it as a low-effort professional opportunity.",
+  "rejected": [],
+  "trigger_id": "trg_022_cde_webinar_dentists"
+ },
+ "d7afe946bcb34406731b44987cbb9414": {
+  "body": "Hi Pooja, festival season is coming up, so let’s plan early. Your profile has 5,934 views vs 1,100 for peers—439% higher—but CTR is 4.2% vs 4.5%, so a specific festive offer can help avoid missed footfall. Want me to draft a festive offer, a Google post and a WhatsApp blast for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on Bend & Burn’s strong profile visibility and below-peer CTR. It uses specificity and loss aversion by framing a concrete festive offer as a way to avoid missing potential footfall.",
+  "rejected": [],
+  "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang"
+ },
+ "da53bc768cc61fea9f1ed1f047d3cb24": {
+  "body": "Hi Vivaan, we’re reaching out with a quick note about your next visit. Thank you for visiting Bright Smile Dental 5 times since 1 Sep 2025. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the note warm and relevant to Vivaan’s booking, anchored in his 5 visits since 1 Sep 2025. It ends with the requested single yes/no commitment.",
+  "rejected": [],
+  "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent"
+ },
+ "dbb1b5bd906356fb514b4a60eb87e147": {
+  "body": "Hi Riya, Beauty Lounge by Renu here. Kal aapka appointment hai—bas ek short confirmation ke liye message kar rahe hain. 1 Sep 2025 se aapki 2 visits ke liye shukriya. Confirm karne ke liye YES reply kijiye, ya reschedule ke liye bataiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message clearly confirms tomorrow’s appointment and thanks Riya for her 2 visits since 1 Sep 2025. It ends with the required single confirmation/rescheduling ask.",
+  "rejected": [],
+  "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc"
+ },
+ "dc4bece864e461daf485a64ac0b8419b": {
+  "body": "Dr. Meera, 8 Apr 2026 ko 1.3 km door Smile Studio ne Dental Cleaning ₹199 par launch ki hai. Price race mein jaane ke bajay, aapki 18 calls vs 12 peer average aur pichhle 30 din mein 5 positive reviews—“Dr. Meera explains everything patiently”—aapki strong differentiation dikhate hain. Kya main ek Google post draft kar doon jo dikhaye ki aap alag kyun hain, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the nearby competitor’s ₹199 price while recommending a calm, strength-led response. It uses call volume and recent positive reviews as social proof and ends with the required single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_023_competitor_opened_dentist"
+ },
+ "dc79c34adc28d5f94b0fccd5bc9598ae": {
+  "body": "Hi Suresh, corporate bulk thali package ka ek first draft bana rahi hoon—Weekday Lunch Thali @ ₹149 ko base bana kar, 45% delivery orders aur 4,200 unique customers ko dhyan mein rakhte hue. CONFIRM reply kijiye, main ek first draft bana doongi jise aap edit kar sakte hain.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message moves straight to a draft, anchors on the ₹149 offer and relevant customer/order data, and ends with the requested single binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_013_corporate_thali_planning"
+ },
+ "de335aa7cc0679a69cb28f9e8c89a3a1": {
+  "body": "Hi Lakshmi, pichhle 7 din mein calls 20% badhe hain, isliye is hafte ka demand check kar rahi hoon. Haircut @ ₹99 aur Hair Spa @ ₹499 offers active hain—interest ke beech aapke answer se Google post bana doongi. Is hafte kis service ki sabse zyada demand rahi? Bataiye, main uska Google post bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message weekly check-in ko recent 20% call growth se anchor karta hai. Active offers ka context dekar reciprocity aur curiosity build karta hai, aur akhir mein ek hi open question poochta hai.",
+  "rejected": [],
+  "trigger_id": "trg_008_curious_ask_studio11"
+ },
+ "de8c54aac4a6e5273d2e10fbd1b14083": {
+  "body": "Hi Lakshmi, is hafte calls 20% badhe hain, so demand ka good momentum dikh raha hai. Haircut @ ₹99 aur Hair Spa @ ₹499 active offers hain—jo service zyada poochhi ja rahi ho, usi interest ko content mein use karna best rahega. Is hafte kis service ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the message on the 20% increase in calls and connects it to the active offers. It uses the weekly demand question to offer a practical content follow-up while interest is active.",
+  "rejected": [],
+  "trigger_id": "trg_008_curious_ask_studio11"
+ },
+ "e072613ccfff67f9eaaaee64171bed1f": {
+  "body": "Hi Pooja, festival season is coming up—let’s plan early with a concrete offer. Bend & Burn is getting 5,934 profile views vs 1,100 for peers, but CTR is 4.2% vs 4.5%, so there’s a clear chance to convert more interest into footfall. Want me to draft a festive offer and post for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the strong profile-view gap and lower CTR to create urgency without hype. It uses specificity and loss aversion by highlighting missed conversion potential ahead of the festival.",
+  "rejected": [],
+  "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang"
+ },
+ "e23d23aae5a9bd6aadc8c187792b6f7a": {
+  "body": "Hi Mukesh, milestone reach karna worth celebrating hai. Aapka CTR 5.3% hai, jabki similar restaurants ka average 2.5% hai—112% above peers. Mar-Apr IPL season mein Tue/Wed/Thu match-night promos se is momentum ko aage badha sakte hain, weekends par nahi. Kya main aapke happy customers ke liye ek short review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the milestone and anchors it in the 5.3% CTR versus the 2.5% peer average and 112% comparison. It adds a specific IPL-season timing lever while keeping the single requested yes/no ask last.",
+  "rejected": [],
+  "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur"
+ },
+ "e26130313d98b72a7fa93c38b5025fe7": {
+  "body": "Hi Vikas, recent performance mein achha jump dikha—CTR 4.1% raha, peer average 3.8% se 8% upar. Apr-Jun ke summer surge mein ORS, sunscreen, anti-fungal aur deodorant jaise products par focus karke is momentum ko build kar sakte hain. Kya main isi tarah ka aur content plan kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the performance spike with the CTR comparison and connects it to the Apr-Jun summer surge categories. It uses specificity and curiosity while ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p"
+ },
+ "e7b63f5035e6ee72e71f83c581b22504": {
+  "body": "Dr. Bharat, Pro plan 12 din mein renew hona hai (₹4,999). Pichhle 30 din mein 980 profile views aur 4 calls aaye; CTR 1.8% hai, jabki peer average 3.0% hai—renewal se current visibility ruki nahi rahegi. Kya main renewal line up kar doon taaki kuch ruke nahi? Bas YES reply kijiye.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the ₹4,999 renewal in 12 days and connects recent visibility with the below-peer CTR. It uses loss aversion and ends with the required single YES ask.",
+  "rejected": [],
+  "trigger_id": "trg_005_renewal_due_bharat"
+ },
+ "ea5565ec31738433eaa2f54231ce2a71": {
+  "body": "Dr. Bharat, pichhle 7 din mein calls 50% girkar baseline 12 rahe. CTR 1.8% hai, jabki peer average 3.0% hai; Google profile verify karke aur Dental Cleaning ₹299 ya Teeth Whitening ₹1,499 offer test karke quick improvement ka scope hai. Kya main is hafte ke liye do quick fixes bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message drop ko plainly name karta hai aur CTR, Google verification, aur specific category offers ko concrete fixes ke roop mein connect karta hai. Tone respectful, clinical aur concise rakhi gayi hai.",
+  "rejected": [],
+  "trigger_id": "trg_004_perf_dip_bharat"
+ },
+ "ebc769fae403ce4768152446bc2a22df": {
+  "body": "Hi Lakshmi, Diwali 31 Oct 2026 ko hai—188 din baaki hain. Oct-Dec primary wedding/festival season hota hai, jab bridal package bookings 4x baseline hoti hain; isliye Threading + Waxing combo ₹299 aur Bridal Trial ₹999 jaise festive offers profile par na hona bookings miss karwa sakta hai. Kya main aapke liye festive offer, Google post aur WhatsApp blast draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the 188-day Diwali timeline and 4x seasonal bridal booking pattern. It uses specific missing offers and loss aversion to support planning early.",
+  "rejected": [],
+  "trigger_id": "trg_006_festival_diwali"
+ },
+ "ec64dc1763fd516758c4026805f2c981": {
+  "body": "Hi Reyansh, Asha Dental Care here—we wanted to reach out and welcome you back. Thank you for visiting us 5 times since 1 Sep 2025; we’d be happy to make your next visit easy. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the tone warm and low-pressure, anchoring the message in Reyansh’s 5 visits since 1 Sep 2025. It uses appreciation and a single yes/no commitment to make returning easy.",
+  "rejected": [],
+  "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis"
+ },
+ "eca98fd404cf2155630c3a655757662b": {
+  "body": "Dr. Meera, DCI ke 4 Nov 2026 circular ke mutabik radiograph dose limit 15 Dec 2026 se revise ho rahi hai. IOPA exposure limit 1.5 mSv se 1 mSv hogi; E-speed film pass karta hai, D-speed nahi, aur digital RVG sensors unaffected hain. Dec 15 se pehle X-ray setup audit karke SOPs mein E-speed ya RVG document karna compliance easy rakhega. Kya main deadline se pehle ki 1-page checklist bana doon, 10 min mein ready?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message flags the DCI change early, anchors it in the 4 Nov 2026 circular and the 1.5-to-1 mSv limit, and makes compliance actionable through an audit and SOP update. It ends with the requested single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_002_compliance_dci_radiograph"
+ },
+ "ed55aeaea4aba645f7d46672eb34d37c": {
+  "body": "Hi Pooja, festival season is coming up—let’s plan early with a concrete offer. Bend & Burn is getting 5,934 profile views vs 1,100 for peers, but CTR is 4.2% vs 4.5%, so there’s a clear chance to convert more interest into footfall. Want me to draft a festive offer and post for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors on the strong profile-view gap and lower CTR to create urgency around converting existing interest before the festival. The message stays energetic and ends with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang"
+ },
+ "edaf80e7c9d8fb7f086a1dcc853dd2f4": {
+  "body": "Hi Suresh, aapke yes ke basis par corporate bulk thali package ka first cut bhej rahi hoon. Weekday Lunch Thali @ ₹149 ko corporate teams ke liye rakhenge, aur delivery ke through bulk ordering highlight karenge—45% orders delivery se aate hain. CONFIRM reply kijiye, main ise final kar doongi, ya bataiye kya badalna hai.",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors the plan on the existing ₹149 thali and 45% delivery share, turning those facts into a practical corporate ordering concept. It ends with the requested single binary commitment.",
+  "rejected": [],
+  "trigger_id": "trg_013_corporate_thali_planning"
+ },
+ "eeb321486459c0954c93fd19aa9c035a": {
+  "body": "Hi Vikas, recent performance mein achha jump dikha—CTR 4.1% hai, peer average 3.8% se 8% upar. Apr-Jun ke summer surge mein ORS, sunscreen, anti-fungal aur deodorant par isi specificity ko continue karna sensible rahega. Kya main isi tarah ke do aur posts plan kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the CTR improvement with the supplied 4.1%, 3.8%, and 8% figures. It connects the performance to the Apr-Jun summer categories and uses specificity as the next lever, ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p"
+ },
+ "f10c8f0e244cffbc1ee6551e93d45a74": {
+  "body": "Dr. Meera, IDA Delhi ka “Digital impressions — 2026 state of the art” session Sat 2 May, 7pm ko hai, jisme 2 CDE credits milenge. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; members ke liye free, non-members ke liye ₹500. Kya main registration details bhej doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message leads with the timely IDA Delhi session and anchors its relevance in the specific technologies and solo-practice ROI covered. It keeps the opportunity low-effort by highlighting the 2 CDE credits and clear member pricing, then ends with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_022_cde_webinar_dentists"
+ },
+ "f132924a25f16e2ce591ed0aafc0d7fb": {
+  "body": "Hi Suresh, DC vs MI aaj Sun 26 Apr ko 7:30pm hai. IPL guidance mein match-night promos Tue-Thu chalte hain, weekends par nahi; Apr 2026 ke magicpin order data mein Saturday IPL matches par covers Saturday average se 12% neeche rahe. Isliye dine-in promo skip karke existing Buy 1 Pizza Get 1 Free ko aaj raat delivery-only special bana dete hain—kya main banner aur Insta story ke saath draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message anchors on the Sunday 26 Apr match and the 12% Saturday IPL cover decline, using the data to recommend skipping dine-in promotion. It shifts the existing Tue-Thu offer to delivery and ends with the specified yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "f177eff0897c08caaed0be0efc5209c3": {
+  "body": "Hi Vikas, Sunrise Medicos ke calls pichhle 7 din mein 5% badhe hain. CTR 4.1% hai, jo peer average 3.8% se 8% upar hai—aur is saal 540 unique customers bhi aaye hain. Kya main isi tarah ke do aur posts plan kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the greeting and current performance jump, then connects calls, CTR, and customer reach to support building on the momentum. It ends with the exact yes/no ask and uses no unsupported claims.",
+  "rejected": [],
+  "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p"
+ },
+ "f1f62f0a8ce3b5f7cee3d5f5febcb63a": {
+  "body": "Hi Sushma, recent performance dip ko dekhte hue, calls 22 hain—peer average 28 se 21% neeche. CTR 5.8% hai, peer average 4.0% se 45% upar, isliye interest ko calls mein convert karne ke liye specificity par focus karna better rahega. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop while anchoring it against the 28 peer average and 21% gap. It uses the stronger CTR as a reason to focus on sharper specificity, while externalizing the effort through two quick fixes.",
+  "rejected": [],
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "f28b7e5d873431a6254addf879cae75d": {
+  "body": "Hi Suresh, aaj Sun 26 Apr ko 7:30pm DC vs MI hai Arun Jaitley Stadium mein. magicpin ke Apr 2026 order data mein Saturday IPL matches par covers Saturday average se 12% kam rahe—orders home-watch delivery ki taraf jaate hain, toh aaj dine-in promo skip karke existing offer ko delivery par focus karna better rahega. Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the recommendation in the Saturday IPL order data and the specific Sunday match timing. It avoids repeating the offer concept while steering spend and attention from dine-in to delivery.",
+  "rejected": [],
+  "retry_of": "8e65ba27801c668bf7b1c0677292249e",
+  "trigger_id": "trg_010_ipl_match_delhi"
+ },
+ "f388047efc4c9a1ffb09f40953254213": {
+  "body": "Hi Suresh, weekly check-in ke liye—last 7 days mein views 5% badhe hain, aur Weekday Lunch Thali ₹149 ka offer active hai. Is interest ko content mein turn karne ke liye, is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the message on the 5% view growth, the 7-day window, and the active ₹149 offer to show current momentum. It uses one open question and offers a practical content follow-up while interest is present.",
+  "rejected": [],
+  "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf"
+ },
+ "f414c16878ca175f201ba46299c9576f": {
+  "body": "Hi Anand, Zomato ke Apr 2026 partner update ke hisaab se ‘verified’ badge Tier-1 cities mein +24% impressions se correlate karta hai. Aapke profile views 2,189 hain, jabki peer average 4,800 hai—isi liye Weekday Lunch Thali ₹149 ya Match-night Combo ₹399 explore karna useful ho sakta hai. Want me to share how this could work for you?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message opens with the timely Zomato update and connects the 24% figure to Anand’s lower profile views. It uses practical offers and loss aversion without overpromising, ending with the required yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura"
+ },
+ "f5199638603d94ead0f908465d468400": {
+  "body": "Hi Mukesh, milestone reach hua—mark karne layak hai. Aapka CTR 5.3% hai, jabki peers ka 2.5%; ab Mar-Apr IPL season mein Tue/Wed/Thu match nights par focus karna better rahega, weekends par nahi. Kya main aapke happy customers ke liye 2-line review request draft kar doon?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message celebrates the milestone, anchors on the 5.3% versus 2.5% peer comparison, and recommends a specific match-night focus while skipping weekends. It ends with the required yes/no ask and keeps the tone practical and warm.",
+  "rejected": [],
+  "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur"
+ },
+ "f818eb56323451771f12b8542029b270": {
+  "body": "Hi Lakshmi, is hafte calls 20% badhe hain, isliye weekly check-in kar rahi hoon. Haircut ₹99 aur Hair Spa ₹499 active offers ke saath, demand ko content mein turn karna useful rahega. Is hafte kis service ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+  "model": "gpt-5.6-luna",
+  "rationale": "Anchors the message on the 20% increase in calls and connects it to the active offers. It uses that momentum to offer practical content support while ending with the required single open question.",
+  "rejected": [],
+  "trigger_id": "trg_008_curious_ask_studio11"
+ },
+ "fab3e75541cd4224fd84ebbb1c177399": {
+  "body": "Dr. Bharat, calls pichhle 7 din mein 50% down hain—usually around 12. CTR 1.8% hai vs peer average 3%, aur Google profile abhi verified nahi hai; main pehle verification aur relevant category offers—Dental Cleaning ₹299, Teeth Whitening ₹1,499—par focus karunga. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop and anchors on the 7-day and usual-call figures. It offers a concrete, effort-saving fix using profile verification and the two listed offers.",
+  "rejected": [],
+  "trigger_id": "trg_004_perf_dip_bharat"
+ },
+ "fce9c4faa263f112c73ce12b2a0aa214": {
+  "body": "Hi Reyansh, we wanted to check in with a warm note from Asha Dental Care. Thank you for visiting us 5 times since 1 Sep 2025—we’d be happy to welcome you back whenever convenient. Reply YES and we'll book a time that suits you.",
+  "model": "gpt-5.6-luna",
+  "rationale": "This keeps the tone warm and pressure-free, while recognising Reyansh’s 5 visits since 1 Sep 2025. It uses appreciation to make returning feel easy and ends with the requested single yes/no ask.",
+  "rejected": [],
+  "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis"
+ },
+ "fdaa2edae1cef1c4ffd054ff66556179": {
+  "body": "Hi Sushma, recent performance mein calls ka dip dikh raha hai—22 vs peers ke 28, yani 21% neeche. CTR 5.8% hai, jo peers ke 4.0% se 45% upar hai; ab balayage, highlights aur keratin jaise services ko zyada specific dikhana ek practical fix ho sakta hai. Want two quick fixes you can try this week?",
+  "model": "gpt-5.6-luna",
+  "rationale": "The message plainly names the call drop while balancing it with the stronger CTR. It anchors on the peer comparison and uses specificity as a low-effort, practical lever.",
+  "rejected": [],
+  "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p"
+ },
+ "fe43c04993d156a035cb4c1d89ae53ce": {
+  "body": "Dr. Meera, aapke whitening aur aligners request ko dhyan mein rakhte hue—8 Apr 2026 ko 1.3 km door Smile Studio ne Dental Cleaning @ ₹199 launch kiya. Aapke paas Dental Cleaning @ ₹299 ke saath 5 recent positive reviews hain: “Dr. Meera explains everything patiently”; 18 calls vs 12 peer average dikhate hain ki patients aapki care ko value karte hain. Want me to draft a post that shows what sets you apart?",
+  "model": "gpt-5.6-luna",
+  "rationale": "This stays calm and competitive by acknowledging the nearby ₹199 offer while anchoring on the clinic’s stronger differentiators: patient trust, positive reviews, and 18 calls versus a 12-call peer average.",
+  "rejected": [],
+  "trigger_id": "trg_023_competitor_opened_dentist"
+ },
+ "ffde485ad1616135f343ede179dbd020": {
+  "body": "Dr. Bharat, pichhle 7 din mein calls 50% girkar 12 ke baseline se neeche aaye hain. CTR 1.8% hai, peers ke 3% average se 40% kam, aur Google profile verify nahi hai. Is hafte profile verification aur Dental Cleaning ₹299 ya Teeth Whitening ₹1,499 offer try karke quick improvement test kar sakte hain. Kya aap is hafte do quick fixes try karna chahenge?",
+  "model": "gpt-5.6-luna",
+  "rationale": "Message call drop ko plainly name karta hai, CTR aur unverified profile se problem ko anchor karta hai, aur concrete low-effort fixes deta hai. Loss aversion aur specificity ke saath ek hi yes/no ask par end hota hai.",
+  "rejected": [],
+  "trigger_id": "trg_004_perf_dip_bharat"
+ },
+ "reply:000e21dc3cbb7b8aaf4fb813931584d3": {
+  "body": "I don’t have the number of nearby offices in the available details. We can still start with a simple outreach plan for the ₹149 Weekday Lunch Thali and identify offices around the café.",
+  "rationale": "It answers directly using only available facts and offers a practical next step without inventing a number.",
+  "rejected": []
+ },
+ "reply:183c8052c66a9855e738fff8eba07f41": {
+  "body": "Great. Here’s the ready-to-use draft:\n\n“Planning a corporate lunch? Our Weekday Lunch Thali is available at ₹149 per thali. For bulk orders, please connect with Mylari South Indian Cafe to discuss your requirements.”\n\nReply CONFIRM to publish.",
+  "rationale": "Delivers the promised final draft and gives one clear next step without adding unsupported details.",
+  "rejected": []
+ },
+ "reply:2ac7d3d65178d2aad82c094af6576671": {
+  "body": "Here’s the first draft:\n“Corporate weekday lunch thalis at ₹149 per meal, built around our Weekday Lunch Thali offer for bulk office orders.”\nCONFIRM reply kijiye, main ek first draft bana doongi jise aap edit kar sakte hain.",
+  "rationale": "Delivers the promised corporate bulk thali draft and ends with the single requested confirmation step.",
+  "rejected": []
+ },
+ "reply:56b310f420999ea40265aed9fe2d1bae": {
+  "body": "Here’s the ready draft:\n\nCorporate Bulk Thali Package\nWeekday Lunch Thali @ ₹149 for office group orders. Promote convenient weekday team lunches through your existing 4,200-customer base, with delivery as a key channel since it contributes 45% of orders.\n\nReply CONFIRM to publish this draft.",
+  "rationale": "Delivers the agreed package draft using only provided facts and gives one clear next step.",
+  "rejected": [
+   "reuses an earlier sentence ('Weekday Lunch Thali @ ₹149 for office gr')"
+  ]
+ },
+ "reply:5b17e12224751a885584af49779a9e14": {
+  "body": "Corporate Bulk Thali Package\n• Weekday Lunch Thali @ ₹149 for office group orders\n• Position it for convenient weekday team lunches, with delivery as a key channel since it contributes 45% of orders\n• Share it with your existing base of 4,200 customers\nPlease review this as the first draft and mark any edits.",
+  "rationale": "Provides a practical first draft using only the stated offer, delivery share, and customer base, then gives a clear editing next step.",
+  "rejected": []
+ },
+ "reply:63b71a3a253df13e0606e8722f3ed4fe": {
+  "body": "Draft: “Apr–Jun school holidays are a key window for pediatric dental appointments, which rise by 50%. Highlighting preventive care can help parents plan visits during this period.” Reply CONFIRM to publish.",
+  "rationale": "Provides a ready-to-publish, fact-based pediatric dental message and ends with one clear next step.",
+  "rejected": []
+ },
+ "reply:729b6fa257d665cbda15278cd8da7f50": {
+  "body": "Google profile mein verification option kholiye aur available method select kijiye—postcard ya phone call. Verification ka exact time method par depend karega; brief mein timeline confirm nahi hai. Method select karke process complete kijiye.",
+  "rationale": "Provides the confirmed verification methods and avoids inventing a timeline.",
+  "rejected": []
+ },
+ "reply:9132c170820de00577dfa4478b451742": {
+  "body": "Kids yoga post ka angle continue karein—specific, curiosity-led messaging ke saath. Saath hi First Month @ ₹499 aur Free Body Composition Analysis offers ko clearly feature karein; CTR 6.2% hai, peers ke 4.5% se 38% upar. Want me to line up more of what worked?",
+  "rationale": "Kids yoga angle aur active offers par based actionable next steps deta hai, performance context ke saath.",
+  "rejected": []
+ },
+ "reply:9fbf8450e030261334d71d44a2c03128": {
+  "body": "Here are the numbers in English:\n• Calls: up 15% over the last 7 days, usually around 18\n• CTR: 6.2% vs 4.5% for peers, 38% higher\n• Active members: 95\n• Live offers: First Month at ₹499 and Free Body Composition Analysis\nNext step: create the next kids yoga post. Reply CONFIRM to proceed.",
+  "rationale": "Provides the requested English metrics and a clear next action using only the supplied facts.",
+  "rejected": []
+ },
+ "reply:ac0dd33b657033d853acd3a4b3e39a5f": {
+  "body": "Here’s a first draft:\n\n“Planning a corporate lunch? Our Weekday Lunch Thali is available at ₹149 per thali. For bulk orders, please connect with Mylari South Indian Cafe to discuss your requirements.”\n\nNext step: mark any wording changes you’d like.",
+  "rationale": "Provides a concise corporate bulk thali draft using only the confirmed offer and price, then gives a clear editing next step.",
+  "rejected": []
+ },
+ "reply:b89359e9c3882a09ed39b2d9b4e46e77": {
+  "body": "Ab kids yoga post ka next version push karo—isi se calls aur 6.2% CTR strong dikh rahe hain. First Month @ ₹499 aur Free Body Composition Analysis offers live rakho, aur calls ko track karo. Pehla step: next kids yoga post ready karo.",
+  "rationale": "It gives a direct, fact-based action plan using the strongest observed signal and existing offers.",
+  "rejected": []
+ },
+ "reply:bd7245eb3bcf6e9de32782dfb70e2496": {
+  "body": "I don’t have data on how many offices are near your cafe. You can start by targeting nearby offices through your existing 4,200-customer base and delivery channel, which contributes 45% of orders. I can add this targeting angle to the package draft.",
+  "rationale": "It answers directly that the requested local office count is unavailable and offers a practical next step using only the provided facts.",
+  "rejected": []
+ },
+ "reply:d8e29dc206bf76d15098cf5eb71672bf": {
+  "body": "Here’s a simple starting draft:\n“Corporate weekday lunch thalis at ₹149 per meal, built around our Weekday Lunch Thali offer for bulk office orders.”\nCONFIRM reply kijiye, main ek first draft bana doongi jise aap edit kar sakte hain.",
+  "rationale": "Provides a concise editable corporate bulk thali draft using only the confirmed offer and price, with the required next step.",
+  "rejected": []
+ },
+ "reply:e3bd5671dac529478625f2bba41ef6d9": {
+  "body": "Google profile verification postcard ya phone call, in dono options se hoti hai. Exact verification time ki jankari yahan available nahi hai. Postcard ya phone call option select karke verification start kijiye.",
+  "rationale": "Available facts ke basis par verification ke options diye hain aur unsupported time estimate se bacha gaya hai.",
+  "rejected": []
+ },
+ "reply:e68e384da493d47cd5a157112cd23226": {
+  "body": "Calls are up 15% over the last 7 days, from usually around 18. CTR is 6.2% vs the 4.5% peer average—38% higher, likely driven by the kids yoga post.\n\nDraft: “Curious about kids yoga? Explore First Month @ ₹499 and Free Body Composition Analysis.”\n\nReply CONFIRM to publish.",
+  "rationale": "Shares the requested numbers in English and delivers a curiosity-led kids yoga draft using only the provided facts.",
+  "rejected": []
+ },
+ "reply:f583e5b252e80651532dbd46c2dfb85f": {
+  "body": "I don’t have data on how many offices are nearby. I can still shape the first draft around corporate bulk orders using your ₹149 Weekday Lunch Thali. CONFIRM reply kijiye, main ek first draft bana doongi jise aap edit kar sakte hain.",
+  "rationale": "Directly states that nearby-office count is unavailable and keeps the agreed drafting next step.",
+  "rejected": []
+ }
+}

@@ -1,0 +1,1521 @@
+{
+  "pair": {
+    "test_id": "T02",
+    "trigger_id": "trg_016_kids_yoga_program_drafting",
+    "merchant_id": "m_008_zenyoga_gym_chennai",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_016_kids_yoga_program_drafting",
+      "scope": "merchant",
+      "kind": "active_planning_intent",
+      "source": "internal",
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "customer_id": null,
+      "payload": {
+        "intent_topic": "kids_yoga_summer_camp",
+        "merchant_last_message": "Hi I want to add a kids yoga program — what should it look like?"
+      },
+      "urgency": 4,
+      "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+      "expires_at": "2026-04-30T00:00:00Z"
+    },
+    "merchant": {
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "category_slug": "gyms",
+      "identity": {
+        "name": "Zen Yoga Studio",
+        "city": "Chennai",
+        "locality": "Mylapore",
+        "place_id": "ChIJ_MYLAPORE_GYM_008",
+        "verified": true,
+        "languages": [
+          "en",
+          "ta",
+          "hi"
+        ],
+        "owner_first_name": "Padma",
+        "established_year": 2017
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 180
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 880,
+        "calls": 18,
+        "directions": 38,
+        "ctr": 0.062,
+        "leads": 12,
+        "delta_7d": {
+          "views_pct": 0.1,
+          "calls_pct": 0.15
+        }
+      },
+      "offers": [
+        {
+          "id": "o_zen_001",
+          "title": "First Month @ ₹499",
+          "status": "active",
+          "started": "2026-03-01"
+        },
+        {
+          "id": "o_zen_002",
+          "title": "Free Body Composition Analysis",
+          "status": "active",
+          "started": "2026-03-01"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-23T09:00:00Z",
+          "from": "merchant",
+          "body": "Hi I want to add a kids yoga program — what should it look like?",
+          "engagement": "intent_planning"
+        },
+        {
+          "ts": "2026-04-23T09:05:00Z",
+          "from": "vera",
+          "body": "Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?",
+          "engagement": "merchant_replied"
+        }
+      ],
+      "customer_aggregate": {
+        "total_active_members": 95,
+        "monthly_churn_pct": 0.05,
+        "trial_to_paid_pct": 0.55
+      },
+      "signals": [
+        "high_retention",
+        "active_planning",
+        "boutique_segment"
+      ],
+      "review_themes": [
+        {
+          "theme": "instructor_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 9
+        },
+        {
+          "theme": "small_classes",
+          "sentiment": "pos",
+          "occurrences_30d": 6
+        }
+      ]
+    },
+    "category": {
+      "slug": "gyms",
+      "display_name": "Gyms & Fitness",
+      "voice": {
+        "tone": "energetic_disciplined",
+        "register": "coach_to_member",
+        "code_mix": "english_primary_some_hindi",
+        "vocab_allowed": [
+          "footfall",
+          "membership churn",
+          "PT sessions",
+          "PR (personal record)",
+          "1RM",
+          "EMOM",
+          "AMRAP",
+          "split",
+          "cut",
+          "bulk",
+          "BMR",
+          "VO2max",
+          "functional",
+          "HIIT",
+          "CrossFit",
+          "yoga",
+          "pilates"
+        ],
+        "vocab_taboo": [
+          "guaranteed weight loss",
+          "shred in 7 days",
+          "miracle transformation",
+          "fastest results"
+        ],
+        "salutation_examples": [
+          "Hi {first_name}",
+          "{gym_name} team",
+          "Coach"
+        ],
+        "tone_examples": [
+          "Quick check — your weekday 7-9pm slot has been at 90%+ capacity all month",
+          "Footfall pattern: April drop-off is normal; bookings recover by 2nd week May"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "gym_001",
+          "title": "3 FREE Trial Classes",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_trial"
+        },
+        {
+          "id": "gym_002",
+          "title": "First Month @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_003",
+          "title": "Personal Training Demo @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_004",
+          "title": "Annual Membership @ ₹14,999 (save ₹6,000)",
+          "value": "14999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_005",
+          "title": "Couple/Family Plan @ ₹999/month",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_006",
+          "title": "Free Body Composition Analysis",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "gym_007",
+          "title": "Refer-a-friend: 1 month free for both",
+          "value": "free_addon",
+          "audience": "repeat_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "gym_008",
+          "title": "Yoga + Strength Combo @ ₹1,499/month",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_neighbourhood_gyms_2026",
+        "avg_rating": 4.5,
+        "avg_review_count": 56,
+        "avg_views_30d": 1100,
+        "avg_calls_30d": 18,
+        "avg_directions_30d": 42,
+        "avg_ctr": 0.045,
+        "avg_photos": 16,
+        "avg_post_freq_days": 12,
+        "monthly_churn_pct": 0.08,
+        "trial_to_paid_pct": 0.32
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_resolution_window",
+          "kind": "seasonal",
+          "title": "Post-Jan resolution window closing — last 2 weeks of high trial-walk-ins",
+          "source": "magicpin gym data, Apr 2026",
+          "summary": "Gym trial walk-ins spike Jan 1-15, taper through Mar; April-June hits the lowest acquisition window of the year. Most gyms over-spend on ads now; underspend in October pre-holiday window.",
+          "actionable": "Pause acquisition spend in May; double down Sept-Oct"
+        },
+        {
+          "id": "d_2026W17_pt_demand",
+          "kind": "trend",
+          "title": "Personal Training inquiries +38% YoY in 30-50 corporate cohort",
+          "source": "Multi-gym aggregate Apr 2026",
+          "summary": "Driven by health-check-up findings (rising HbA1c, BP, cholesterol). Demand is for 2x/week PT, not full-program. ₹3,000-5,000/month sweet spot.",
+          "actionable": "Package a '2x/week PT @ ₹3,499' option separate from full membership"
+        },
+        {
+          "id": "d_2026W17_yoga_studio_competition",
+          "kind": "compete",
+          "title": "Boutique yoga/pilates studios opening fast in metro neighbourhoods",
+          "source": "Industry watch Apr 2026",
+          "summary": "Reformer pilates studios at ₹6,000-8,000/month membership are pulling 30-45 women from traditional gyms. Don't compete on price; compete on coach quality + community.",
+          "actionable": "Add one yoga or pilates class to your weekly schedule if you don't have one"
+        },
+        {
+          "id": "d_2026W17_creatine_safety_bulletin",
+          "kind": "research",
+          "title": "ICMR creatine supplementation safety bulletin — adolescent guidance",
+          "source": "ICMR, Apr 2026",
+          "summary": "Creatine monohydrate at 3-5g/day deemed safe for healthy adults; cautioned against under-18 use without medical supervision. Reinforces what most coaches already practice.",
+          "actionable": "Update your store / counter recommendations; flag under-18 customers"
+        },
+        {
+          "id": "d_2026W17_class_schedule_optimization",
+          "kind": "tech",
+          "title": "Schedule density study — peak slots underutilized in mornings",
+          "source": "magicpin internal Apr 2026",
+          "summary": "Across 200+ partner gyms, 6-8am weekday slots run at 60% capacity vs 90%+ for 6-9pm. Adding a 7am class typically doesn't cannibalize evenings.",
+          "actionable": "Consider one new 7am class — yoga or HIIT pulls best in that slot"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_first_30_days",
+          "title": "First 30 days at the gym — what actually changes",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Week 1-2: nervous-system adaptation, lifts feel easier (not muscle gain — coordination). Week 3-4: small visible changes, sleep improves. Real strength/aesthetic changes start at week 8-12. Most people quit at week 3 expecting visible change. Trust the process."
+        },
+        {
+          "id": "pc_pt_or_solo",
+          "title": "PT or solo? A 5-question test",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Solo if: you've trained before, you can read program structure, you don't get injured easily. PT if: you're new, recovering from injury, training for a specific event, or have inconsistent form. Hybrid (PT 1-2x/month + solo): the smartest middle path for most members."
+        },
+        {
+          "id": "pc_protein_basics",
+          "title": "How much protein do you actually need?",
+          "channel": "whatsapp",
+          "length_seconds": 50,
+          "body": "Sedentary adults: 0.8g/kg body weight. Active adults: 1.2-1.6g/kg. Strength training: 1.6-2.2g/kg. For a 70kg active person, that's 84-112g/day — roughly 4 fistful-portions of protein. Indian-veg diets often fall short; supplement with paneer, dal, tofu before adding powders."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Jan",
+          "note": "resolution surge — trial walk-ins 4x baseline; convert window"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "lowest acquisition window — focus on retention, not acquisition"
+        },
+        {
+          "month_range": "Aug-Oct",
+          "note": "wedding-prep + festival window — repeat clients return to shape up"
+        },
+        {
+          "month_range": "Nov-Dec",
+          "note": "holiday slowdown — class density drops 25%; right time to renovate or pilot new programs"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "gym near me",
+          "delta_yoy": 0.05,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "personal trainer cost",
+          "delta_yoy": 0.38,
+          "segment_age": "30-50",
+          "skew": "balanced"
+        },
+        {
+          "query": "yoga classes near me",
+          "delta_yoy": 0.42,
+          "segment_age": "25-55",
+          "skew": "female"
+        },
+        {
+          "query": "weight loss program",
+          "delta_yoy": 0.28,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI (for supplement sales)",
+        "Local Municipal Corp (premises)"
+      ],
+      "professional_journals": [
+        "Indian Journal of Sports Medicine"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_016_kids_yoga_program_drafting",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_016_kids_yoga_program_drafting",
+      "scope": "merchant",
+      "kind": "active_planning_intent",
+      "source": "internal",
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "customer_id": null,
+      "payload": {
+        "intent_topic": "kids_yoga_summer_camp",
+        "merchant_last_message": "Hi I want to add a kids yoga program — what should it look like?"
+      },
+      "urgency": 4,
+      "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+      "expires_at": "2026-04-30T00:00:00Z"
+    },
+    "payload_display": {
+      "intent_topic": "kids yoga summer camp",
+      "merchant_last_message": "Hi I want to add a kids yoga program — what should it look like?"
+    },
+    "merchant": {
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "category_slug": "gyms",
+      "identity": {
+        "name": "Zen Yoga Studio",
+        "city": "Chennai",
+        "locality": "Mylapore",
+        "place_id": "ChIJ_MYLAPORE_GYM_008",
+        "verified": true,
+        "languages": [
+          "en",
+          "ta",
+          "hi"
+        ],
+        "owner_first_name": "Padma",
+        "established_year": 2017
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 180
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 880,
+        "calls": 18,
+        "directions": 38,
+        "ctr": 0.062,
+        "leads": 12,
+        "delta_7d": {
+          "views_pct": 0.1,
+          "calls_pct": 0.15
+        }
+      },
+      "offers": [
+        {
+          "id": "o_zen_001",
+          "title": "First Month @ ₹499",
+          "status": "active",
+          "started": "2026-03-01"
+        },
+        {
+          "id": "o_zen_002",
+          "title": "Free Body Composition Analysis",
+          "status": "active",
+          "started": "2026-03-01"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-23T09:00:00Z",
+          "from": "merchant",
+          "body": "Hi I want to add a kids yoga program — what should it look like?",
+          "engagement": "intent_planning"
+        },
+        {
+          "ts": "2026-04-23T09:05:00Z",
+          "from": "vera",
+          "body": "Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?",
+          "engagement": "merchant_replied"
+        }
+      ],
+      "customer_aggregate": {
+        "total_active_members": 95,
+        "monthly_churn_pct": 0.05,
+        "trial_to_paid_pct": 0.55
+      },
+      "signals": [
+        "high_retention",
+        "active_planning",
+        "boutique_segment"
+      ],
+      "review_themes": [
+        {
+          "theme": "instructor_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 9
+        },
+        {
+          "theme": "small_classes",
+          "sentiment": "pos",
+          "occurrences_30d": 6
+        }
+      ]
+    },
+    "category": {
+      "slug": "gyms",
+      "display_name": "Gyms & Fitness",
+      "voice": {
+        "tone": "energetic_disciplined",
+        "register": "coach_to_member",
+        "code_mix": "english_primary_some_hindi",
+        "vocab_allowed": [
+          "footfall",
+          "membership churn",
+          "PT sessions",
+          "PR (personal record)",
+          "1RM",
+          "EMOM",
+          "AMRAP",
+          "split",
+          "cut",
+          "bulk",
+          "BMR",
+          "VO2max",
+          "functional",
+          "HIIT",
+          "CrossFit",
+          "yoga",
+          "pilates"
+        ],
+        "vocab_taboo": [
+          "guaranteed weight loss",
+          "shred in 7 days",
+          "miracle transformation",
+          "fastest results"
+        ],
+        "salutation_examples": [
+          "Hi {first_name}",
+          "{gym_name} team",
+          "Coach"
+        ],
+        "tone_examples": [
+          "Quick check — your weekday 7-9pm slot has been at 90%+ capacity all month",
+          "Footfall pattern: April drop-off is normal; bookings recover by 2nd week May"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "gym_001",
+          "title": "3 FREE Trial Classes",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_trial"
+        },
+        {
+          "id": "gym_002",
+          "title": "First Month @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_003",
+          "title": "Personal Training Demo @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_004",
+          "title": "Annual Membership @ ₹14,999 (save ₹6,000)",
+          "value": "14999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_005",
+          "title": "Couple/Family Plan @ ₹999/month",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_006",
+          "title": "Free Body Composition Analysis",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "gym_007",
+          "title": "Refer-a-friend: 1 month free for both",
+          "value": "free_addon",
+          "audience": "repeat_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "gym_008",
+          "title": "Yoga + Strength Combo @ ₹1,499/month",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_neighbourhood_gyms_2026",
+        "avg_rating": 4.5,
+        "avg_review_count": 56,
+        "avg_views_30d": 1100,
+        "avg_calls_30d": 18,
+        "avg_directions_30d": 42,
+        "avg_ctr": 0.045,
+        "avg_photos": 16,
+        "avg_post_freq_days": 12,
+        "monthly_churn_pct": 0.08,
+        "trial_to_paid_pct": 0.32
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_resolution_window",
+          "kind": "seasonal",
+          "title": "Post-Jan resolution window closing — last 2 weeks of high trial-walk-ins",
+          "source": "magicpin gym data, Apr 2026",
+          "summary": "Gym trial walk-ins spike Jan 1-15, taper through Mar; April-June hits the lowest acquisition window of the year. Most gyms over-spend on ads now; underspend in October pre-holiday window.",
+          "actionable": "Pause acquisition spend in May; double down Sept-Oct"
+        },
+        {
+          "id": "d_2026W17_pt_demand",
+          "kind": "trend",
+          "title": "Personal Training inquiries +38% YoY in 30-50 corporate cohort",
+          "source": "Multi-gym aggregate Apr 2026",
+          "summary": "Driven by health-check-up findings (rising HbA1c, BP, cholesterol). Demand is for 2x/week PT, not full-program. ₹3,000-5,000/month sweet spot.",
+          "actionable": "Package a '2x/week PT @ ₹3,499' option separate from full membership"
+        },
+        {
+          "id": "d_2026W17_yoga_studio_competition",
+          "kind": "compete",
+          "title": "Boutique yoga/pilates studios opening fast in metro neighbourhoods",
+          "source": "Industry watch Apr 2026",
+          "summary": "Reformer pilates studios at ₹6,000-8,000/month membership are pulling 30-45 women from traditional gyms. Don't compete on price; compete on coach quality + community.",
+          "actionable": "Add one yoga or pilates class to your weekly schedule if you don't have one"
+        },
+        {
+          "id": "d_2026W17_creatine_safety_bulletin",
+          "kind": "research",
+          "title": "ICMR creatine supplementation safety bulletin — adolescent guidance",
+          "source": "ICMR, Apr 2026",
+          "summary": "Creatine monohydrate at 3-5g/day deemed safe for healthy adults; cautioned against under-18 use without medical supervision. Reinforces what most coaches already practice.",
+          "actionable": "Update your store / counter recommendations; flag under-18 customers"
+        },
+        {
+          "id": "d_2026W17_class_schedule_optimization",
+          "kind": "tech",
+          "title": "Schedule density study — peak slots underutilized in mornings",
+          "source": "magicpin internal Apr 2026",
+          "summary": "Across 200+ partner gyms, 6-8am weekday slots run at 60% capacity vs 90%+ for 6-9pm. Adding a 7am class typically doesn't cannibalize evenings.",
+          "actionable": "Consider one new 7am class — yoga or HIIT pulls best in that slot"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_first_30_days",
+          "title": "First 30 days at the gym — what actually changes",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Week 1-2: nervous-system adaptation, lifts feel easier (not muscle gain — coordination). Week 3-4: small visible changes, sleep improves. Real strength/aesthetic changes start at week 8-12. Most people quit at week 3 expecting visible change. Trust the process."
+        },
+        {
+          "id": "pc_pt_or_solo",
+          "title": "PT or solo? A 5-question test",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Solo if: you've trained before, you can read program structure, you don't get injured easily. PT if: you're new, recovering from injury, training for a specific event, or have inconsistent form. Hybrid (PT 1-2x/month + solo): the smartest middle path for most members."
+        },
+        {
+          "id": "pc_protein_basics",
+          "title": "How much protein do you actually need?",
+          "channel": "whatsapp",
+          "length_seconds": 50,
+          "body": "Sedentary adults: 0.8g/kg body weight. Active adults: 1.2-1.6g/kg. Strength training: 1.6-2.2g/kg. For a 70kg active person, that's 84-112g/day — roughly 4 fistful-portions of protein. Indian-veg diets often fall short; supplement with paneer, dal, tofu before adding powders."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Jan",
+          "note": "resolution surge — trial walk-ins 4x baseline; convert window"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "lowest acquisition window — focus on retention, not acquisition"
+        },
+        {
+          "month_range": "Aug-Oct",
+          "note": "wedding-prep + festival window — repeat clients return to shape up"
+        },
+        {
+          "month_range": "Nov-Dec",
+          "note": "holiday slowdown — class density drops 25%; right time to renovate or pilot new programs"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "gym near me",
+          "delta_yoy": 0.05,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "personal trainer cost",
+          "delta_yoy": 0.38,
+          "segment_age": "30-50",
+          "skew": "balanced"
+        },
+        {
+          "query": "yoga classes near me",
+          "delta_yoy": 0.42,
+          "segment_age": "25-55",
+          "skew": "female"
+        },
+        {
+          "query": "weight loss program",
+          "delta_yoy": 0.28,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI (for supplement sales)",
+        "Local Municipal Corp (premises)"
+      ],
+      "professional_journals": [
+        "Indian Journal of Sports Medicine"
+      ]
+    },
+    "customer": null,
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "Zen Yoga Studio",
+        "display": "Zen Yoga Studio",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Padma",
+          "honorific": null
+        },
+        "display": "Padma",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Mylapore",
+          "city": "Chennai"
+        },
+        "display": "Mylapore, Chennai",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": true,
+        "display": "Google profile is verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2017,
+        "display": "in business since 2017",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 880,
+        "display": "880 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 18,
+        "display": "18 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 38,
+        "display": "38 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 12,
+        "display": "12 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.062,
+        "display": "6.2% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": 0.1,
+        "display": "views +10% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": 0.15,
+        "display": "calls +15% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.062,
+          "peer": 0.045,
+          "ratio": 1.378,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "CTR 6.2% vs 4.5% peer average, 38% above peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 880,
+          "peer": 1100,
+          "ratio": 0.8,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Profile views 880 vs 1,100 peer average, 20% below peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 18,
+          "peer": 18,
+          "ratio": 1.0,
+          "position": "in line with",
+          "higher_is_better": true
+        },
+        "display": "Calls 18 vs 18 peer average, in line with peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 38,
+          "peer": 42,
+          "ratio": 0.905,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 38 vs 42 peer average, 10% below peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_active_members",
+        "group": "customers",
+        "value": 95,
+        "display": "95 active members",
+        "source": "merchant.customer_aggregate.total_active_members"
+      },
+      {
+        "key": "monthly_churn_pct",
+        "group": "customers",
+        "value": 0.05,
+        "display": "monthly churn 5%",
+        "source": "merchant.customer_aggregate.monthly_churn_pct"
+      },
+      {
+        "key": "monthly_churn_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.05,
+          "peer": 0.08,
+          "ratio": 0.625,
+          "position": "below",
+          "higher_is_better": false
+        },
+        "display": "Monthly churn 5% vs 8% peer average, 3 points below peers",
+        "source": "merchant.customer_aggregate.monthly_churn_pct vs category.peer_stats.monthly_churn_pct"
+      },
+      {
+        "key": "trial_to_paid_pct",
+        "group": "customers",
+        "value": 0.55,
+        "display": "trial-to-paid conversion 55%",
+        "source": "merchant.customer_aggregate.trial_to_paid_pct"
+      },
+      {
+        "key": "trial_to_paid_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.55,
+          "peer": 0.32,
+          "ratio": 1.719,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Trial-to-paid conversion 55% vs 32% peer average, 23 points above peers",
+        "source": "merchant.customer_aggregate.trial_to_paid_pct vs category.peer_stats.trial_to_paid_pct"
+      },
+      {
+        "key": "active_offers",
+        "group": "offers",
+        "value": [
+          "First Month @ ₹499",
+          "Free Body Composition Analysis"
+        ],
+        "display": "active offers: First Month @ ₹499; Free Body Composition Analysis",
+        "source": "merchant.offers (status=active)"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Personal Training Demo @ ₹199",
+          "Annual Membership @ ₹14,999 (save ₹6,000)",
+          "Couple/Family Plan @ ₹999/month",
+          "Yoga + Strength Combo @ ₹1,499/month",
+          "3 FREE Trial Classes",
+          "Refer-a-friend: 1 month free for both"
+        ],
+        "display": "category offers this merchant hasn't run: Personal Training Demo @ ₹199; Annual Membership @ ₹14,999 (save ₹6,000); Couple/Family Plan @ ₹999/month; Yoga + Strength Combo @ ₹1,499/month; 3 FREE Trial Classes",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "active",
+          "plan": "Pro",
+          "days_remaining": 180
+        },
+        "display": "Pro plan active, 180 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "review_theme_instructor_quality",
+        "group": "reviews",
+        "value": {
+          "theme": "instructor_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 9
+        },
+        "display": "9 reviews in the last 30 days mention instructor quality (positive)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "review_theme_small_classes",
+        "group": "reviews",
+        "value": {
+          "theme": "small_classes",
+          "sentiment": "pos",
+          "occurrences_30d": 6
+        },
+        "display": "6 reviews in the last 30 days mention small classes (positive)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "signal_high_retention",
+        "group": "signals",
+        "value": {
+          "raw": "high_retention",
+          "name": "high_retention",
+          "value": null,
+          "unit": null
+        },
+        "display": "high retention",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_active_planning",
+        "group": "signals",
+        "value": {
+          "raw": "active_planning",
+          "name": "active_planning",
+          "value": null,
+          "unit": null
+        },
+        "display": "active planning",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_boutique_segment",
+        "group": "signals",
+        "value": {
+          "raw": "boutique_segment",
+          "name": "boutique_segment",
+          "value": null,
+          "unit": null
+        },
+        "display": "boutique segment",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_neighbourhood_gyms_2026",
+        "display": "peer group: metro neighbourhood gyms 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.5,
+        "display": "peers average a 4.5★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 56,
+        "display": "peers average 56 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 12,
+        "display": "peers post on Google every 12 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 16,
+        "display": "peers have 16 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_apr_jun",
+        "group": "season",
+        "value": {
+          "month_range": "Apr-Jun",
+          "note": "lowest acquisition window — focus on retention, not acquisition"
+        },
+        "display": "Apr-Jun: lowest acquisition window — focus on retention, not acquisition",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_gym_near_me",
+        "group": "trends",
+        "value": {
+          "query": "gym near me",
+          "delta_yoy": 0.05,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"gym near me\" searches +5% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_personal_trainer_cost",
+        "group": "trends",
+        "value": {
+          "query": "personal trainer cost",
+          "delta_yoy": 0.38,
+          "segment_age": "30-50",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"personal trainer cost\" searches +38% year-on-year (age 30-50)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_yoga_classes_near_me",
+        "group": "trends",
+        "value": {
+          "query": "yoga classes near me",
+          "delta_yoy": 0.42,
+          "segment_age": "25-55",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"yoga classes near me\" searches +42% year-on-year (age 25-55, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_weight_loss_program",
+        "group": "trends",
+        "value": {
+          "query": "weight loss program",
+          "delta_yoy": 0.28,
+          "segment_age": "30-50",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"weight loss program\" searches +28% year-on-year (age 30-50, skews female)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 2,
+      "last_vera_message": {
+        "ts": "2026-04-23T09:05:00Z",
+        "body": "Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?",
+        "engagement": "merchant_replied",
+        "hours_ago": 73.4,
+        "origin": "context"
+      },
+      "last_merchant_message": {
+        "ts": "2026-04-23T09:00:00Z",
+        "body": "Hi I want to add a kids yoga program — what should it look like?",
+        "engagement": "intent_planning",
+        "hours_ago": 73.5,
+        "origin": "context",
+        "language": "en"
+      },
+      "open_requests": [],
+      "unanswered_streak": 0,
+      "session_window_open": false,
+      "recent_vera_bodies": [
+        "Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?"
+      ],
+      "engagement_tags": [
+        "intent_planning",
+        "merchant_replied"
+      ]
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "members",
+      "category_code_mix": "english primary some hindi",
+      "greeting": "Hi Padma",
+      "address_as": "Padma",
+      "first_name": "Padma",
+      "honorific": null,
+      "template": "Hi {first_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "ta",
+        "hi"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [
+        "ta"
+      ],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "rich",
+      "score": 5,
+      "max": 5,
+      "present": [
+        "offers",
+        "conversation_history",
+        "signals",
+        "review_themes",
+        "customer_aggregate"
+      ],
+      "missing": []
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [],
+    "warnings": [],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_016_kids_yoga_program_drafting",
+    "kind": "active_planning_intent",
+    "family": "followup",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_008_zenyoga_gym_chennai",
+    "customer_id": null,
+    "recipient_id": "m_008_zenyoga_gym_chennai",
+    "sender_name": "Zen Yoga Studio",
+    "greeting": "Hi Padma",
+    "address_as": "Padma",
+    "language": {
+      "style": "en",
+      "instruction": "Mostly English; a little Hindi is fine.",
+      "hinglish": false
+    },
+    "lead": {
+      "text": "merchant wants a plan for: kids yoga summer camp (their last message: \"Hi I want to add a kids yoga program — what should it look like?\")",
+      "source": "trigger.payload.intent_topic, merchant_last_message",
+      "key": "payload:intent_topic",
+      "phrase": "here's a first cut of your kids yoga summer camp plan",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "earlier in this chat Vera said (a suggestion, not something they have approved): \"Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?\"",
+        "source": "merchant.conversation_history",
+        "key": "history:vera_said",
+        "phrase": "as suggested earlier: 4-week program, 3 classes/week, age 7-12, ₹2,499",
+        "phrase_hi": ""
+      },
+      {
+        "text": "active offers: First Month @ ₹499; Free Body Composition Analysis",
+        "source": "merchant.offers (status=active)",
+        "key": "active_offers",
+        "phrase": "your First Month @ ₹499 and Free Body Composition Analysis offers are live",
+        "phrase_hi": ""
+      },
+      {
+        "text": "95 active members",
+        "source": "merchant.customer_aggregate.total_active_members",
+        "key": "total_active_members",
+        "phrase": "you have 95 active members",
+        "phrase_hi": ""
+      }
+    ],
+    "angle": "they already said yes: answer 'what would it look like' with a concrete, editable outline in the message itself. Build it on what Vera suggested earlier in the chat when there is one (it's a suggestion, not something they approved, so call prices 'proposed'), plus the listed facts; add structure, timings or ordering steps that fit the idea; use listed offers only if they fit. Never invent facts: no statistics, percentages, named customers, offices or buildings; end by offering the next deliverable; no qualifying questions",
+    "levers": [
+      "effort_externalization",
+      "single_binary_commitment"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Want me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?",
+      "text_hi": "Kya main ise Google post aur share karne layak WhatsApp mein badal doon, 10 min mein ready?",
+      "intent": "yes/no: Want me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?"
+    },
+    "template": {
+      "required": true,
+      "name": "vera_active_planning_intent_v1"
+    },
+    "instructions": [
+      "Voice: energetic disciplined, coach to member.",
+      "Category words you can use (vocabulary only, not facts about this business): footfall, membership churn, PT sessions, PR (personal record), 1RM, EMOM.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson."
+    ],
+    "avoid": [
+      "guaranteed weight loss",
+      "shred in 7 days",
+      "miracle transformation",
+      "fastest results"
+    ],
+    "allowed_numbers": [
+      "3",
+      "4",
+      "7",
+      "10",
+      "12",
+      "95",
+      "499",
+      "2499"
+    ],
+    "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+    "urgency": 4,
+    "flags": [],
+    "notes": [],
+    "render_support": 2,
+    "vocabulary": [
+      "footfall",
+      "membership churn",
+      "PT sessions",
+      "PR (personal record)",
+      "1RM",
+      "EMOM",
+      "AMRAP",
+      "split",
+      "cut",
+      "bulk",
+      "BMR",
+      "VO2max",
+      "functional",
+      "HIIT",
+      "CrossFit",
+      "yoga",
+      "pilates"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Padma, owner of Zen Yoga Studio. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Hi Padma\nLanguage: Mostly English; a little Hindi is fine.\nWhy now: merchant wants a plan for: kids yoga summer camp (their last message: \"Hi I want to add a kids yoga program — what should it look like?\")\nSupporting facts (use only these):\n- earlier in this chat Vera said (a suggestion, not something they have approved): \"Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?\"\n- active offers: First Month @ ₹499; Free Body Composition Analysis\n- 95 active members\nAngle: they already said yes: answer 'what would it look like' with a concrete, editable outline in the message itself. Build it on what Vera suggested earlier in the chat when there is one (it's a suggestion, not something they approved, so call prices 'proposed'), plus the listed facts; add structure, timings or ordering steps that fit the idea; use listed offers only if they fit. Never invent facts: no statistics, percentages, named customers, offices or buildings; end by offering the next deliverable; no qualifying questions. Levers: effort externalization, single binary commitment.\nAsk, one only, as the last sentence (yes/no): Want me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?\nFormat: an editable outline: greeting and one short line of context, then 2-4 short lines starting with '- ', then the ask.\nRules:\n- Voice: energetic disciplined, coach to member.\n- Category words you can use (vocabulary only, not facts about this business): footfall, membership churn, PT sessions, PR (personal record), 1RM, EMOM.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- Numbers may only come from: 3, 4, 7, 10, 12, 95, 499, 2499.\n- Never use: guaranteed weight loss, shred in 7 days, miracle transformation, fastest results.",
+  "phase2_plain_message": {
+    "body": "Hi Padma, here's a first cut of your kids yoga summer camp plan. As suggested earlier: 4-week program, 3 classes/week, age 7-12, ₹2,499. Your First Month @ ₹499 and Free Body Composition Analysis offers are live. Want me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+    "rationale": "Active planning intent: merchant wants a plan for: kids yoga summer camp (their last message: \"Hi I want to add a kids yoga program — what should it look like?\"). Backed by earlier in this chat Vera said (a suggestion, not something they have approved): \"Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?\"; active offers: First Month @ ₹499; Free Body Composition Analysis. Angle: they already said yes: answer 'what would it look like' with a concrete, editable outline in the message itself. Build it on what Vera suggested earlier in the chat when there is one (it's a suggestion, not something they approved, so call prices 'proposed'), plus the listed facts; add structure, timings or ordering steps that fit the idea; use listed offers only if they fit. Never invent facts: no statistics, percentages, named customers, offices or buildings; end by offering the next deliverable; no qualifying questions; one yes/no ask.",
+    "template_name": "vera_active_planning_intent_v1",
+    "template_params": [
+      "Hi Padma",
+      "Here's a first cut of your kids yoga summer camp plan.",
+      "As suggested earlier: 4-week program, 3 classes/week, age 7-12, ₹2,499. Your First Month @ ₹499 and Free Body Composition Analysis offers are live.",
+      "Want me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?"
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Hi Padma, kids yoga summer camp ke liye yeh editable plan ready hai:\n- Proposed 4-week program, 3 classes/week, for ages 7-12\n- Each class: warm-up, yoga practice, mindful activity and cool-down\n- Proposed fee: ₹2,499; live offers can support the studio: First Month @ ₹499 and Free Body Composition Analysis\nWant me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+    "rationale": "The message answers what the program would look like with a concrete, editable structure and clearly labels the earlier fee as proposed. It uses the active offers as supporting context and ends with the requested single yes/no commitment.",
+    "template_name": "vera_active_planning_intent_v1",
+    "template_params": [
+      "Hi Padma",
+      "Hi Padma, kids yoga summer camp ke liye yeh editable plan ready hai:\n- Proposed 4-week program, 3 classes/week, for ages 7-12\n- Each class: warm-up, yoga practice, mindful activity and cool-down\n- Proposed fee: ₹2,499; live offers can support the studio: First Month @ ₹499 and Free Body Composition Analysis\nWant me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?",
+      "",
+      ""
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Hi Padma, kids yoga summer camp ke liye yeh editable plan ready hai:\n- Proposed 4-week program, 3 classes/week, for ages 7-12\n- Each class: warm-up, yoga practice, mindful activity and cool-down\n- Proposed fee: ₹2,499; live offers can support the studio: First Month @ ₹499 and Free Body Composition Analysis\nWant me to turn this into a Google post and a WhatsApp you can share, ready in 10 min?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+    "rationale": "The message answers what the program would look like with a concrete, editable structure and clearly labels the earlier fee as proposed. It uses the active offers as supporting context and ends with the requested single yes/no commitment.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "5% overlap with case study 1",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted mostly English, looks en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "4% overlap with case study 1",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted mostly English, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}

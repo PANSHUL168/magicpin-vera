@@ -1,0 +1,1592 @@
+{
+  "pair": {
+    "test_id": "T06",
+    "trigger_id": "trg_022_cde_webinar_dentists",
+    "merchant_id": "m_001_drmeera_dentist_delhi",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_022_cde_webinar_dentists",
+      "scope": "merchant",
+      "kind": "cde_opportunity",
+      "source": "external",
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "customer_id": null,
+      "payload": {
+        "digest_item_id": "d_2026W17_ida_webinar",
+        "credits": 2,
+        "fee": "free_for_members"
+      },
+      "urgency": 1,
+      "suppression_key": "cde:dentists:2026-05-02",
+      "expires_at": "2026-05-02T19:00:00+05:30"
+    },
+    "merchant": {
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Dr. Meera's Dental Clinic",
+        "city": "Delhi",
+        "locality": "Lajpat Nagar",
+        "place_id": "ChIJ_LAJPATNAGAR_DENTIST_001",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi"
+        ],
+        "owner_first_name": "Meera",
+        "established_year": 2018
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 82,
+        "renewed_at": "2026-02-04"
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 2410,
+        "calls": 18,
+        "directions": 45,
+        "ctr": 0.021,
+        "leads": 9,
+        "delta_7d": {
+          "views_pct": 0.18,
+          "calls_pct": -0.05,
+          "ctr_pct": 0.02
+        }
+      },
+      "offers": [
+        {
+          "id": "o_meera_001",
+          "title": "Dental Cleaning @ ₹299",
+          "status": "active",
+          "started": "2026-03-01"
+        },
+        {
+          "id": "o_meera_002",
+          "title": "Deep Cleaning @ ₹499",
+          "status": "expired",
+          "ended": "2026-02-28"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-24T10:12:00Z",
+          "from": "vera",
+          "body": "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?",
+          "engagement": "merchant_replied"
+        },
+        {
+          "ts": "2026-04-24T10:18:00Z",
+          "from": "merchant",
+          "body": "Yes please, focus on whitening and aligners",
+          "engagement": "intent_action"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 540,
+        "lapsed_180d_plus": 78,
+        "retention_6mo_pct": 0.38,
+        "high_risk_adult_count": 124
+      },
+      "signals": [
+        "stale_posts:22d",
+        "ctr_below_peer_median",
+        "high_risk_adult_cohort",
+        "engaged_in_last_48h"
+      ],
+      "review_themes": [
+        {
+          "theme": "wait_time",
+          "sentiment": "neg",
+          "occurrences_30d": 3,
+          "common_quote": "had to wait 30 min on Sunday afternoon"
+        },
+        {
+          "theme": "doctor_manner",
+          "sentiment": "pos",
+          "occurrences_30d": 5,
+          "common_quote": "Dr. Meera explains everything patiently"
+        }
+      ]
+    },
+    "category": {
+      "slug": "dentists",
+      "display_name": "Dentists",
+      "voice": {
+        "tone": "peer_clinical",
+        "register": "respectful_collegial",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "fluoride varnish",
+          "scaling",
+          "caries",
+          "occlusion",
+          "bruxism",
+          "endodontic",
+          "periodontal",
+          "implant",
+          "aligner",
+          "veneer",
+          "OPG",
+          "IOPA",
+          "RCT",
+          "CAD/CAM",
+          "zirconia",
+          "PFM"
+        ],
+        "vocab_taboo": [
+          "guaranteed",
+          "100% safe",
+          "completely cure",
+          "miracle",
+          "best in city",
+          "doctor approved",
+          "FDA-approved (use only when actually applicable)"
+        ],
+        "salutation_examples": [
+          "Dr. {first_name}",
+          "Doc"
+        ],
+        "tone_examples": [
+          "Worth a look — JIDA Oct 2026 p.14",
+          "This one likely affects your high-risk adult cohort",
+          "If your case-mix is mostly cosmetic, may not be relevant"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "den_001",
+          "title": "Dental Cleaning @ ₹299",
+          "value": "299",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_002",
+          "title": "Free Consultation",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_003",
+          "title": "Teeth Whitening @ ₹1,499",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_004",
+          "title": "Root Canal @ ₹2,999 (single rooted)",
+          "value": "2999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_005",
+          "title": "Free Smile Analysis + Digital Scan",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_006",
+          "title": "Aligner Consultation @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_007",
+          "title": "Pediatric Dental Checkup @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_008",
+          "title": "Annual Family Dental Plan @ ₹4,999",
+          "value": "4999",
+          "audience": "repeat_user",
+          "type": "membership"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_solo_practices_2026",
+        "avg_rating": 4.4,
+        "avg_review_count": 62,
+        "avg_views_30d": 1820,
+        "avg_calls_30d": 12,
+        "avg_directions_30d": 38,
+        "avg_ctr": 0.03,
+        "avg_photos": 9,
+        "avg_post_freq_days": 14,
+        "retention_6mo_pct": 0.42
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_jida_fluoride",
+          "kind": "research",
+          "title": "3-month fluoride varnish recall outperforms 6-month for high-risk adult caries",
+          "source": "JIDA Oct 2026, p.14",
+          "trial_n": 2100,
+          "patient_segment": "high_risk_adults",
+          "summary": "Multi-center Indian trial shows 38% lower caries recurrence with 3-month vs 6-month recall in adults with active decay history. No effect in low-risk patients.",
+          "actionable": "Reassess recall interval for adults flagged high-risk in your charting"
+        },
+        {
+          "id": "d_2026W17_dci_radiograph",
+          "kind": "compliance",
+          "title": "DCI revised radiograph dose limits effective 2026-12-15",
+          "source": "Dental Council of India circular 2026-11-04",
+          "summary": "Maximum dose per IOPA exposure drops from 1.5 mSv to 1.0 mSv. E-speed film passes at the new limit; D-speed does not. Digital RVG sensors unaffected.",
+          "actionable": "Audit your X-ray setup before Dec 15; document E-speed or RVG in your SOPs"
+        },
+        {
+          "id": "d_2026W17_ida_webinar",
+          "kind": "cde",
+          "title": "IDA Delhi: Digital impressions — 2026 state of the art",
+          "source": "IDA Delhi chapter calendar",
+          "date": "2026-05-02T19:00:00+05:30",
+          "credits": 2,
+          "summary": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+          "actionable": "Free for IDA members; ₹500 for non-members"
+        },
+        {
+          "id": "d_2026W17_aligner_trend",
+          "kind": "trend",
+          "title": "Clear aligner consultations searches +62% YoY in metros",
+          "source": "Practo + Google Trends, Apr 2026",
+          "summary": "'Clear aligners near me' query growth concentrated in 28-45 age band; female-skewed. Pricing pressure as DIY aligner brands hit the market.",
+          "actionable": "Position your supervised-aligner offer against DIY in your GBP description"
+        },
+        {
+          "id": "d_2026W17_e_max_press",
+          "kind": "tech",
+          "title": "Dentsply launches IPS e.max Press for zirconia crowns in India at ₹3,200/unit (Delhi labs)",
+          "source": "Dentsply India launch note 2026-04-18",
+          "summary": "Better aesthetic, similar fracture resistance to standard zirconia. Two Delhi labs (Dental Direkt, Siam Dental) confirmed stocking. Shared-lease scanner deals available.",
+          "actionable": "Worth comparing if crown work is >15% of monthly revenue"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_oral_heart",
+          "title": "3 things your teeth tell you about your heart",
+          "channel": "whatsapp",
+          "length_seconds": 90,
+          "body": "Periodontal disease shares inflammation pathways with cardiovascular disease. Bleeding gums, persistent bad breath, and loose teeth in middle age are early signals. A 2024 meta-analysis of 18 studies found periodontal patients had 22% higher CVD events. The simplest action: scaling every 6 months reduces both gum and inflammation markers."
+        },
+        {
+          "id": "pc_kid_brushing",
+          "title": "Why your child resists brushing — and what to try this week",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Most resistance under age 7 is sensory, not behavioural. Try: (1) a softer brush than you think necessary, (2) brushing in front of a mirror so they see what's happening, (3) two minutes of music as the timer. If resistance persists past 4 weeks, it's worth a pediatric dental consult."
+        },
+        {
+          "id": "pc_aligner_vs_braces",
+          "title": "Aligners or braces? What I tell my patients in their 30s",
+          "channel": "whatsapp",
+          "length_seconds": 75,
+          "body": "Aligners work for ~70% of cases — mild-to-moderate crowding, spacing, and minor rotations. Braces still win for severe rotations, deep bites, and skeletal corrections. The tell: if you can't keep aligners on for 22 hours/day, braces are the safer choice."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Nov-Feb",
+          "note": "exam-stress bruxism spike — ortho consults rise 30% in 18-24 cohort"
+        },
+        {
+          "month_range": "Oct-Dec",
+          "note": "wedding whitening peak — bookings 2x baseline; ladies' segment dominant"
+        },
+        {
+          "month_range": "Jan",
+          "note": "new-year resolution surge — annual check-up bookings +40%"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "school holiday window — pediatric appointments +50%"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "clear aligners delhi",
+          "delta_yoy": 0.62,
+          "segment_age": "28-45",
+          "skew": "female"
+        },
+        {
+          "query": "teeth whitening price",
+          "delta_yoy": 0.41,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "dental implants near me",
+          "delta_yoy": 0.18,
+          "segment_age": "45-65",
+          "skew": "male"
+        },
+        {
+          "query": "kids first dental visit",
+          "delta_yoy": 0.27,
+          "segment_age": "parents_25-40",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "Dental Council of India (DCI)",
+        "Indian Dental Association (IDA)"
+      ],
+      "professional_journals": [
+        "JIDA",
+        "Indian Journal of Dental Research",
+        "Dental Tribune India"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_022_cde_webinar_dentists",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_022_cde_webinar_dentists",
+      "scope": "merchant",
+      "kind": "cde_opportunity",
+      "source": "external",
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "customer_id": null,
+      "payload": {
+        "digest_item_id": "d_2026W17_ida_webinar",
+        "credits": 2,
+        "fee": "free_for_members"
+      },
+      "urgency": 1,
+      "suppression_key": "cde:dentists:2026-05-02",
+      "expires_at": "2026-05-02T19:00:00+05:30"
+    },
+    "payload_display": {
+      "digest_item_id": "d_2026W17_ida_webinar",
+      "credits": "2",
+      "fee": "free for members"
+    },
+    "merchant": {
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Dr. Meera's Dental Clinic",
+        "city": "Delhi",
+        "locality": "Lajpat Nagar",
+        "place_id": "ChIJ_LAJPATNAGAR_DENTIST_001",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi"
+        ],
+        "owner_first_name": "Meera",
+        "established_year": 2018
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 82,
+        "renewed_at": "2026-02-04"
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 2410,
+        "calls": 18,
+        "directions": 45,
+        "ctr": 0.021,
+        "leads": 9,
+        "delta_7d": {
+          "views_pct": 0.18,
+          "calls_pct": -0.05,
+          "ctr_pct": 0.02
+        }
+      },
+      "offers": [
+        {
+          "id": "o_meera_001",
+          "title": "Dental Cleaning @ ₹299",
+          "status": "active",
+          "started": "2026-03-01"
+        },
+        {
+          "id": "o_meera_002",
+          "title": "Deep Cleaning @ ₹499",
+          "status": "expired",
+          "ended": "2026-02-28"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-24T10:12:00Z",
+          "from": "vera",
+          "body": "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?",
+          "engagement": "merchant_replied"
+        },
+        {
+          "ts": "2026-04-24T10:18:00Z",
+          "from": "merchant",
+          "body": "Yes please, focus on whitening and aligners",
+          "engagement": "intent_action"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 540,
+        "lapsed_180d_plus": 78,
+        "retention_6mo_pct": 0.38,
+        "high_risk_adult_count": 124
+      },
+      "signals": [
+        "stale_posts:22d",
+        "ctr_below_peer_median",
+        "high_risk_adult_cohort",
+        "engaged_in_last_48h"
+      ],
+      "review_themes": [
+        {
+          "theme": "wait_time",
+          "sentiment": "neg",
+          "occurrences_30d": 3,
+          "common_quote": "had to wait 30 min on Sunday afternoon"
+        },
+        {
+          "theme": "doctor_manner",
+          "sentiment": "pos",
+          "occurrences_30d": 5,
+          "common_quote": "Dr. Meera explains everything patiently"
+        }
+      ]
+    },
+    "category": {
+      "slug": "dentists",
+      "display_name": "Dentists",
+      "voice": {
+        "tone": "peer_clinical",
+        "register": "respectful_collegial",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "fluoride varnish",
+          "scaling",
+          "caries",
+          "occlusion",
+          "bruxism",
+          "endodontic",
+          "periodontal",
+          "implant",
+          "aligner",
+          "veneer",
+          "OPG",
+          "IOPA",
+          "RCT",
+          "CAD/CAM",
+          "zirconia",
+          "PFM"
+        ],
+        "vocab_taboo": [
+          "guaranteed",
+          "100% safe",
+          "completely cure",
+          "miracle",
+          "best in city",
+          "doctor approved",
+          "FDA-approved (use only when actually applicable)"
+        ],
+        "salutation_examples": [
+          "Dr. {first_name}",
+          "Doc"
+        ],
+        "tone_examples": [
+          "Worth a look — JIDA Oct 2026 p.14",
+          "This one likely affects your high-risk adult cohort",
+          "If your case-mix is mostly cosmetic, may not be relevant"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "den_001",
+          "title": "Dental Cleaning @ ₹299",
+          "value": "299",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_002",
+          "title": "Free Consultation",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_003",
+          "title": "Teeth Whitening @ ₹1,499",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_004",
+          "title": "Root Canal @ ₹2,999 (single rooted)",
+          "value": "2999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_005",
+          "title": "Free Smile Analysis + Digital Scan",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_006",
+          "title": "Aligner Consultation @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_007",
+          "title": "Pediatric Dental Checkup @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_008",
+          "title": "Annual Family Dental Plan @ ₹4,999",
+          "value": "4999",
+          "audience": "repeat_user",
+          "type": "membership"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_solo_practices_2026",
+        "avg_rating": 4.4,
+        "avg_review_count": 62,
+        "avg_views_30d": 1820,
+        "avg_calls_30d": 12,
+        "avg_directions_30d": 38,
+        "avg_ctr": 0.03,
+        "avg_photos": 9,
+        "avg_post_freq_days": 14,
+        "retention_6mo_pct": 0.42
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_jida_fluoride",
+          "kind": "research",
+          "title": "3-month fluoride varnish recall outperforms 6-month for high-risk adult caries",
+          "source": "JIDA Oct 2026, p.14",
+          "trial_n": 2100,
+          "patient_segment": "high_risk_adults",
+          "summary": "Multi-center Indian trial shows 38% lower caries recurrence with 3-month vs 6-month recall in adults with active decay history. No effect in low-risk patients.",
+          "actionable": "Reassess recall interval for adults flagged high-risk in your charting"
+        },
+        {
+          "id": "d_2026W17_dci_radiograph",
+          "kind": "compliance",
+          "title": "DCI revised radiograph dose limits effective 2026-12-15",
+          "source": "Dental Council of India circular 2026-11-04",
+          "summary": "Maximum dose per IOPA exposure drops from 1.5 mSv to 1.0 mSv. E-speed film passes at the new limit; D-speed does not. Digital RVG sensors unaffected.",
+          "actionable": "Audit your X-ray setup before Dec 15; document E-speed or RVG in your SOPs"
+        },
+        {
+          "id": "d_2026W17_ida_webinar",
+          "kind": "cde",
+          "title": "IDA Delhi: Digital impressions — 2026 state of the art",
+          "source": "IDA Delhi chapter calendar",
+          "date": "2026-05-02T19:00:00+05:30",
+          "credits": 2,
+          "summary": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+          "actionable": "Free for IDA members; ₹500 for non-members"
+        },
+        {
+          "id": "d_2026W17_aligner_trend",
+          "kind": "trend",
+          "title": "Clear aligner consultations searches +62% YoY in metros",
+          "source": "Practo + Google Trends, Apr 2026",
+          "summary": "'Clear aligners near me' query growth concentrated in 28-45 age band; female-skewed. Pricing pressure as DIY aligner brands hit the market.",
+          "actionable": "Position your supervised-aligner offer against DIY in your GBP description"
+        },
+        {
+          "id": "d_2026W17_e_max_press",
+          "kind": "tech",
+          "title": "Dentsply launches IPS e.max Press for zirconia crowns in India at ₹3,200/unit (Delhi labs)",
+          "source": "Dentsply India launch note 2026-04-18",
+          "summary": "Better aesthetic, similar fracture resistance to standard zirconia. Two Delhi labs (Dental Direkt, Siam Dental) confirmed stocking. Shared-lease scanner deals available.",
+          "actionable": "Worth comparing if crown work is >15% of monthly revenue"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_oral_heart",
+          "title": "3 things your teeth tell you about your heart",
+          "channel": "whatsapp",
+          "length_seconds": 90,
+          "body": "Periodontal disease shares inflammation pathways with cardiovascular disease. Bleeding gums, persistent bad breath, and loose teeth in middle age are early signals. A 2024 meta-analysis of 18 studies found periodontal patients had 22% higher CVD events. The simplest action: scaling every 6 months reduces both gum and inflammation markers."
+        },
+        {
+          "id": "pc_kid_brushing",
+          "title": "Why your child resists brushing — and what to try this week",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Most resistance under age 7 is sensory, not behavioural. Try: (1) a softer brush than you think necessary, (2) brushing in front of a mirror so they see what's happening, (3) two minutes of music as the timer. If resistance persists past 4 weeks, it's worth a pediatric dental consult."
+        },
+        {
+          "id": "pc_aligner_vs_braces",
+          "title": "Aligners or braces? What I tell my patients in their 30s",
+          "channel": "whatsapp",
+          "length_seconds": 75,
+          "body": "Aligners work for ~70% of cases — mild-to-moderate crowding, spacing, and minor rotations. Braces still win for severe rotations, deep bites, and skeletal corrections. The tell: if you can't keep aligners on for 22 hours/day, braces are the safer choice."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Nov-Feb",
+          "note": "exam-stress bruxism spike — ortho consults rise 30% in 18-24 cohort"
+        },
+        {
+          "month_range": "Oct-Dec",
+          "note": "wedding whitening peak — bookings 2x baseline; ladies' segment dominant"
+        },
+        {
+          "month_range": "Jan",
+          "note": "new-year resolution surge — annual check-up bookings +40%"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "school holiday window — pediatric appointments +50%"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "clear aligners delhi",
+          "delta_yoy": 0.62,
+          "segment_age": "28-45",
+          "skew": "female"
+        },
+        {
+          "query": "teeth whitening price",
+          "delta_yoy": 0.41,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "dental implants near me",
+          "delta_yoy": 0.18,
+          "segment_age": "45-65",
+          "skew": "male"
+        },
+        {
+          "query": "kids first dental visit",
+          "delta_yoy": 0.27,
+          "segment_age": "parents_25-40",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "Dental Council of India (DCI)",
+        "Indian Dental Association (IDA)"
+      ],
+      "professional_journals": [
+        "JIDA",
+        "Indian Journal of Dental Research",
+        "Dental Tribune India"
+      ]
+    },
+    "customer": null,
+    "digest_items": [
+      {
+        "id": "d_2026W17_ida_webinar",
+        "ref_key": "digest_item_id",
+        "category": "dentists",
+        "fresh": false,
+        "item": {
+          "id": "d_2026W17_ida_webinar",
+          "kind": "cde",
+          "title": "IDA Delhi: Digital impressions — 2026 state of the art",
+          "source": "IDA Delhi chapter calendar",
+          "date": "2026-05-02T19:00:00+05:30",
+          "credits": 2,
+          "summary": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+          "actionable": "Free for IDA members; ₹500 for non-members"
+        }
+      }
+    ],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "Dr. Meera's Dental Clinic",
+        "display": "Dr. Meera's Dental Clinic",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Meera",
+          "honorific": null
+        },
+        "display": "Meera",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Lajpat Nagar",
+          "city": "Delhi"
+        },
+        "display": "Lajpat Nagar, Delhi",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": true,
+        "display": "Google profile is verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2018,
+        "display": "in business since 2018",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 2410,
+        "display": "2,410 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 18,
+        "display": "18 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 45,
+        "display": "45 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 9,
+        "display": "9 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.021,
+        "display": "2.1% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": 0.18,
+        "display": "views +18% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": -0.05,
+        "display": "calls -5% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_change_7d",
+        "group": "performance",
+        "value": 0.02,
+        "display": "CTR +2% over the last 7 days",
+        "source": "merchant.performance.delta_7d.ctr_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.021,
+          "peer": 0.03,
+          "ratio": 0.7,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "CTR 2.1% vs 3.0% peer average, 30% below peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 2410,
+          "peer": 1820,
+          "ratio": 1.324,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Profile views 2,410 vs 1,820 peer average, 32% above peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 18,
+          "peer": 12,
+          "ratio": 1.5,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Calls 18 vs 12 peer average, 50% above peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 45,
+          "peer": 38,
+          "ratio": 1.184,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 45 vs 38 peer average, 18% above peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_unique_ytd",
+        "group": "customers",
+        "value": 540,
+        "display": "540 unique patients this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd"
+      },
+      {
+        "key": "lapsed_180d_plus",
+        "group": "customers",
+        "value": 78,
+        "display": "78 patients not seen in 180+ days",
+        "source": "merchant.customer_aggregate.lapsed_180d_plus"
+      },
+      {
+        "key": "retention_6mo_pct",
+        "group": "customers",
+        "value": 0.38,
+        "display": "6-month retention 38%",
+        "source": "merchant.customer_aggregate.retention_6mo_pct"
+      },
+      {
+        "key": "retention_6mo_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.38,
+          "peer": 0.42,
+          "ratio": 0.905,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "6-month retention 38% vs 42% peer average, 4 points below peers",
+        "source": "merchant.customer_aggregate.retention_6mo_pct vs category.peer_stats.retention_6mo_pct"
+      },
+      {
+        "key": "high_risk_adult_count",
+        "group": "customers",
+        "value": 124,
+        "display": "124 high-risk adult patients",
+        "source": "merchant.customer_aggregate.high_risk_adult_count"
+      },
+      {
+        "key": "active_offers",
+        "group": "offers",
+        "value": [
+          "Dental Cleaning @ ₹299"
+        ],
+        "display": "active offers: Dental Cleaning @ ₹299",
+        "source": "merchant.offers (status=active)"
+      },
+      {
+        "key": "past_offers",
+        "group": "offers",
+        "value": [
+          "Deep Cleaning @ ₹499"
+        ],
+        "display": "past offers: Deep Cleaning @ ₹499 (expired, ended 28 Feb 2026)",
+        "source": "merchant.offers (status!=active)"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Teeth Whitening @ ₹1,499",
+          "Root Canal @ ₹2,999 (single rooted)",
+          "Aligner Consultation @ ₹499",
+          "Pediatric Dental Checkup @ ₹199",
+          "Free Consultation",
+          "Free Smile Analysis + Digital Scan",
+          "Annual Family Dental Plan @ ₹4,999"
+        ],
+        "display": "category offers this merchant hasn't run: Teeth Whitening @ ₹1,499; Root Canal @ ₹2,999 (single rooted); Aligner Consultation @ ₹499; Pediatric Dental Checkup @ ₹199; Free Consultation",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "active",
+          "plan": "Pro",
+          "days_remaining": 82,
+          "renewed_at": "2026-02-04"
+        },
+        "display": "Pro plan active, 82 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "review_theme_wait_time",
+        "group": "reviews",
+        "value": {
+          "theme": "wait_time",
+          "sentiment": "neg",
+          "occurrences_30d": 3,
+          "common_quote": "had to wait 30 min on Sunday afternoon"
+        },
+        "display": "3 reviews in the last 30 days mention wait times (negative): \"had to wait 30 min on Sunday afternoon\"",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "review_theme_doctor_manner",
+        "group": "reviews",
+        "value": {
+          "theme": "doctor_manner",
+          "sentiment": "pos",
+          "occurrences_30d": 5,
+          "common_quote": "Dr. Meera explains everything patiently"
+        },
+        "display": "5 reviews in the last 30 days mention the doctor's manner (positive): \"Dr. Meera explains everything patiently\"",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "signal_stale_posts",
+        "group": "signals",
+        "value": {
+          "raw": "stale_posts:22d",
+          "name": "stale_posts",
+          "value": 22,
+          "unit": "d"
+        },
+        "display": "last Google post was 22 days ago",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_ctr_below_peer_median",
+        "group": "signals",
+        "value": {
+          "raw": "ctr_below_peer_median",
+          "name": "ctr_below_peer_median",
+          "value": null,
+          "unit": null
+        },
+        "display": "CTR below the peer benchmark",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_high_risk_adult_cohort",
+        "group": "signals",
+        "value": {
+          "raw": "high_risk_adult_cohort",
+          "name": "high_risk_adult_cohort",
+          "value": null,
+          "unit": null
+        },
+        "display": "sizeable high-risk adult patient group",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_engaged_in_last",
+        "group": "signals",
+        "value": {
+          "raw": "engaged_in_last_48h",
+          "name": "engaged_in_last",
+          "value": 48,
+          "unit": "h"
+        },
+        "display": "engaged with Vera in the last 48 hours",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_solo_practices_2026",
+        "display": "peer group: metro solo practices 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.4,
+        "display": "peers average a 4.4★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 62,
+        "display": "peers average 62 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 14,
+        "display": "peers post on Google every 14 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 9,
+        "display": "peers have 9 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_apr_jun",
+        "group": "season",
+        "value": {
+          "month_range": "Apr-Jun",
+          "note": "school holiday window — pediatric appointments +50%"
+        },
+        "display": "Apr-Jun: school holiday window — pediatric appointments +50%",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_clear_aligners_delhi",
+        "group": "trends",
+        "value": {
+          "query": "clear aligners delhi",
+          "delta_yoy": 0.62,
+          "segment_age": "28-45",
+          "skew": "female",
+          "local": true
+        },
+        "display": "\"clear aligners delhi\" searches +62% year-on-year (age 28-45, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_teeth_whitening_price",
+        "group": "trends",
+        "value": {
+          "query": "teeth whitening price",
+          "delta_yoy": 0.41,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"teeth whitening price\" searches +41% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_dental_implants_near_me",
+        "group": "trends",
+        "value": {
+          "query": "dental implants near me",
+          "delta_yoy": 0.18,
+          "segment_age": "45-65",
+          "skew": "male",
+          "local": false
+        },
+        "display": "\"dental implants near me\" searches +18% year-on-year (age 45-65, skews male)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_kids_first_dental_visit",
+        "group": "trends",
+        "value": {
+          "query": "kids first dental visit",
+          "delta_yoy": 0.27,
+          "segment_age": "parents_25-40",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"kids first dental visit\" searches +27% year-on-year (parents 25-40, skews female)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 2,
+      "last_vera_message": {
+        "ts": "2026-04-24T10:12:00Z",
+        "body": "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?",
+        "engagement": "merchant_replied",
+        "hours_ago": 48.3,
+        "origin": "context"
+      },
+      "last_merchant_message": {
+        "ts": "2026-04-24T10:18:00Z",
+        "body": "Yes please, focus on whitening and aligners",
+        "engagement": "intent_action",
+        "hours_ago": 48.2,
+        "origin": "context",
+        "language": "en"
+      },
+      "open_requests": [
+        {
+          "ts": "2026-04-24T10:18:00Z",
+          "message": "Yes please, focus on whitening and aligners",
+          "engagement": "intent_action",
+          "in_reply_to": "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?"
+        }
+      ],
+      "unanswered_streak": 0,
+      "session_window_open": false,
+      "recent_vera_bodies": [
+        "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?"
+      ],
+      "engagement_tags": [
+        "intent_action",
+        "merchant_replied"
+      ]
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "patients",
+      "category_code_mix": "hindi english natural",
+      "greeting": "Dr. Meera",
+      "address_as": "Dr. Meera",
+      "first_name": "Meera",
+      "honorific": null,
+      "template": "Dr. {first_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "rich",
+      "score": 5,
+      "max": 5,
+      "present": [
+        "offers",
+        "conversation_history",
+        "signals",
+        "review_themes",
+        "customer_aggregate"
+      ],
+      "missing": []
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [
+      "open_merchant_request"
+    ],
+    "warnings": [
+      "open_merchant_request: merchant is waiting on: Yes please, focus on whitening and aligners"
+    ],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_022_cde_webinar_dentists",
+    "kind": "cde_opportunity",
+    "family": "news",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_001_drmeera_dentist_delhi",
+    "customer_id": null,
+    "recipient_id": "m_001_drmeera_dentist_delhi",
+    "sender_name": "Dr. Meera's Dental Clinic",
+    "greeting": "Dr. Meera",
+    "address_as": "Dr. Meera",
+    "language": {
+      "style": "hi-en",
+      "instruction": "Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.",
+      "hinglish": true
+    },
+    "lead": {
+      "text": "IDA Delhi: Digital impressions — 2026 state of the art (Sat 2 May, 7pm; 2 CDE credits; free for members)",
+      "source": "category.digest[d_2026W17_ida_webinar]",
+      "key": "digest:d_2026W17_ida_webinar",
+      "phrase": "IDA Delhi: Digital impressions — 2026 state of the art, Sat 2 May, 7pm, 2 CDE credits, free for members",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices",
+        "source": "category.digest[d_2026W17_ida_webinar].summary",
+        "key": "digest:d_2026W17_ida_webinar:summary",
+        "phrase": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices",
+        "phrase_hi": ""
+      },
+      {
+        "text": "Free for IDA members; ₹500 for non-members",
+        "source": "category.digest[d_2026W17_ida_webinar].actionable",
+        "key": "digest:d_2026W17_ida_webinar:actionable",
+        "phrase": "the practical takeaway: free for IDA members; ₹500 for non-members",
+        "phrase_hi": ""
+      }
+    ],
+    "angle": "a useful, low-effort professional opportunity",
+    "levers": [
+      "specificity",
+      "curiosity"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Want me to send you the registration details?",
+      "text_hi": "Kya main registration details bhej doon?",
+      "intent": "yes/no: Want me to send you the registration details?"
+    },
+    "template": {
+      "required": true,
+      "name": "vera_cde_opportunity_v1"
+    },
+    "instructions": [
+      "Voice: peer clinical, respectful collegial.",
+      "Category words you can use (vocabulary only, not facts about this business): fluoride varnish, scaling, caries, occlusion, bruxism, endodontic.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson."
+    ],
+    "avoid": [
+      "guaranteed",
+      "100% safe",
+      "completely cure",
+      "miracle",
+      "best in city",
+      "doctor approved",
+      "FDA-approved"
+    ],
+    "allowed_numbers": [
+      "2",
+      "5",
+      "7",
+      "500",
+      "2026"
+    ],
+    "suppression_key": "cde:dentists:2026-05-02",
+    "urgency": 1,
+    "flags": [
+      "open_merchant_request"
+    ],
+    "notes": [],
+    "render_support": 1,
+    "vocabulary": [
+      "fluoride varnish",
+      "scaling",
+      "caries",
+      "occlusion",
+      "bruxism",
+      "endodontic",
+      "periodontal",
+      "implant",
+      "aligner",
+      "veneer",
+      "OPG",
+      "IOPA",
+      "RCT",
+      "CAD/CAM",
+      "zirconia",
+      "PFM"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Dr. Meera, owner of Dr. Meera's Dental Clinic. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Dr. Meera\nLanguage: Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.\nWhy now: IDA Delhi: Digital impressions — 2026 state of the art (Sat 2 May, 7pm; 2 CDE credits; free for members)\nSupporting facts (use only these):\n- Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices\n- Free for IDA members; ₹500 for non-members\nAngle: a useful, low-effort professional opportunity. Levers: specificity, curiosity.\nAsk, one only, as the last sentence (yes/no): Kya main registration details bhej doon?\nFormat: first message in this chat window, so keep it template-shaped: greeting, 2-3 short sentences, then the ask.\nRules:\n- Voice: peer clinical, respectful collegial.\n- Category words you can use (vocabulary only, not facts about this business): fluoride varnish, scaling, caries, occlusion, bruxism, endodontic.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- Numbers may only come from: 2, 5, 7, 500, 2026.\n- Never use: guaranteed, 100% safe, completely cure, miracle, best in city, doctor approved, FDA-approved.",
+  "phase2_plain_message": {
+    "body": "Dr. Meera, IDA Delhi: Digital impressions — 2026 state of the art, Sat 2 May, 7pm, 2 CDE credits, free for members. Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices. Kya main registration details bhej doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "cde:dentists:2026-05-02",
+    "rationale": "CDE opportunity: IDA Delhi: Digital impressions — 2026 state of the art (Sat 2 May, 7pm; 2 CDE credits; free for members). Backed by Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices. Angle: a useful, low-effort professional opportunity; one yes/no ask. Hinglish where their language preference calls for it.",
+    "template_name": "vera_cde_opportunity_v1",
+    "template_params": [
+      "Dr. Meera",
+      "IDA Delhi: Digital impressions — 2026 state of the art, Sat 2 May, 7pm, 2 CDE credits, free for members.",
+      "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+      "Kya main registration details bhej doon?"
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Dr. Meera, IDA Delhi ka “Digital impressions — 2026 state of the art” session Sat 2 May, 7pm par hai, jisme 2 CDE credits milenge. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; members ke liye free hai, non-members ke liye ₹500. Kya main registration details bhej doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "cde:dentists:2026-05-02",
+    "rationale": "Anchors on the upcoming IDA Delhi session, its practical solo-practice focus, speaker, and clear member pricing. The message uses specificity and curiosity to frame it as a low-effort professional opportunity.",
+    "template_name": "vera_cde_opportunity_v1",
+    "template_params": [
+      "Dr. Meera",
+      "Dr.",
+      "Meera, IDA Delhi ka “Digital impressions — 2026 state of the art” session Sat 2 May, 7pm par hai, jisme 2 CDE credits milenge. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; members ke liye free hai, non-members ke liye ₹500.",
+      "Kya main registration details bhej doon?"
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Dr. Meera, IDA Delhi ka “Digital impressions — 2026 state of the art” session Sat 2 May, 7pm par hai, jisme 2 CDE credits milenge. Dr. R. Mehta Primescan 2, Trios 5 aur solo practices ke CAD/CAM workflow ROI par baat karenge; members ke liye free hai, non-members ke liye ₹500. Kya main registration details bhej doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "cde:dentists:2026-05-02",
+    "rationale": "Anchors on the upcoming IDA Delhi session, its practical solo-practice focus, speaker, and clear member pricing. The message uses specificity and curiosity to frame it as a low-effort professional opportunity.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": false,
+        "detail": "wanted Hinglish, looks en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}

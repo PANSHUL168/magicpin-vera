@@ -1,0 +1,1426 @@
+{
+  "pair": {
+    "test_id": "T16",
+    "trigger_id": "trg_025_dormancy_glamour",
+    "merchant_id": "m_004_glamour_salon_pune",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_025_dormancy_glamour",
+      "scope": "merchant",
+      "kind": "dormant_with_vera",
+      "source": "internal",
+      "merchant_id": "m_004_glamour_salon_pune",
+      "customer_id": null,
+      "payload": {
+        "days_since_last_merchant_message": 38,
+        "last_topic": "subscription_expiry"
+      },
+      "urgency": 2,
+      "suppression_key": "dormant:m_004:30d",
+      "expires_at": "2026-05-30T00:00:00Z"
+    },
+    "merchant": {
+      "merchant_id": "m_004_glamour_salon_pune",
+      "category_slug": "salons",
+      "identity": {
+        "name": "Glamour Lounge Spa & Salon",
+        "city": "Pune",
+        "locality": "Aundh",
+        "place_id": "ChIJ_AUNDH_SALON_004",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi",
+          "mr"
+        ],
+        "owner_first_name": "Anjali",
+        "established_year": 2021
+      },
+      "subscription": {
+        "status": "expired",
+        "plan": "Pro",
+        "days_since_expiry": 38
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 1200,
+        "calls": 8,
+        "directions": 22,
+        "ctr": 0.022,
+        "leads": 3,
+        "delta_7d": {
+          "views_pct": -0.12,
+          "calls_pct": -0.3,
+          "ctr_pct": -0.04
+        }
+      },
+      "offers": [],
+      "conversation_history": [
+        {
+          "ts": "2026-03-19T14:00:00Z",
+          "from": "vera",
+          "body": "Subscription expired. Profile maintenance paused...",
+          "engagement": "merchant_no_reply"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 380,
+        "lapsed_90d_plus": 180,
+        "retention_3mo_pct": 0.32
+      },
+      "signals": [
+        "winback_eligible",
+        "perf_dip_post_expiry",
+        "dormant_with_vera_38d"
+      ],
+      "review_themes": []
+    },
+    "category": {
+      "slug": "salons",
+      "display_name": "Salons & Beauty",
+      "voice": {
+        "tone": "warm_practical",
+        "register": "approachable_expert",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "balayage",
+          "highlights",
+          "keratin",
+          "smoothening",
+          "hair spa",
+          "manicure",
+          "pedicure",
+          "facial",
+          "threading",
+          "waxing",
+          "extensions",
+          "olaplex",
+          "wella",
+          "loreal",
+          "schwarzkopf",
+          "redken"
+        ],
+        "vocab_taboo": [
+          "guaranteed glow",
+          "permanent results",
+          "instant transformation",
+          "miracle",
+          "best in city"
+        ],
+        "salutation_examples": [
+          "Hi {first_name}",
+          "{salon_name} team"
+        ],
+        "tone_examples": [
+          "Bridal season is starting — bookings usually 2x normal in next 4 weeks",
+          "Quick one — your Saturday 5-7pm slot has been the strongest this month"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "sal_001",
+          "title": "Haircut @ ₹99",
+          "value": "99",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_002",
+          "title": "FREE head massage with Haircut",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "sal_003",
+          "title": "Hair Spa @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_004",
+          "title": "Threading + Waxing combo @ ₹299",
+          "value": "299",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_005",
+          "title": "Bridal Trial @ ₹999",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_006",
+          "title": "Keratin Treatment @ ₹2,499",
+          "value": "2499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_007",
+          "title": "Mani+Pedi Combo @ ₹599",
+          "value": "599",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_008",
+          "title": "Annual Membership: 12 services @ ₹4,999",
+          "value": "4999",
+          "audience": "repeat_user",
+          "type": "membership"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_unisex_salons_2026",
+        "avg_rating": 4.5,
+        "avg_review_count": 88,
+        "avg_views_30d": 2400,
+        "avg_calls_30d": 28,
+        "avg_directions_30d": 62,
+        "avg_ctr": 0.04,
+        "avg_photos": 14,
+        "avg_post_freq_days": 10,
+        "retention_3mo_pct": 0.55
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_olaplex_no9",
+          "kind": "tech",
+          "title": "Olaplex No.9 launches in India — bond protector for chemically-treated hair",
+          "source": "Hair Brand News India, Apr 2026",
+          "summary": "Pre-shampoo bond protector targeting damage from frequent colour and smoothening. Distributors confirmed in Delhi/Mumbai/Bangalore. Wholesale ₹3,200/bottle, retail ~₹4,500.",
+          "actionable": "Worth piloting if your colour client mix is >25%"
+        },
+        {
+          "id": "d_2026W17_keratin_alt",
+          "kind": "trend",
+          "title": "Formaldehyde-free smoothening alternatives gaining share — citric-acid based",
+          "source": "Salon India magazine, Apr 2026",
+          "summary": "Brazilian citric-acid keratin alternatives now widely available. Lower fume, comparable hold for ~6-8 weeks. Pricing roughly +15% over standard keratin.",
+          "actionable": "Position as 'safe smoothening' for pregnancy / asthma clients"
+        },
+        {
+          "id": "d_2026W17_bridal_season_start",
+          "kind": "seasonal",
+          "title": "Wedding season opener — first lean April-May window before main Oct-Dec rush",
+          "source": "Wedding industry intel",
+          "summary": "Mini-bridal window April-May (~15% of annual bridal volume) often missed by salons focused on Oct-Dec. Pre-wedding skincare + mehendi-prep services peak now.",
+          "actionable": "Run a 'Bridal Trial @ ₹999' offer; book 2-month skincare package"
+        },
+        {
+          "id": "d_2026W17_olaplex_training",
+          "kind": "cde",
+          "title": "L'Oreal Professionnel India training: Advanced Balayage Masterclass",
+          "source": "L'Oreal Pro India calendar",
+          "date": "2026-05-08",
+          "summary": "2-day in-person training in Mumbai. ₹15,000 fee. Targeted at stylists with 2+ years of colour experience.",
+          "actionable": "Worth subsidising for one stylist if balayage demand is rising in your locality"
+        },
+        {
+          "id": "d_2026W17_walkin_priority",
+          "kind": "trend",
+          "title": "'Walk-in available' tag on GBP boosting calls 23% in metros",
+          "source": "magicpin internal, Apr 2026",
+          "summary": "Salons that explicitly add 'walk-in available' to their GBP description see 23% higher call volume in the same locality vs salons without. Effect strongest weekday afternoons.",
+          "actionable": "Add the tag to your GBP description this week"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_keratin_safe",
+          "title": "Is keratin safe? What to ask before booking",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Old-school keratin uses formaldehyde — safe in trained hands but not for pregnancy or asthma. Citric-acid alternatives exist now with similar hold. Two questions to ask any salon: (1) what's your activator? (2) is the room ventilated? If you don't get a clear answer, look elsewhere."
+        },
+        {
+          "id": "pc_balayage_vs_highlights",
+          "title": "Balayage vs highlights — which actually suits you?",
+          "channel": "whatsapp",
+          "length_seconds": 75,
+          "body": "Highlights are uniform stripes; balayage is hand-painted, growing out softly with no visible regrowth line. Highlights cost less but need touch-ups every 8 weeks. Balayage holds 4-5 months. If you don't visit the salon often, balayage is the practical choice."
+        },
+        {
+          "id": "pc_post_color_care",
+          "title": "Post-colour care — first 72 hours matter most",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Three rules: no shampoo for 48h (let cuticle close), use sulphate-free shampoo from day 3, and avoid hot water washes for the first month. Skip these and you'll lose 30% of the colour vibrance in the first wash."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Oct-Dec",
+          "note": "primary wedding/festival season — bridal package bookings 4x baseline"
+        },
+        {
+          "month_range": "Apr-May",
+          "note": "secondary bridal window + summer hair-care surge"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon haircare focus (anti-frizz, scalp treatments)"
+        },
+        {
+          "month_range": "Mar",
+          "note": "Holi colour-recovery surge — book hair spas the week after"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "balayage near me",
+          "delta_yoy": 0.45,
+          "segment_age": "25-40",
+          "skew": "female"
+        },
+        {
+          "query": "keratin treatment price",
+          "delta_yoy": 0.18,
+          "segment_age": "25-45",
+          "skew": "female"
+        },
+        {
+          "query": "men's haircut delhi",
+          "delta_yoy": 0.22,
+          "segment_age": "20-35",
+          "skew": "male"
+        },
+        {
+          "query": "bridal makeup artist",
+          "delta_yoy": 0.31,
+          "segment_age": "22-32",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FDA India (cosmetic ingredient compliance)"
+      ],
+      "professional_journals": [
+        "Salon India",
+        "Pure Beauty India"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_025_dormancy_glamour",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_025_dormancy_glamour",
+      "scope": "merchant",
+      "kind": "dormant_with_vera",
+      "source": "internal",
+      "merchant_id": "m_004_glamour_salon_pune",
+      "customer_id": null,
+      "payload": {
+        "days_since_last_merchant_message": 38,
+        "last_topic": "subscription_expiry"
+      },
+      "urgency": 2,
+      "suppression_key": "dormant:m_004:30d",
+      "expires_at": "2026-05-30T00:00:00Z"
+    },
+    "payload_display": {
+      "days_since_last_merchant_message": "38",
+      "last_topic": "subscription expiry"
+    },
+    "merchant": {
+      "merchant_id": "m_004_glamour_salon_pune",
+      "category_slug": "salons",
+      "identity": {
+        "name": "Glamour Lounge Spa & Salon",
+        "city": "Pune",
+        "locality": "Aundh",
+        "place_id": "ChIJ_AUNDH_SALON_004",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi",
+          "mr"
+        ],
+        "owner_first_name": "Anjali",
+        "established_year": 2021
+      },
+      "subscription": {
+        "status": "expired",
+        "plan": "Pro",
+        "days_since_expiry": 38
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 1200,
+        "calls": 8,
+        "directions": 22,
+        "ctr": 0.022,
+        "leads": 3,
+        "delta_7d": {
+          "views_pct": -0.12,
+          "calls_pct": -0.3,
+          "ctr_pct": -0.04
+        }
+      },
+      "offers": [],
+      "conversation_history": [
+        {
+          "ts": "2026-03-19T14:00:00Z",
+          "from": "vera",
+          "body": "Subscription expired. Profile maintenance paused...",
+          "engagement": "merchant_no_reply"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 380,
+        "lapsed_90d_plus": 180,
+        "retention_3mo_pct": 0.32
+      },
+      "signals": [
+        "winback_eligible",
+        "perf_dip_post_expiry",
+        "dormant_with_vera_38d"
+      ],
+      "review_themes": []
+    },
+    "category": {
+      "slug": "salons",
+      "display_name": "Salons & Beauty",
+      "voice": {
+        "tone": "warm_practical",
+        "register": "approachable_expert",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "balayage",
+          "highlights",
+          "keratin",
+          "smoothening",
+          "hair spa",
+          "manicure",
+          "pedicure",
+          "facial",
+          "threading",
+          "waxing",
+          "extensions",
+          "olaplex",
+          "wella",
+          "loreal",
+          "schwarzkopf",
+          "redken"
+        ],
+        "vocab_taboo": [
+          "guaranteed glow",
+          "permanent results",
+          "instant transformation",
+          "miracle",
+          "best in city"
+        ],
+        "salutation_examples": [
+          "Hi {first_name}",
+          "{salon_name} team"
+        ],
+        "tone_examples": [
+          "Bridal season is starting — bookings usually 2x normal in next 4 weeks",
+          "Quick one — your Saturday 5-7pm slot has been the strongest this month"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "sal_001",
+          "title": "Haircut @ ₹99",
+          "value": "99",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_002",
+          "title": "FREE head massage with Haircut",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "sal_003",
+          "title": "Hair Spa @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_004",
+          "title": "Threading + Waxing combo @ ₹299",
+          "value": "299",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_005",
+          "title": "Bridal Trial @ ₹999",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_006",
+          "title": "Keratin Treatment @ ₹2,499",
+          "value": "2499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_007",
+          "title": "Mani+Pedi Combo @ ₹599",
+          "value": "599",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "sal_008",
+          "title": "Annual Membership: 12 services @ ₹4,999",
+          "value": "4999",
+          "audience": "repeat_user",
+          "type": "membership"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_unisex_salons_2026",
+        "avg_rating": 4.5,
+        "avg_review_count": 88,
+        "avg_views_30d": 2400,
+        "avg_calls_30d": 28,
+        "avg_directions_30d": 62,
+        "avg_ctr": 0.04,
+        "avg_photos": 14,
+        "avg_post_freq_days": 10,
+        "retention_3mo_pct": 0.55
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_olaplex_no9",
+          "kind": "tech",
+          "title": "Olaplex No.9 launches in India — bond protector for chemically-treated hair",
+          "source": "Hair Brand News India, Apr 2026",
+          "summary": "Pre-shampoo bond protector targeting damage from frequent colour and smoothening. Distributors confirmed in Delhi/Mumbai/Bangalore. Wholesale ₹3,200/bottle, retail ~₹4,500.",
+          "actionable": "Worth piloting if your colour client mix is >25%"
+        },
+        {
+          "id": "d_2026W17_keratin_alt",
+          "kind": "trend",
+          "title": "Formaldehyde-free smoothening alternatives gaining share — citric-acid based",
+          "source": "Salon India magazine, Apr 2026",
+          "summary": "Brazilian citric-acid keratin alternatives now widely available. Lower fume, comparable hold for ~6-8 weeks. Pricing roughly +15% over standard keratin.",
+          "actionable": "Position as 'safe smoothening' for pregnancy / asthma clients"
+        },
+        {
+          "id": "d_2026W17_bridal_season_start",
+          "kind": "seasonal",
+          "title": "Wedding season opener — first lean April-May window before main Oct-Dec rush",
+          "source": "Wedding industry intel",
+          "summary": "Mini-bridal window April-May (~15% of annual bridal volume) often missed by salons focused on Oct-Dec. Pre-wedding skincare + mehendi-prep services peak now.",
+          "actionable": "Run a 'Bridal Trial @ ₹999' offer; book 2-month skincare package"
+        },
+        {
+          "id": "d_2026W17_olaplex_training",
+          "kind": "cde",
+          "title": "L'Oreal Professionnel India training: Advanced Balayage Masterclass",
+          "source": "L'Oreal Pro India calendar",
+          "date": "2026-05-08",
+          "summary": "2-day in-person training in Mumbai. ₹15,000 fee. Targeted at stylists with 2+ years of colour experience.",
+          "actionable": "Worth subsidising for one stylist if balayage demand is rising in your locality"
+        },
+        {
+          "id": "d_2026W17_walkin_priority",
+          "kind": "trend",
+          "title": "'Walk-in available' tag on GBP boosting calls 23% in metros",
+          "source": "magicpin internal, Apr 2026",
+          "summary": "Salons that explicitly add 'walk-in available' to their GBP description see 23% higher call volume in the same locality vs salons without. Effect strongest weekday afternoons.",
+          "actionable": "Add the tag to your GBP description this week"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_keratin_safe",
+          "title": "Is keratin safe? What to ask before booking",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Old-school keratin uses formaldehyde — safe in trained hands but not for pregnancy or asthma. Citric-acid alternatives exist now with similar hold. Two questions to ask any salon: (1) what's your activator? (2) is the room ventilated? If you don't get a clear answer, look elsewhere."
+        },
+        {
+          "id": "pc_balayage_vs_highlights",
+          "title": "Balayage vs highlights — which actually suits you?",
+          "channel": "whatsapp",
+          "length_seconds": 75,
+          "body": "Highlights are uniform stripes; balayage is hand-painted, growing out softly with no visible regrowth line. Highlights cost less but need touch-ups every 8 weeks. Balayage holds 4-5 months. If you don't visit the salon often, balayage is the practical choice."
+        },
+        {
+          "id": "pc_post_color_care",
+          "title": "Post-colour care — first 72 hours matter most",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Three rules: no shampoo for 48h (let cuticle close), use sulphate-free shampoo from day 3, and avoid hot water washes for the first month. Skip these and you'll lose 30% of the colour vibrance in the first wash."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Oct-Dec",
+          "note": "primary wedding/festival season — bridal package bookings 4x baseline"
+        },
+        {
+          "month_range": "Apr-May",
+          "note": "secondary bridal window + summer hair-care surge"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon haircare focus (anti-frizz, scalp treatments)"
+        },
+        {
+          "month_range": "Mar",
+          "note": "Holi colour-recovery surge — book hair spas the week after"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "balayage near me",
+          "delta_yoy": 0.45,
+          "segment_age": "25-40",
+          "skew": "female"
+        },
+        {
+          "query": "keratin treatment price",
+          "delta_yoy": 0.18,
+          "segment_age": "25-45",
+          "skew": "female"
+        },
+        {
+          "query": "men's haircut delhi",
+          "delta_yoy": 0.22,
+          "segment_age": "20-35",
+          "skew": "male"
+        },
+        {
+          "query": "bridal makeup artist",
+          "delta_yoy": 0.31,
+          "segment_age": "22-32",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FDA India (cosmetic ingredient compliance)"
+      ],
+      "professional_journals": [
+        "Salon India",
+        "Pure Beauty India"
+      ]
+    },
+    "customer": null,
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "Glamour Lounge Spa & Salon",
+        "display": "Glamour Lounge Spa & Salon",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Anjali",
+          "honorific": null
+        },
+        "display": "Anjali",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Aundh",
+          "city": "Pune"
+        },
+        "display": "Aundh, Pune",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": true,
+        "display": "Google profile is verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2021,
+        "display": "in business since 2021",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 1200,
+        "display": "1,200 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 8,
+        "display": "8 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 22,
+        "display": "22 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 3,
+        "display": "3 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.022,
+        "display": "2.2% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": -0.12,
+        "display": "views -12% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": -0.3,
+        "display": "calls -30% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_change_7d",
+        "group": "performance",
+        "value": -0.04,
+        "display": "CTR -4% over the last 7 days",
+        "source": "merchant.performance.delta_7d.ctr_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.022,
+          "peer": 0.04,
+          "ratio": 0.55,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "CTR 2.2% vs 4.0% peer average, 45% below peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 1200,
+          "peer": 2400,
+          "ratio": 0.5,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Profile views 1,200 vs 2,400 peer average, 50% below peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 8,
+          "peer": 28,
+          "ratio": 0.286,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Calls 8 vs 28 peer average, 71% below peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 22,
+          "peer": 62,
+          "ratio": 0.355,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 22 vs 62 peer average, 65% below peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_unique_ytd",
+        "group": "customers",
+        "value": 380,
+        "display": "380 unique clients this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd"
+      },
+      {
+        "key": "lapsed_90d_plus",
+        "group": "customers",
+        "value": 180,
+        "display": "180 clients not seen in 90+ days",
+        "source": "merchant.customer_aggregate.lapsed_90d_plus"
+      },
+      {
+        "key": "retention_3mo_pct",
+        "group": "customers",
+        "value": 0.32,
+        "display": "3-month retention 32%",
+        "source": "merchant.customer_aggregate.retention_3mo_pct"
+      },
+      {
+        "key": "retention_3mo_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.32,
+          "peer": 0.55,
+          "ratio": 0.582,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "3-month retention 32% vs 55% peer average, 23 points below peers",
+        "source": "merchant.customer_aggregate.retention_3mo_pct vs category.peer_stats.retention_3mo_pct"
+      },
+      {
+        "key": "no_active_offers",
+        "group": "offers",
+        "value": true,
+        "display": "no active offers right now",
+        "source": "merchant.offers"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Haircut @ ₹99",
+          "Hair Spa @ ₹499",
+          "Threading + Waxing combo @ ₹299",
+          "Bridal Trial @ ₹999",
+          "Keratin Treatment @ ₹2,499",
+          "Mani+Pedi Combo @ ₹599",
+          "FREE head massage with Haircut",
+          "Annual Membership: 12 services @ ₹4,999"
+        ],
+        "display": "category offers this merchant hasn't run: Haircut @ ₹99; Hair Spa @ ₹499; Threading + Waxing combo @ ₹299; Bridal Trial @ ₹999; Keratin Treatment @ ₹2,499",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "expired",
+          "plan": "Pro",
+          "days_since_expiry": 38
+        },
+        "display": "subscription expired 38 days ago",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "signal_winback_eligible",
+        "group": "signals",
+        "value": {
+          "raw": "winback_eligible",
+          "name": "winback_eligible",
+          "value": null,
+          "unit": null
+        },
+        "display": "eligible for a win-back offer",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_perf_dip_post_expiry",
+        "group": "signals",
+        "value": {
+          "raw": "perf_dip_post_expiry",
+          "name": "perf_dip_post_expiry",
+          "value": null,
+          "unit": null
+        },
+        "display": "performance dropped after the subscription expired",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_dormant_with_vera",
+        "group": "signals",
+        "value": {
+          "raw": "dormant_with_vera_38d",
+          "name": "dormant_with_vera",
+          "value": 38,
+          "unit": "d"
+        },
+        "display": "no message to Vera in 38 days",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_unisex_salons_2026",
+        "display": "peer group: metro unisex salons 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.5,
+        "display": "peers average a 4.5★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 88,
+        "display": "peers average 88 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 10,
+        "display": "peers post on Google every 10 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 14,
+        "display": "peers have 14 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_apr_may",
+        "group": "season",
+        "value": {
+          "month_range": "Apr-May",
+          "note": "secondary bridal window + summer hair-care surge"
+        },
+        "display": "Apr-May: secondary bridal window + summer hair-care surge",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_balayage_near_me",
+        "group": "trends",
+        "value": {
+          "query": "balayage near me",
+          "delta_yoy": 0.45,
+          "segment_age": "25-40",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"balayage near me\" searches +45% year-on-year (age 25-40, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_keratin_treatment_price",
+        "group": "trends",
+        "value": {
+          "query": "keratin treatment price",
+          "delta_yoy": 0.18,
+          "segment_age": "25-45",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"keratin treatment price\" searches +18% year-on-year (age 25-45, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_men_s_haircut_delhi",
+        "group": "trends",
+        "value": {
+          "query": "men's haircut delhi",
+          "delta_yoy": 0.22,
+          "segment_age": "20-35",
+          "skew": "male",
+          "local": false
+        },
+        "display": "\"men's haircut delhi\" searches +22% year-on-year (age 20-35, skews male)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_bridal_makeup_artist",
+        "group": "trends",
+        "value": {
+          "query": "bridal makeup artist",
+          "delta_yoy": 0.31,
+          "segment_age": "22-32",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"bridal makeup artist\" searches +31% year-on-year (age 22-32, skews female)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 1,
+      "last_vera_message": {
+        "ts": "2026-03-19T14:00:00Z",
+        "body": "Subscription expired. Profile maintenance paused...",
+        "engagement": "merchant_no_reply",
+        "hours_ago": 908.5,
+        "origin": "context"
+      },
+      "last_merchant_message": null,
+      "open_requests": [],
+      "unanswered_streak": 1,
+      "session_window_open": false,
+      "recent_vera_bodies": [
+        "Subscription expired. Profile maintenance paused..."
+      ],
+      "engagement_tags": [
+        "merchant_no_reply"
+      ]
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "clients",
+      "category_code_mix": "hindi english natural",
+      "greeting": "Hi Anjali",
+      "address_as": "Anjali",
+      "first_name": "Anjali",
+      "honorific": null,
+      "template": "Hi {first_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "hi",
+        "mr"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [
+        "mr"
+      ],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "moderate",
+      "score": 3,
+      "max": 5,
+      "present": [
+        "conversation_history",
+        "signals",
+        "customer_aggregate"
+      ],
+      "missing": [
+        "offers",
+        "review_themes"
+      ]
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [
+      "merchant_not_active"
+    ],
+    "warnings": [
+      "merchant_not_active: subscription is expired"
+    ],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_025_dormancy_glamour",
+    "kind": "dormant_with_vera",
+    "family": "account",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_004_glamour_salon_pune",
+    "customer_id": null,
+    "recipient_id": "m_004_glamour_salon_pune",
+    "sender_name": "Glamour Lounge Spa & Salon",
+    "greeting": "Hi Anjali",
+    "address_as": "Anjali",
+    "language": {
+      "style": "hi-en",
+      "instruction": "Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.",
+      "hinglish": true
+    },
+    "lead": {
+      "text": "Formaldehyde-free smoothening alternatives gaining share — citric-acid based (Salon India magazine, Apr 2026)",
+      "source": "category.digest[d_2026W17_keratin_alt]",
+      "key": "digest:d_2026W17_keratin_alt",
+      "phrase": "thought you'd want to see this: Formaldehyde-free smoothening alternatives gaining share — citric-acid based (Salon India magazine, Apr 2026)",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "popular category offers not on their profile: Keratin Treatment @ ₹2,499; Haircut @ ₹99",
+        "source": "category.offer_catalog minus merchant.offers",
+        "key": "catalog_offers_not_run",
+        "phrase": "one idea from the category catalog: a \"Keratin Treatment @ ₹2,499\" offer",
+        "phrase_hi": ""
+      },
+      {
+        "text": "CTR 2.2% vs 4.0% peer average, 45% below peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr",
+        "key": "ctr_vs_peer",
+        "phrase": "your CTR is 2.2% vs 4.0% for similar salons",
+        "phrase_hi": ""
+      }
+    ],
+    "angle": "re-open with something genuinely useful; never mention the silence",
+    "levers": [
+      "reciprocity",
+      "curiosity",
+      "loss_aversion"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Want me to show how this could work for your business, in 2 min?",
+      "text_hi": "Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+      "intent": "yes/no: Want me to show how this could work for your business, in 2 min?"
+    },
+    "template": {
+      "required": true,
+      "name": "vera_dormant_with_vera_v1"
+    },
+    "instructions": [
+      "Voice: warm practical, approachable expert.",
+      "Category words you can use (vocabulary only, not facts about this business): balayage, highlights, keratin, smoothening, hair spa, manicure.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson.",
+      "Their subscription is expired: don't promise platform features as if it were active.",
+      "Don't reopen the last topic (subscription expiry) or mention how long they've been quiet."
+    ],
+    "avoid": [
+      "guaranteed glow",
+      "permanent results",
+      "instant transformation",
+      "miracle",
+      "best in city"
+    ],
+    "allowed_numbers": [
+      "2",
+      "2.2",
+      "4",
+      "45",
+      "99",
+      "2026",
+      "2499"
+    ],
+    "suppression_key": "dormant:m_004:30d",
+    "urgency": 2,
+    "flags": [
+      "merchant_not_active"
+    ],
+    "notes": [],
+    "render_support": 2,
+    "vocabulary": [
+      "balayage",
+      "highlights",
+      "keratin",
+      "smoothening",
+      "hair spa",
+      "manicure",
+      "pedicure",
+      "facial",
+      "threading",
+      "waxing",
+      "extensions",
+      "olaplex",
+      "wella",
+      "loreal",
+      "schwarzkopf",
+      "redken"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Anjali, owner of Glamour Lounge Spa & Salon. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Hi Anjali\nLanguage: Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.\nWhy now: Formaldehyde-free smoothening alternatives gaining share — citric-acid based (Salon India magazine, Apr 2026)\nSupporting facts (use only these):\n- popular category offers not on their profile: Keratin Treatment @ ₹2,499; Haircut @ ₹99\n- CTR 2.2% vs 4.0% peer average, 45% below peers\nAngle: re-open with something genuinely useful; never mention the silence. Levers: reciprocity, curiosity, loss aversion.\nAsk, one only, as the last sentence (yes/no): Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?\nFormat: first message in this chat window, so keep it template-shaped: greeting, 2-3 short sentences, then the ask.\nRules:\n- Voice: warm practical, approachable expert.\n- Category words you can use (vocabulary only, not facts about this business): balayage, highlights, keratin, smoothening, hair spa, manicure.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- Their subscription is expired: don't promise platform features as if it were active.\n- Don't reopen the last topic (subscription expiry) or mention how long they've been quiet.\n- Numbers may only come from: 2, 2.2, 4, 45, 99, 2026, 2499.\n- Never use: guaranteed glow, permanent results, instant transformation, miracle, best in city.",
+  "phase2_plain_message": {
+    "body": "Hi Anjali, thought you'd want to see this: Formaldehyde-free smoothening alternatives gaining share — citric-acid based (Salon India magazine, Apr 2026). One idea from the category catalog: a \"Keratin Treatment @ ₹2,499\" offer. Your CTR is 2.2% vs 4.0% for similar salons. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "dormant:m_004:30d",
+    "rationale": "Dormant with vera: Formaldehyde-free smoothening alternatives gaining share — citric-acid based (Salon India magazine, Apr 2026). Backed by popular category offers not on their profile: Keratin Treatment @ ₹2,499; Haircut @ ₹99; CTR 2.2% vs 4.0% peer average, 45% below peers. Angle: re-open with something genuinely useful; never mention the silence; one yes/no ask. Hinglish where their language preference calls for it.",
+    "template_name": "vera_dormant_with_vera_v1",
+    "template_params": [
+      "Hi Anjali",
+      "Thought you'd want to see this: Formaldehyde-free smoothening alternatives gaining share — citric-acid based (Salon India magazine, Apr 2026).",
+      "One idea from the category catalog: a \"Keratin Treatment @ ₹2,499\" offer. Your CTR is 2.2% vs 4.0% for similar salons.",
+      "Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?"
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Hi Anjali, Salon India magazine (Apr 2026) ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain. Aapke profile par Keratin Treatment ₹2,499 aur Haircut ₹99 offers nahi hain, aur CTR 2.2% hai versus peers ka 4.0%—inhe highlight karna worth trying lagta hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "dormant:m_004:30d",
+    "rationale": "The message opens with the timely category shift and anchors the recommendation in the cited source. It connects missing popular offers with the 2.2% versus 4.0% CTR gap, using a practical, low-pressure suggestion and the required yes/no ask.",
+    "template_name": "vera_dormant_with_vera_v1",
+    "template_params": [
+      "Hi Anjali",
+      "Hi Anjali, Salon India magazine (Apr 2026) ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain.",
+      "Aapke profile par Keratin Treatment ₹2,499 aur Haircut ₹99 offers nahi hain, aur CTR 2.2% hai versus peers ka 4.0%—inhe highlight karna worth trying lagta hai.",
+      "Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?"
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Hi Anjali, Salon India magazine (Apr 2026) ke hisaab se formaldehyde-free, citric-acid based smoothening alternatives share gain kar rahe hain. Aapke profile par Keratin Treatment ₹2,499 aur Haircut ₹99 offers nahi hain, aur CTR 2.2% hai versus peers ka 4.0%—inhe highlight karna worth trying lagta hai. Kya main 2 min mein bataun ki yeh aapke liye kaise kaam kar sakta hai?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "dormant:m_004:30d",
+    "rationale": "The message opens with the timely category shift and anchors the recommendation in the cited source. It connects missing popular offers with the 2.2% versus 4.0% CTR gap, using a practical, low-pressure suggestion and the required yes/no ask.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}

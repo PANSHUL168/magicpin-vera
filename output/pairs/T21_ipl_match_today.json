@@ -1,0 +1,1478 @@
+{
+  "pair": {
+    "test_id": "T21",
+    "trigger_id": "trg_010_ipl_match_delhi",
+    "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_010_ipl_match_delhi",
+      "scope": "merchant",
+      "kind": "ipl_match_today",
+      "source": "external",
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+      "customer_id": null,
+      "payload": {
+        "match": "DC vs MI",
+        "venue": "Arun Jaitley Stadium",
+        "city": "Delhi",
+        "match_time_iso": "2026-04-26T19:30:00+05:30",
+        "is_weeknight": false
+      },
+      "urgency": 3,
+      "suppression_key": "ipl:m_005:2026-04-26",
+      "expires_at": "2026-04-26T23:59:59+05:30"
+    },
+    "merchant": {
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+      "category_slug": "restaurants",
+      "identity": {
+        "name": "SK Pizza Junction",
+        "city": "Delhi",
+        "locality": "Sant Nagar",
+        "place_id": "ChIJ_SANTNAGAR_RESTAURANT_005",
+        "verified": false,
+        "languages": [
+          "en",
+          "hi"
+        ],
+        "owner_first_name": "Suresh",
+        "established_year": 2022
+      },
+      "subscription": {
+        "status": "trial",
+        "plan": "Trial",
+        "days_remaining": 7
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 2200,
+        "calls": 12,
+        "directions": 38,
+        "ctr": 0.02,
+        "leads": 4,
+        "delta_7d": {
+          "views_pct": 0.08,
+          "calls_pct": 0.1
+        }
+      },
+      "offers": [
+        {
+          "id": "o_skpz_001",
+          "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "status": "active",
+          "started": "2026-04-15"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-25T18:00:00Z",
+          "from": "vera",
+          "body": "Quick check — IPL match nights driving any extra footfall?",
+          "engagement": "merchant_no_reply"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 0,
+        "delivery_orders_30d": 180,
+        "dine_in_orders_30d": 95
+      },
+      "signals": [
+        "new_merchant",
+        "trial_ending_soon",
+        "ipl_eligible_locality"
+      ],
+      "review_themes": [
+        {
+          "theme": "delivery_late",
+          "sentiment": "neg",
+          "occurrences_30d": 4
+        },
+        {
+          "theme": "pizza_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 8
+        }
+      ]
+    },
+    "category": {
+      "slug": "restaurants",
+      "display_name": "Restaurants & Cafes",
+      "voice": {
+        "tone": "warm_busy_practical",
+        "register": "fellow_operator",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "footfall",
+          "covers",
+          "AOV",
+          "RPC",
+          "table turnover",
+          "reservations",
+          "GRO",
+          "weekend brunch",
+          "happy hour",
+          "thali",
+          "biryani",
+          "tandoor"
+        ],
+        "vocab_taboo": [
+          "best food in city",
+          "guaranteed packed house",
+          "miracle marketing",
+          "viral guarantee"
+        ],
+        "salutation_examples": [
+          "Hi {chef_or_owner_first_name}",
+          "{restaurant_name} team"
+        ],
+        "tone_examples": [
+          "Quick one — IPL match nights have been 1.5x your weekday avg this season",
+          "Spotted: 'biryani delivery' searches in your sublocality up 28% this week"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "res_001",
+          "title": "Flat 30% OFF on total bill (limit ₹500)",
+          "value": "30%",
+          "audience": "new_user",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "res_002",
+          "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "value": "BOGO",
+          "audience": "new_user",
+          "type": "bogo"
+        },
+        {
+          "id": "res_003",
+          "title": "Weekday Lunch Thali @ ₹149",
+          "value": "149",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_004",
+          "title": "Free Starter on orders > ₹1,200",
+          "value": "free_addon",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_005",
+          "title": "Match-night Combo @ ₹399 (food + drink)",
+          "value": "399",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_006",
+          "title": "Family Sunday Brunch @ ₹699/pax",
+          "value": "699",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_007",
+          "title": "Free Delivery > ₹500",
+          "value": "free_delivery",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_008",
+          "title": "Birthday: Free Cake on parties of 6+",
+          "value": "free_addon",
+          "audience": "all",
+          "type": "free_addon"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_casual_dining_2026",
+        "avg_rating": 4.2,
+        "avg_review_count": 142,
+        "avg_views_30d": 4800,
+        "avg_calls_30d": 38,
+        "avg_directions_30d": 95,
+        "avg_ctr": 0.025,
+        "avg_photos": 22,
+        "avg_post_freq_days": 7,
+        "retention_30d_pct": 0.18
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_ipl_window",
+          "kind": "seasonal",
+          "title": "IPL home-match Saturdays underperformed weeknight matches across metros",
+          "source": "magicpin order data, Apr 2026",
+          "summary": "Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average. Weeknight matches drive +18% covers. Adjust promo days accordingly.",
+          "actionable": "Push match-night combos on Tue/Wed/Thu match dates only"
+        },
+        {
+          "id": "d_2026W17_packaged_food_gst",
+          "kind": "compliance",
+          "title": "GST council clarifies 5% rate for restaurant takeaway packaging from 2026-06-01",
+          "source": "GST Council circular 224/2026",
+          "summary": "Single-use plastic surcharge added to packaging cost for orders >₹500. Effective June 1. Cloud kitchens hit hardest.",
+          "actionable": "Audit your packaging cost; consider Eco-pack alternative if volume justifies"
+        },
+        {
+          "id": "d_2026W17_zomato_visibility",
+          "kind": "trend",
+          "title": "Zomato 'verified' badge correlates with +24% impressions in Tier-1 cities",
+          "source": "Zomato partner update, Apr 2026",
+          "summary": "Verification requires uploaded GST cert + 6 months continuous operation. Most eligible mid-size restaurants haven't applied; 5-day approval.",
+          "actionable": "Apply via partner dashboard if you've crossed 6 months"
+        },
+        {
+          "id": "d_2026W17_swiggy_iCare",
+          "kind": "tech",
+          "title": "Swiggy iCare: AI complaint summarizer launching Apr 2026",
+          "source": "Swiggy partner blog 2026-04-12",
+          "summary": "Auto-summarises customer complaints into themes (cold food / late / wrong order). Free for Pro merchants. Reveals pattern most operators miss.",
+          "actionable": "Enable in dashboard; review weekly themes Sunday evening"
+        },
+        {
+          "id": "d_2026W17_dish_trend",
+          "kind": "trend",
+          "title": "'Sugar-free dessert' searches +52% YoY across Indian metros",
+          "source": "Google Trends Apr 2026",
+          "summary": "Concentrated in 28-45 age band; correlated with rising diabetic awareness. Two new options on dessert menus seeing strong attach rate: keto cheesecake, almond-flour brownie.",
+          "actionable": "Add one sugar-free dessert; mark prominently on menu and GBP"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_ordering_smart",
+          "title": "Three things to look for before ordering food online",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "(1) Look at the latest review's date — if last review is 30+ days old, the kitchen may be off. (2) Filter for 4★+ reviews mentioning your specific dish. (3) Order at peak hours — fresh prep, not warmed-up morning batch. These three filter out 80% of bad-experience risk."
+        },
+        {
+          "id": "pc_thali_economics",
+          "title": "Why a ₹149 thali is the best lunch deal in town",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "A weekday thali for ₹149 covers your daily protein, two veggies, dal, rice, roti, and pickle/sweet. Buying these separately at any market in the neighbourhood: ₹240+. The only way restaurants make this work is high lunch volume — which means freshly-cooked, not standing in a chafer."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Mar-Apr",
+          "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+        },
+        {
+          "month_range": "Oct-Nov",
+          "note": "Diwali corporate gifting + family-feast bookings"
+        },
+        {
+          "month_range": "Dec",
+          "note": "Christmas + New Year — set menu sales 3x baseline"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon delivery surge; rain-day discount window"
+        },
+        {
+          "month_range": "Feb 14",
+          "note": "Valentine's prix-fixe — book starting 2 weeks prior"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "biryani near me",
+          "delta_yoy": 0.18,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "weekday lunch thali",
+          "delta_yoy": 0.34,
+          "segment_age": "office_25-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "sugar free dessert",
+          "delta_yoy": 0.52,
+          "segment_age": "28-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "match night offer",
+          "delta_yoy": 0.65,
+          "segment_age": "20-40",
+          "skew": "male"
+        },
+        {
+          "query": "small party catering",
+          "delta_yoy": 0.22,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI",
+        "Local Health Department",
+        "GST Council"
+      ],
+      "professional_journals": [
+        "FoodService India",
+        "Hospitality Bizz"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_010_ipl_match_delhi",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_010_ipl_match_delhi",
+      "scope": "merchant",
+      "kind": "ipl_match_today",
+      "source": "external",
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+      "customer_id": null,
+      "payload": {
+        "match": "DC vs MI",
+        "venue": "Arun Jaitley Stadium",
+        "city": "Delhi",
+        "match_time_iso": "2026-04-26T19:30:00+05:30",
+        "is_weeknight": false
+      },
+      "urgency": 3,
+      "suppression_key": "ipl:m_005:2026-04-26",
+      "expires_at": "2026-04-26T23:59:59+05:30"
+    },
+    "payload_display": {
+      "match": "DC vs MI",
+      "venue": "Arun Jaitley Stadium",
+      "city": "Delhi",
+      "match_time_iso": "Sun 26 Apr, 7:30pm",
+      "is_weeknight": false
+    },
+    "merchant": {
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+      "category_slug": "restaurants",
+      "identity": {
+        "name": "SK Pizza Junction",
+        "city": "Delhi",
+        "locality": "Sant Nagar",
+        "place_id": "ChIJ_SANTNAGAR_RESTAURANT_005",
+        "verified": false,
+        "languages": [
+          "en",
+          "hi"
+        ],
+        "owner_first_name": "Suresh",
+        "established_year": 2022
+      },
+      "subscription": {
+        "status": "trial",
+        "plan": "Trial",
+        "days_remaining": 7
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 2200,
+        "calls": 12,
+        "directions": 38,
+        "ctr": 0.02,
+        "leads": 4,
+        "delta_7d": {
+          "views_pct": 0.08,
+          "calls_pct": 0.1
+        }
+      },
+      "offers": [
+        {
+          "id": "o_skpz_001",
+          "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "status": "active",
+          "started": "2026-04-15"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-25T18:00:00Z",
+          "from": "vera",
+          "body": "Quick check — IPL match nights driving any extra footfall?",
+          "engagement": "merchant_no_reply"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 0,
+        "delivery_orders_30d": 180,
+        "dine_in_orders_30d": 95
+      },
+      "signals": [
+        "new_merchant",
+        "trial_ending_soon",
+        "ipl_eligible_locality"
+      ],
+      "review_themes": [
+        {
+          "theme": "delivery_late",
+          "sentiment": "neg",
+          "occurrences_30d": 4
+        },
+        {
+          "theme": "pizza_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 8
+        }
+      ]
+    },
+    "category": {
+      "slug": "restaurants",
+      "display_name": "Restaurants & Cafes",
+      "voice": {
+        "tone": "warm_busy_practical",
+        "register": "fellow_operator",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "footfall",
+          "covers",
+          "AOV",
+          "RPC",
+          "table turnover",
+          "reservations",
+          "GRO",
+          "weekend brunch",
+          "happy hour",
+          "thali",
+          "biryani",
+          "tandoor"
+        ],
+        "vocab_taboo": [
+          "best food in city",
+          "guaranteed packed house",
+          "miracle marketing",
+          "viral guarantee"
+        ],
+        "salutation_examples": [
+          "Hi {chef_or_owner_first_name}",
+          "{restaurant_name} team"
+        ],
+        "tone_examples": [
+          "Quick one — IPL match nights have been 1.5x your weekday avg this season",
+          "Spotted: 'biryani delivery' searches in your sublocality up 28% this week"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "res_001",
+          "title": "Flat 30% OFF on total bill (limit ₹500)",
+          "value": "30%",
+          "audience": "new_user",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "res_002",
+          "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "value": "BOGO",
+          "audience": "new_user",
+          "type": "bogo"
+        },
+        {
+          "id": "res_003",
+          "title": "Weekday Lunch Thali @ ₹149",
+          "value": "149",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_004",
+          "title": "Free Starter on orders > ₹1,200",
+          "value": "free_addon",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_005",
+          "title": "Match-night Combo @ ₹399 (food + drink)",
+          "value": "399",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_006",
+          "title": "Family Sunday Brunch @ ₹699/pax",
+          "value": "699",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_007",
+          "title": "Free Delivery > ₹500",
+          "value": "free_delivery",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_008",
+          "title": "Birthday: Free Cake on parties of 6+",
+          "value": "free_addon",
+          "audience": "all",
+          "type": "free_addon"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_casual_dining_2026",
+        "avg_rating": 4.2,
+        "avg_review_count": 142,
+        "avg_views_30d": 4800,
+        "avg_calls_30d": 38,
+        "avg_directions_30d": 95,
+        "avg_ctr": 0.025,
+        "avg_photos": 22,
+        "avg_post_freq_days": 7,
+        "retention_30d_pct": 0.18
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_ipl_window",
+          "kind": "seasonal",
+          "title": "IPL home-match Saturdays underperformed weeknight matches across metros",
+          "source": "magicpin order data, Apr 2026",
+          "summary": "Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average. Weeknight matches drive +18% covers. Adjust promo days accordingly.",
+          "actionable": "Push match-night combos on Tue/Wed/Thu match dates only"
+        },
+        {
+          "id": "d_2026W17_packaged_food_gst",
+          "kind": "compliance",
+          "title": "GST council clarifies 5% rate for restaurant takeaway packaging from 2026-06-01",
+          "source": "GST Council circular 224/2026",
+          "summary": "Single-use plastic surcharge added to packaging cost for orders >₹500. Effective June 1. Cloud kitchens hit hardest.",
+          "actionable": "Audit your packaging cost; consider Eco-pack alternative if volume justifies"
+        },
+        {
+          "id": "d_2026W17_zomato_visibility",
+          "kind": "trend",
+          "title": "Zomato 'verified' badge correlates with +24% impressions in Tier-1 cities",
+          "source": "Zomato partner update, Apr 2026",
+          "summary": "Verification requires uploaded GST cert + 6 months continuous operation. Most eligible mid-size restaurants haven't applied; 5-day approval.",
+          "actionable": "Apply via partner dashboard if you've crossed 6 months"
+        },
+        {
+          "id": "d_2026W17_swiggy_iCare",
+          "kind": "tech",
+          "title": "Swiggy iCare: AI complaint summarizer launching Apr 2026",
+          "source": "Swiggy partner blog 2026-04-12",
+          "summary": "Auto-summarises customer complaints into themes (cold food / late / wrong order). Free for Pro merchants. Reveals pattern most operators miss.",
+          "actionable": "Enable in dashboard; review weekly themes Sunday evening"
+        },
+        {
+          "id": "d_2026W17_dish_trend",
+          "kind": "trend",
+          "title": "'Sugar-free dessert' searches +52% YoY across Indian metros",
+          "source": "Google Trends Apr 2026",
+          "summary": "Concentrated in 28-45 age band; correlated with rising diabetic awareness. Two new options on dessert menus seeing strong attach rate: keto cheesecake, almond-flour brownie.",
+          "actionable": "Add one sugar-free dessert; mark prominently on menu and GBP"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_ordering_smart",
+          "title": "Three things to look for before ordering food online",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "(1) Look at the latest review's date — if last review is 30+ days old, the kitchen may be off. (2) Filter for 4★+ reviews mentioning your specific dish. (3) Order at peak hours — fresh prep, not warmed-up morning batch. These three filter out 80% of bad-experience risk."
+        },
+        {
+          "id": "pc_thali_economics",
+          "title": "Why a ₹149 thali is the best lunch deal in town",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "A weekday thali for ₹149 covers your daily protein, two veggies, dal, rice, roti, and pickle/sweet. Buying these separately at any market in the neighbourhood: ₹240+. The only way restaurants make this work is high lunch volume — which means freshly-cooked, not standing in a chafer."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Mar-Apr",
+          "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+        },
+        {
+          "month_range": "Oct-Nov",
+          "note": "Diwali corporate gifting + family-feast bookings"
+        },
+        {
+          "month_range": "Dec",
+          "note": "Christmas + New Year — set menu sales 3x baseline"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon delivery surge; rain-day discount window"
+        },
+        {
+          "month_range": "Feb 14",
+          "note": "Valentine's prix-fixe — book starting 2 weeks prior"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "biryani near me",
+          "delta_yoy": 0.18,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "weekday lunch thali",
+          "delta_yoy": 0.34,
+          "segment_age": "office_25-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "sugar free dessert",
+          "delta_yoy": 0.52,
+          "segment_age": "28-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "match night offer",
+          "delta_yoy": 0.65,
+          "segment_age": "20-40",
+          "skew": "male"
+        },
+        {
+          "query": "small party catering",
+          "delta_yoy": 0.22,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI",
+        "Local Health Department",
+        "GST Council"
+      ],
+      "professional_journals": [
+        "FoodService India",
+        "Hospitality Bizz"
+      ]
+    },
+    "customer": null,
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "SK Pizza Junction",
+        "display": "SK Pizza Junction",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Suresh",
+          "honorific": null
+        },
+        "display": "Suresh",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Sant Nagar",
+          "city": "Delhi"
+        },
+        "display": "Sant Nagar, Delhi",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": false,
+        "display": "Google profile is not verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2022,
+        "display": "in business since 2022",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 2200,
+        "display": "2,200 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 12,
+        "display": "12 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 38,
+        "display": "38 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 4,
+        "display": "4 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.02,
+        "display": "2% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": 0.08,
+        "display": "views +8% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": 0.1,
+        "display": "calls +10% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.02,
+          "peer": 0.025,
+          "ratio": 0.8,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "CTR 2.0% vs 2.5% peer average, 20% below peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 2200,
+          "peer": 4800,
+          "ratio": 0.458,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Profile views 2,200 vs 4,800 peer average, 54% below peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 12,
+          "peer": 38,
+          "ratio": 0.316,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Calls 12 vs 38 peer average, 68% below peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 38,
+          "peer": 95,
+          "ratio": 0.4,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 38 vs 95 peer average, 60% below peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_unique_ytd",
+        "group": "customers",
+        "value": 0,
+        "display": "0 unique customers this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd"
+      },
+      {
+        "key": "delivery_orders_30d",
+        "group": "customers",
+        "value": 180,
+        "display": "180 delivery orders in the last 30 days",
+        "source": "merchant.customer_aggregate.delivery_orders_30d"
+      },
+      {
+        "key": "dine_in_orders_30d",
+        "group": "customers",
+        "value": 95,
+        "display": "95 dine-in orders in the last 30 days",
+        "source": "merchant.customer_aggregate.dine_in_orders_30d"
+      },
+      {
+        "key": "active_offers",
+        "group": "offers",
+        "value": [
+          "Buy 1 Pizza Get 1 Free (Tue-Thu)"
+        ],
+        "display": "active offers: Buy 1 Pizza Get 1 Free (Tue-Thu)",
+        "source": "merchant.offers (status=active)"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Weekday Lunch Thali @ ₹149",
+          "Match-night Combo @ ₹399 (food + drink)",
+          "Family Sunday Brunch @ ₹699/pax",
+          "Free Starter on orders > ₹1,200",
+          "Free Delivery > ₹500",
+          "Birthday: Free Cake on parties of 6+",
+          "Flat 30% OFF on total bill (limit ₹500)"
+        ],
+        "display": "category offers this merchant hasn't run: Weekday Lunch Thali @ ₹149; Match-night Combo @ ₹399 (food + drink); Family Sunday Brunch @ ₹699/pax; Free Starter on orders > ₹1,200; Free Delivery > ₹500",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "trial",
+          "plan": "Trial",
+          "days_remaining": 7
+        },
+        "display": "on a trial, 7 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "review_theme_delivery_late",
+        "group": "reviews",
+        "value": {
+          "theme": "delivery_late",
+          "sentiment": "neg",
+          "occurrences_30d": 4
+        },
+        "display": "4 reviews in the last 30 days mention late delivery (negative)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "review_theme_pizza_quality",
+        "group": "reviews",
+        "value": {
+          "theme": "pizza_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 8
+        },
+        "display": "8 reviews in the last 30 days mention pizza quality (positive)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "signal_new_merchant",
+        "group": "signals",
+        "value": {
+          "raw": "new_merchant",
+          "name": "new_merchant",
+          "value": null,
+          "unit": null
+        },
+        "display": "new on magicpin",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_trial_ending_soon",
+        "group": "signals",
+        "value": {
+          "raw": "trial_ending_soon",
+          "name": "trial_ending_soon",
+          "value": null,
+          "unit": null
+        },
+        "display": "trial ending soon",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_ipl_eligible_locality",
+        "group": "signals",
+        "value": {
+          "raw": "ipl_eligible_locality",
+          "name": "ipl_eligible_locality",
+          "value": null,
+          "unit": null
+        },
+        "display": "IPL eligible locality",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_casual_dining_2026",
+        "display": "peer group: metro casual dining 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.2,
+        "display": "peers average a 4.2★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 142,
+        "display": "peers average 142 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 7,
+        "display": "peers post on Google every 7 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 22,
+        "display": "peers have 22 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_mar_apr",
+        "group": "season",
+        "value": {
+          "month_range": "Mar-Apr",
+          "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+        },
+        "display": "Mar-Apr: IPL season — match-night promos on Tue/Wed/Thu; not weekends",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_biryani_near_me",
+        "group": "trends",
+        "value": {
+          "query": "biryani near me",
+          "delta_yoy": 0.18,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"biryani near me\" searches +18% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_weekday_lunch_thali",
+        "group": "trends",
+        "value": {
+          "query": "weekday lunch thali",
+          "delta_yoy": 0.34,
+          "segment_age": "office_25-45",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"weekday lunch thali\" searches +34% year-on-year (office 25-45)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_sugar_free_dessert",
+        "group": "trends",
+        "value": {
+          "query": "sugar free dessert",
+          "delta_yoy": 0.52,
+          "segment_age": "28-45",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"sugar free dessert\" searches +52% year-on-year (age 28-45)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_match_night_offer",
+        "group": "trends",
+        "value": {
+          "query": "match night offer",
+          "delta_yoy": 0.65,
+          "segment_age": "20-40",
+          "skew": "male",
+          "local": false
+        },
+        "display": "\"match night offer\" searches +65% year-on-year (age 20-40, skews male)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_small_party_catering",
+        "group": "trends",
+        "value": {
+          "query": "small party catering",
+          "delta_yoy": 0.22,
+          "segment_age": "30-50",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"small party catering\" searches +22% year-on-year (age 30-50, skews female)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 1,
+      "last_vera_message": {
+        "ts": "2026-04-25T18:00:00Z",
+        "body": "Quick check — IPL match nights driving any extra footfall?",
+        "engagement": "merchant_no_reply",
+        "hours_ago": 16.5,
+        "origin": "context"
+      },
+      "last_merchant_message": null,
+      "open_requests": [],
+      "unanswered_streak": 1,
+      "session_window_open": false,
+      "recent_vera_bodies": [
+        "Quick check — IPL match nights driving any extra footfall?"
+      ],
+      "engagement_tags": [
+        "merchant_no_reply"
+      ]
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "customers",
+      "category_code_mix": "hindi english natural",
+      "greeting": "Hi Suresh",
+      "address_as": "Suresh",
+      "first_name": "Suresh",
+      "honorific": null,
+      "template": "Hi {chef_or_owner_first_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "rich",
+      "score": 5,
+      "max": 5,
+      "present": [
+        "offers",
+        "conversation_history",
+        "signals",
+        "review_themes",
+        "customer_aggregate"
+      ],
+      "missing": []
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [
+      "merchant_not_active"
+    ],
+    "warnings": [
+      "merchant_not_active: subscription is trial"
+    ],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_010_ipl_match_delhi",
+    "kind": "ipl_match_today",
+    "family": "event",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+    "customer_id": null,
+    "recipient_id": "m_005_pizzajunction_restaurant_delhi",
+    "sender_name": "SK Pizza Junction",
+    "greeting": "Hi Suresh",
+    "address_as": "Suresh",
+    "language": {
+      "style": "hi-en",
+      "instruction": "Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.",
+      "hinglish": true
+    },
+    "lead": {
+      "text": "DC vs MI at Arun Jaitley Stadium, Sun 26 Apr, 7:30pm; not a weeknight match",
+      "source": "trigger.payload.match, venue, match_time_iso, is_weeknight",
+      "key": "payload:match",
+      "phrase": "DC vs MI is on at Arun Jaitley Stadium today (Sun 26 Apr, 7:30pm)",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "Mar-Apr: IPL season — match-night promos on Tue/Wed/Thu; not weekends",
+        "source": "category.seasonal_beats",
+        "key": "season_mar_apr",
+        "phrase": "the usual Mar-Apr pattern: IPL season — match-night promos on Tue/Wed/Thu; not weekends",
+        "phrase_hi": ""
+      },
+      {
+        "text": "IPL home-match Saturdays underperformed weeknight matches across metros (magicpin order data, Apr 2026): Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average",
+        "source": "category.digest[d_2026W17_ipl_window]",
+        "key": "digest:d_2026W17_ipl_window",
+        "phrase": "Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average (magicpin order data, Apr 2026)",
+        "phrase_hi": ""
+      },
+      {
+        "text": "active offers: Buy 1 Pizza Get 1 Free (Tue-Thu) (doesn't run on Sunday, the match day)",
+        "source": "merchant.offers (status=active)",
+        "key": "active_offers",
+        "phrase": "your Buy 1 Pizza Get 1 Free (Tue-Thu) doesn't run on Sunday, so there's no offer live tonight",
+        "phrase_hi": "aapka Buy 1 Pizza Get 1 Free (Tue-Thu) Sunday ko nahi chalta, toh aaj raat koi offer live nahi hai"
+      }
+    ],
+    "angle": "a weekend match: the category's IPL guidance says match-night promos work Tue-Thu, not weekends, so skip dine-in promos tonight; propose running their existing offer as a delivery-only special for the match, as an exception for them to approve (it normally runs Tue-Thu)",
+    "levers": [
+      "specificity",
+      "curiosity"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Want me to draft a delivery-only match-night special, with a banner and an Insta story?",
+      "text_hi": "Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+      "intent": "yes/no: Want me to draft a delivery-only match-night special, with a banner and an Insta story?"
+    },
+    "template": {
+      "required": true,
+      "name": "vera_ipl_match_today_v1"
+    },
+    "instructions": [
+      "Voice: warm busy practical, fellow operator.",
+      "Category words you can use (vocabulary only, not facts about this business): footfall, covers, AOV, RPC, table turnover, reservations.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson.",
+      "Their subscription is trial: don't promise platform features as if it were active.",
+      "This is a weekend match, not a weeknight one: steer them away from dine-in promos and toward delivery for tonight.",
+      "The order data is about Saturday matches and this match is on a Sunday: quote it as Saturday data (both are weekend matches), not as a figure for today."
+    ],
+    "avoid": [
+      "best food in city",
+      "guaranteed packed house",
+      "miracle marketing",
+      "viral guarantee"
+    ],
+    "allowed_numbers": [
+      "1",
+      "7",
+      "12",
+      "26",
+      "30",
+      "2026"
+    ],
+    "suppression_key": "ipl:m_005:2026-04-26",
+    "urgency": 3,
+    "flags": [
+      "merchant_not_active"
+    ],
+    "notes": [],
+    "render_support": 2,
+    "vocabulary": [
+      "footfall",
+      "covers",
+      "AOV",
+      "RPC",
+      "table turnover",
+      "reservations",
+      "GRO",
+      "weekend brunch",
+      "happy hour",
+      "thali",
+      "biryani",
+      "tandoor"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Suresh, owner of SK Pizza Junction. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Hi Suresh\nLanguage: Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.\nWhy now: DC vs MI at Arun Jaitley Stadium, Sun 26 Apr, 7:30pm; not a weeknight match\nSupporting facts (use only these):\n- Mar-Apr: IPL season — match-night promos on Tue/Wed/Thu; not weekends\n- IPL home-match Saturdays underperformed weeknight matches across metros (magicpin order data, Apr 2026): Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average\n- active offers: Buy 1 Pizza Get 1 Free (Tue-Thu) (doesn't run on Sunday, the match day)\nAngle: a weekend match: the category's IPL guidance says match-night promos work Tue-Thu, not weekends, so skip dine-in promos tonight; propose running their existing offer as a delivery-only special for the match, as an exception for them to approve (it normally runs Tue-Thu). Levers: specificity, curiosity.\nAsk, one only, as the last sentence (yes/no): Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?\nFormat: first message in this chat window, so keep it template-shaped: greeting, 2-3 short sentences, then the ask.\nRules:\n- Voice: warm busy practical, fellow operator.\n- Category words you can use (vocabulary only, not facts about this business): footfall, covers, AOV, RPC, table turnover, reservations.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- Their subscription is trial: don't promise platform features as if it were active.\n- This is a weekend match, not a weeknight one: steer them away from dine-in promos and toward delivery for tonight.\n- The order data is about Saturday matches and this match is on a Sunday: quote it as Saturday data (both are weekend matches), not as a figure for today.\n- Numbers may only come from: 1, 7, 12, 26, 30, 2026.\n- Never use: best food in city, guaranteed packed house, miracle marketing, viral guarantee.",
+  "phase2_plain_message": {
+    "body": "Hi Suresh, DC vs MI is on at Arun Jaitley Stadium today (Sun 26 Apr, 7:30pm). The usual Mar-Apr pattern: IPL season — match-night promos on Tue/Wed/Thu; not weekends. Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average (magicpin order data, Apr 2026). Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "ipl:m_005:2026-04-26",
+    "rationale": "IPL match today: DC vs MI at Arun Jaitley Stadium, Sun 26 Apr, 7:30pm; not a weeknight match. Backed by Mar-Apr: IPL season — match-night promos on Tue/Wed/Thu; not weekends; IPL home-match Saturdays underperformed weeknight matches across metros (magicpin order data, Apr 2026): Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average. Angle: a weekend match: the category's IPL guidance says match-night promos work Tue-Thu, not weekends, so skip dine-in promos tonight; propose running their existing offer as a delivery-only special for the match, as an exception for them to approve (it normally runs Tue-Thu); one yes/no ask. Hinglish where their language preference calls for it.",
+    "template_name": "vera_ipl_match_today_v1",
+    "template_params": [
+      "Hi Suresh",
+      "DC vs MI is on at Arun Jaitley Stadium today (Sun 26 Apr, 7:30pm).",
+      "The usual Mar-Apr pattern: IPL season — match-night promos on Tue/Wed/Thu; not weekends. Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average (magicpin order data, Apr 2026).",
+      "Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?"
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Hi Suresh, aaj Sun 26 Apr ko 7:30pm DC vs MI hai Arun Jaitley Stadium mein. Weekend match ke liye dine-in promo skip karna better rahega—magicpin order data (Apr 2026) mein Saturday IPL matches par covers Saturday average se 12% down rahe; isliye existing Buy 1 Pizza Get 1 Free ko aaj delivery-only exception bana sakte hain. Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "ipl:m_005:2026-04-26",
+    "rationale": "The message anchors on the Sunday match and the 12% Saturday IPL covers decline from magicpin’s April 2026 data. It uses the practical lever of shifting the existing Tue-Thu offer to a delivery-only exception instead of pushing dine-in.",
+    "template_name": "vera_ipl_match_today_v1",
+    "template_params": [
+      "Hi Suresh",
+      "Hi Suresh, aaj Sun 26 Apr ko 7:30pm DC vs MI hai Arun Jaitley Stadium mein.",
+      "Weekend match ke liye dine-in promo skip karna better rahega—magicpin order data (Apr 2026) mein Saturday IPL matches par covers Saturday average se 12% down rahe; isliye existing Buy 1 Pizza Get 1 Free ko aaj delivery-only exception bana sakte hain.",
+      "Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?"
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Hi Suresh, aaj Sun 26 Apr ko 7:30pm DC vs MI hai Arun Jaitley Stadium mein. Weekend match ke liye dine-in promo skip karna better rahega—magicpin order data (Apr 2026) mein Saturday IPL matches par covers Saturday average se 12% down rahe; isliye existing Buy 1 Pizza Get 1 Free ko aaj delivery-only exception bana sakte hain. Kya main aaj raat ke liye delivery-only match special, banner aur Insta story ke saath, draft kar doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "ipl:m_005:2026-04-26",
+    "rationale": "The message anchors on the Sunday match and the 12% Saturday IPL covers decline from magicpin’s April 2026 data. It uses the practical lever of shifting the existing Tue-Thu offer to a delivery-only exception instead of pushing dine-in.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "6% overlap with case study 5",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "3% overlap with case study 5",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}

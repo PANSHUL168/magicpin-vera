@@ -1,0 +1,1493 @@
+{
+  "pair": {
+    "test_id": "T12",
+    "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf",
+    "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_096_curious_ask_due_m_006_southindiancaf",
+      "scope": "merchant",
+      "kind": "curious_ask_due",
+      "source": "internal",
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "customer_id": null,
+      "payload": {
+        "placeholder": true,
+        "metric_or_topic": "curious_ask_due"
+      },
+      "urgency": 1,
+      "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+      "expires_at": "2026-06-30T00:00:00Z"
+    },
+    "merchant": {
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "category_slug": "restaurants",
+      "identity": {
+        "name": "Mylari South Indian Cafe",
+        "city": "Bangalore",
+        "locality": "Indiranagar",
+        "place_id": "ChIJ_INDIRANAGAR_RESTAURANT_006",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi",
+          "kn"
+        ],
+        "owner_first_name": "Suresh",
+        "established_year": 2014
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 240
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 12400,
+        "calls": 88,
+        "directions": 320,
+        "ctr": 0.032,
+        "leads": 145,
+        "delta_7d": {
+          "views_pct": 0.05,
+          "calls_pct": 0.02
+        }
+      },
+      "offers": [
+        {
+          "id": "o_mylari_001",
+          "title": "Weekday Lunch Thali @ ₹149",
+          "status": "active",
+          "started": "2026-01-10"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-25T11:00:00Z",
+          "from": "vera",
+          "body": "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?",
+          "engagement": "merchant_replied"
+        },
+        {
+          "ts": "2026-04-25T11:30:00Z",
+          "from": "merchant",
+          "body": "Yes good idea, what would it look like",
+          "engagement": "intent_question"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 4200,
+        "repeat_customer_pct": 0.42,
+        "delivery_share_pct": 0.45
+      },
+      "signals": [
+        "high_volume",
+        "stable_growth",
+        "engaged_in_last_24h"
+      ],
+      "review_themes": [
+        {
+          "theme": "thali_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 22
+        },
+        {
+          "theme": "weekend_busy",
+          "sentiment": "neg",
+          "occurrences_30d": 3
+        }
+      ]
+    },
+    "category": {
+      "slug": "restaurants",
+      "display_name": "Restaurants & Cafes",
+      "voice": {
+        "tone": "warm_busy_practical",
+        "register": "fellow_operator",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "footfall",
+          "covers",
+          "AOV",
+          "RPC",
+          "table turnover",
+          "reservations",
+          "GRO",
+          "weekend brunch",
+          "happy hour",
+          "thali",
+          "biryani",
+          "tandoor"
+        ],
+        "vocab_taboo": [
+          "best food in city",
+          "guaranteed packed house",
+          "miracle marketing",
+          "viral guarantee"
+        ],
+        "salutation_examples": [
+          "Hi {chef_or_owner_first_name}",
+          "{restaurant_name} team"
+        ],
+        "tone_examples": [
+          "Quick one — IPL match nights have been 1.5x your weekday avg this season",
+          "Spotted: 'biryani delivery' searches in your sublocality up 28% this week"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "res_001",
+          "title": "Flat 30% OFF on total bill (limit ₹500)",
+          "value": "30%",
+          "audience": "new_user",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "res_002",
+          "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "value": "BOGO",
+          "audience": "new_user",
+          "type": "bogo"
+        },
+        {
+          "id": "res_003",
+          "title": "Weekday Lunch Thali @ ₹149",
+          "value": "149",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_004",
+          "title": "Free Starter on orders > ₹1,200",
+          "value": "free_addon",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_005",
+          "title": "Match-night Combo @ ₹399 (food + drink)",
+          "value": "399",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_006",
+          "title": "Family Sunday Brunch @ ₹699/pax",
+          "value": "699",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_007",
+          "title": "Free Delivery > ₹500",
+          "value": "free_delivery",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_008",
+          "title": "Birthday: Free Cake on parties of 6+",
+          "value": "free_addon",
+          "audience": "all",
+          "type": "free_addon"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_casual_dining_2026",
+        "avg_rating": 4.2,
+        "avg_review_count": 142,
+        "avg_views_30d": 4800,
+        "avg_calls_30d": 38,
+        "avg_directions_30d": 95,
+        "avg_ctr": 0.025,
+        "avg_photos": 22,
+        "avg_post_freq_days": 7,
+        "retention_30d_pct": 0.18
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_ipl_window",
+          "kind": "seasonal",
+          "title": "IPL home-match Saturdays underperformed weeknight matches across metros",
+          "source": "magicpin order data, Apr 2026",
+          "summary": "Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average. Weeknight matches drive +18% covers. Adjust promo days accordingly.",
+          "actionable": "Push match-night combos on Tue/Wed/Thu match dates only"
+        },
+        {
+          "id": "d_2026W17_packaged_food_gst",
+          "kind": "compliance",
+          "title": "GST council clarifies 5% rate for restaurant takeaway packaging from 2026-06-01",
+          "source": "GST Council circular 224/2026",
+          "summary": "Single-use plastic surcharge added to packaging cost for orders >₹500. Effective June 1. Cloud kitchens hit hardest.",
+          "actionable": "Audit your packaging cost; consider Eco-pack alternative if volume justifies"
+        },
+        {
+          "id": "d_2026W17_zomato_visibility",
+          "kind": "trend",
+          "title": "Zomato 'verified' badge correlates with +24% impressions in Tier-1 cities",
+          "source": "Zomato partner update, Apr 2026",
+          "summary": "Verification requires uploaded GST cert + 6 months continuous operation. Most eligible mid-size restaurants haven't applied; 5-day approval.",
+          "actionable": "Apply via partner dashboard if you've crossed 6 months"
+        },
+        {
+          "id": "d_2026W17_swiggy_iCare",
+          "kind": "tech",
+          "title": "Swiggy iCare: AI complaint summarizer launching Apr 2026",
+          "source": "Swiggy partner blog 2026-04-12",
+          "summary": "Auto-summarises customer complaints into themes (cold food / late / wrong order). Free for Pro merchants. Reveals pattern most operators miss.",
+          "actionable": "Enable in dashboard; review weekly themes Sunday evening"
+        },
+        {
+          "id": "d_2026W17_dish_trend",
+          "kind": "trend",
+          "title": "'Sugar-free dessert' searches +52% YoY across Indian metros",
+          "source": "Google Trends Apr 2026",
+          "summary": "Concentrated in 28-45 age band; correlated with rising diabetic awareness. Two new options on dessert menus seeing strong attach rate: keto cheesecake, almond-flour brownie.",
+          "actionable": "Add one sugar-free dessert; mark prominently on menu and GBP"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_ordering_smart",
+          "title": "Three things to look for before ordering food online",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "(1) Look at the latest review's date — if last review is 30+ days old, the kitchen may be off. (2) Filter for 4★+ reviews mentioning your specific dish. (3) Order at peak hours — fresh prep, not warmed-up morning batch. These three filter out 80% of bad-experience risk."
+        },
+        {
+          "id": "pc_thali_economics",
+          "title": "Why a ₹149 thali is the best lunch deal in town",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "A weekday thali for ₹149 covers your daily protein, two veggies, dal, rice, roti, and pickle/sweet. Buying these separately at any market in the neighbourhood: ₹240+. The only way restaurants make this work is high lunch volume — which means freshly-cooked, not standing in a chafer."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Mar-Apr",
+          "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+        },
+        {
+          "month_range": "Oct-Nov",
+          "note": "Diwali corporate gifting + family-feast bookings"
+        },
+        {
+          "month_range": "Dec",
+          "note": "Christmas + New Year — set menu sales 3x baseline"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon delivery surge; rain-day discount window"
+        },
+        {
+          "month_range": "Feb 14",
+          "note": "Valentine's prix-fixe — book starting 2 weeks prior"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "biryani near me",
+          "delta_yoy": 0.18,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "weekday lunch thali",
+          "delta_yoy": 0.34,
+          "segment_age": "office_25-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "sugar free dessert",
+          "delta_yoy": 0.52,
+          "segment_age": "28-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "match night offer",
+          "delta_yoy": 0.65,
+          "segment_age": "20-40",
+          "skew": "male"
+        },
+        {
+          "query": "small party catering",
+          "delta_yoy": 0.22,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI",
+        "Local Health Department",
+        "GST Council"
+      ],
+      "professional_journals": [
+        "FoodService India",
+        "Hospitality Bizz"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_096_curious_ask_due_m_006_southindiancaf",
+      "scope": "merchant",
+      "kind": "curious_ask_due",
+      "source": "internal",
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "customer_id": null,
+      "payload": {
+        "placeholder": true,
+        "metric_or_topic": "curious_ask_due"
+      },
+      "urgency": 1,
+      "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+      "expires_at": "2026-06-30T00:00:00Z"
+    },
+    "payload_display": {
+      "placeholder": true,
+      "metric_or_topic": "curious ask due"
+    },
+    "merchant": {
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "category_slug": "restaurants",
+      "identity": {
+        "name": "Mylari South Indian Cafe",
+        "city": "Bangalore",
+        "locality": "Indiranagar",
+        "place_id": "ChIJ_INDIRANAGAR_RESTAURANT_006",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi",
+          "kn"
+        ],
+        "owner_first_name": "Suresh",
+        "established_year": 2014
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 240
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 12400,
+        "calls": 88,
+        "directions": 320,
+        "ctr": 0.032,
+        "leads": 145,
+        "delta_7d": {
+          "views_pct": 0.05,
+          "calls_pct": 0.02
+        }
+      },
+      "offers": [
+        {
+          "id": "o_mylari_001",
+          "title": "Weekday Lunch Thali @ ₹149",
+          "status": "active",
+          "started": "2026-01-10"
+        }
+      ],
+      "conversation_history": [
+        {
+          "ts": "2026-04-25T11:00:00Z",
+          "from": "vera",
+          "body": "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?",
+          "engagement": "merchant_replied"
+        },
+        {
+          "ts": "2026-04-25T11:30:00Z",
+          "from": "merchant",
+          "body": "Yes good idea, what would it look like",
+          "engagement": "intent_question"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 4200,
+        "repeat_customer_pct": 0.42,
+        "delivery_share_pct": 0.45
+      },
+      "signals": [
+        "high_volume",
+        "stable_growth",
+        "engaged_in_last_24h"
+      ],
+      "review_themes": [
+        {
+          "theme": "thali_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 22
+        },
+        {
+          "theme": "weekend_busy",
+          "sentiment": "neg",
+          "occurrences_30d": 3
+        }
+      ]
+    },
+    "category": {
+      "slug": "restaurants",
+      "display_name": "Restaurants & Cafes",
+      "voice": {
+        "tone": "warm_busy_practical",
+        "register": "fellow_operator",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "footfall",
+          "covers",
+          "AOV",
+          "RPC",
+          "table turnover",
+          "reservations",
+          "GRO",
+          "weekend brunch",
+          "happy hour",
+          "thali",
+          "biryani",
+          "tandoor"
+        ],
+        "vocab_taboo": [
+          "best food in city",
+          "guaranteed packed house",
+          "miracle marketing",
+          "viral guarantee"
+        ],
+        "salutation_examples": [
+          "Hi {chef_or_owner_first_name}",
+          "{restaurant_name} team"
+        ],
+        "tone_examples": [
+          "Quick one — IPL match nights have been 1.5x your weekday avg this season",
+          "Spotted: 'biryani delivery' searches in your sublocality up 28% this week"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "res_001",
+          "title": "Flat 30% OFF on total bill (limit ₹500)",
+          "value": "30%",
+          "audience": "new_user",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "res_002",
+          "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "value": "BOGO",
+          "audience": "new_user",
+          "type": "bogo"
+        },
+        {
+          "id": "res_003",
+          "title": "Weekday Lunch Thali @ ₹149",
+          "value": "149",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_004",
+          "title": "Free Starter on orders > ₹1,200",
+          "value": "free_addon",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_005",
+          "title": "Match-night Combo @ ₹399 (food + drink)",
+          "value": "399",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_006",
+          "title": "Family Sunday Brunch @ ₹699/pax",
+          "value": "699",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "res_007",
+          "title": "Free Delivery > ₹500",
+          "value": "free_delivery",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "res_008",
+          "title": "Birthday: Free Cake on parties of 6+",
+          "value": "free_addon",
+          "audience": "all",
+          "type": "free_addon"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_casual_dining_2026",
+        "avg_rating": 4.2,
+        "avg_review_count": 142,
+        "avg_views_30d": 4800,
+        "avg_calls_30d": 38,
+        "avg_directions_30d": 95,
+        "avg_ctr": 0.025,
+        "avg_photos": 22,
+        "avg_post_freq_days": 7,
+        "retention_30d_pct": 0.18
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_ipl_window",
+          "kind": "seasonal",
+          "title": "IPL home-match Saturdays underperformed weeknight matches across metros",
+          "source": "magicpin order data, Apr 2026",
+          "summary": "Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average. Weeknight matches drive +18% covers. Adjust promo days accordingly.",
+          "actionable": "Push match-night combos on Tue/Wed/Thu match dates only"
+        },
+        {
+          "id": "d_2026W17_packaged_food_gst",
+          "kind": "compliance",
+          "title": "GST council clarifies 5% rate for restaurant takeaway packaging from 2026-06-01",
+          "source": "GST Council circular 224/2026",
+          "summary": "Single-use plastic surcharge added to packaging cost for orders >₹500. Effective June 1. Cloud kitchens hit hardest.",
+          "actionable": "Audit your packaging cost; consider Eco-pack alternative if volume justifies"
+        },
+        {
+          "id": "d_2026W17_zomato_visibility",
+          "kind": "trend",
+          "title": "Zomato 'verified' badge correlates with +24% impressions in Tier-1 cities",
+          "source": "Zomato partner update, Apr 2026",
+          "summary": "Verification requires uploaded GST cert + 6 months continuous operation. Most eligible mid-size restaurants haven't applied; 5-day approval.",
+          "actionable": "Apply via partner dashboard if you've crossed 6 months"
+        },
+        {
+          "id": "d_2026W17_swiggy_iCare",
+          "kind": "tech",
+          "title": "Swiggy iCare: AI complaint summarizer launching Apr 2026",
+          "source": "Swiggy partner blog 2026-04-12",
+          "summary": "Auto-summarises customer complaints into themes (cold food / late / wrong order). Free for Pro merchants. Reveals pattern most operators miss.",
+          "actionable": "Enable in dashboard; review weekly themes Sunday evening"
+        },
+        {
+          "id": "d_2026W17_dish_trend",
+          "kind": "trend",
+          "title": "'Sugar-free dessert' searches +52% YoY across Indian metros",
+          "source": "Google Trends Apr 2026",
+          "summary": "Concentrated in 28-45 age band; correlated with rising diabetic awareness. Two new options on dessert menus seeing strong attach rate: keto cheesecake, almond-flour brownie.",
+          "actionable": "Add one sugar-free dessert; mark prominently on menu and GBP"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_ordering_smart",
+          "title": "Three things to look for before ordering food online",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "(1) Look at the latest review's date — if last review is 30+ days old, the kitchen may be off. (2) Filter for 4★+ reviews mentioning your specific dish. (3) Order at peak hours — fresh prep, not warmed-up morning batch. These three filter out 80% of bad-experience risk."
+        },
+        {
+          "id": "pc_thali_economics",
+          "title": "Why a ₹149 thali is the best lunch deal in town",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "A weekday thali for ₹149 covers your daily protein, two veggies, dal, rice, roti, and pickle/sweet. Buying these separately at any market in the neighbourhood: ₹240+. The only way restaurants make this work is high lunch volume — which means freshly-cooked, not standing in a chafer."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Mar-Apr",
+          "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+        },
+        {
+          "month_range": "Oct-Nov",
+          "note": "Diwali corporate gifting + family-feast bookings"
+        },
+        {
+          "month_range": "Dec",
+          "note": "Christmas + New Year — set menu sales 3x baseline"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon delivery surge; rain-day discount window"
+        },
+        {
+          "month_range": "Feb 14",
+          "note": "Valentine's prix-fixe — book starting 2 weeks prior"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "biryani near me",
+          "delta_yoy": 0.18,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "weekday lunch thali",
+          "delta_yoy": 0.34,
+          "segment_age": "office_25-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "sugar free dessert",
+          "delta_yoy": 0.52,
+          "segment_age": "28-45",
+          "skew": "balanced"
+        },
+        {
+          "query": "match night offer",
+          "delta_yoy": 0.65,
+          "segment_age": "20-40",
+          "skew": "male"
+        },
+        {
+          "query": "small party catering",
+          "delta_yoy": 0.22,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI",
+        "Local Health Department",
+        "GST Council"
+      ],
+      "professional_journals": [
+        "FoodService India",
+        "Hospitality Bizz"
+      ]
+    },
+    "customer": null,
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "Mylari South Indian Cafe",
+        "display": "Mylari South Indian Cafe",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Suresh",
+          "honorific": null
+        },
+        "display": "Suresh",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Indiranagar",
+          "city": "Bangalore"
+        },
+        "display": "Indiranagar, Bangalore",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": true,
+        "display": "Google profile is verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2014,
+        "display": "in business since 2014",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 12400,
+        "display": "12,400 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 88,
+        "display": "88 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 320,
+        "display": "320 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 145,
+        "display": "145 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.032,
+        "display": "3.2% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": 0.05,
+        "display": "views +5% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": 0.02,
+        "display": "calls +2% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.032,
+          "peer": 0.025,
+          "ratio": 1.28,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "CTR 3.2% vs 2.5% peer average, 28% above peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 12400,
+          "peer": 4800,
+          "ratio": 2.583,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Profile views 12,400 vs 4,800 peer average, 158% above peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 88,
+          "peer": 38,
+          "ratio": 2.316,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Calls 88 vs 38 peer average, 132% above peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 320,
+          "peer": 95,
+          "ratio": 3.368,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 320 vs 95 peer average, 237% above peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_unique_ytd",
+        "group": "customers",
+        "value": 4200,
+        "display": "4,200 unique customers this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd"
+      },
+      {
+        "key": "repeat_customer_pct",
+        "group": "customers",
+        "value": 0.42,
+        "display": "repeat-customer share 42%",
+        "source": "merchant.customer_aggregate.repeat_customer_pct"
+      },
+      {
+        "key": "delivery_share_pct",
+        "group": "customers",
+        "value": 0.45,
+        "display": "delivery share of orders 45%",
+        "source": "merchant.customer_aggregate.delivery_share_pct"
+      },
+      {
+        "key": "active_offers",
+        "group": "offers",
+        "value": [
+          "Weekday Lunch Thali @ ₹149"
+        ],
+        "display": "active offers: Weekday Lunch Thali @ ₹149",
+        "source": "merchant.offers (status=active)"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Match-night Combo @ ₹399 (food + drink)",
+          "Family Sunday Brunch @ ₹699/pax",
+          "Free Starter on orders > ₹1,200",
+          "Free Delivery > ₹500",
+          "Birthday: Free Cake on parties of 6+",
+          "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+          "Flat 30% OFF on total bill (limit ₹500)"
+        ],
+        "display": "category offers this merchant hasn't run: Match-night Combo @ ₹399 (food + drink); Family Sunday Brunch @ ₹699/pax; Free Starter on orders > ₹1,200; Free Delivery > ₹500; Birthday: Free Cake on parties of 6+",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "active",
+          "plan": "Pro",
+          "days_remaining": 240
+        },
+        "display": "Pro plan active, 240 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "review_theme_thali_quality",
+        "group": "reviews",
+        "value": {
+          "theme": "thali_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 22
+        },
+        "display": "22 reviews in the last 30 days mention thali quality (positive)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "review_theme_weekend_busy",
+        "group": "reviews",
+        "value": {
+          "theme": "weekend_busy",
+          "sentiment": "neg",
+          "occurrences_30d": 3
+        },
+        "display": "3 reviews in the last 30 days mention weekend crowding (negative)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "signal_high_volume",
+        "group": "signals",
+        "value": {
+          "raw": "high_volume",
+          "name": "high_volume",
+          "value": null,
+          "unit": null
+        },
+        "display": "high volume",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_stable_growth",
+        "group": "signals",
+        "value": {
+          "raw": "stable_growth",
+          "name": "stable_growth",
+          "value": null,
+          "unit": null
+        },
+        "display": "stable growth",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_engaged_in_last",
+        "group": "signals",
+        "value": {
+          "raw": "engaged_in_last_24h",
+          "name": "engaged_in_last",
+          "value": 24,
+          "unit": "h"
+        },
+        "display": "engaged with Vera in the last 24 hours",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_casual_dining_2026",
+        "display": "peer group: metro casual dining 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.2,
+        "display": "peers average a 4.2★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 142,
+        "display": "peers average 142 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 7,
+        "display": "peers post on Google every 7 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 22,
+        "display": "peers have 22 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_mar_apr",
+        "group": "season",
+        "value": {
+          "month_range": "Mar-Apr",
+          "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+        },
+        "display": "Mar-Apr: IPL season — match-night promos on Tue/Wed/Thu; not weekends",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_biryani_near_me",
+        "group": "trends",
+        "value": {
+          "query": "biryani near me",
+          "delta_yoy": 0.18,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"biryani near me\" searches +18% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_weekday_lunch_thali",
+        "group": "trends",
+        "value": {
+          "query": "weekday lunch thali",
+          "delta_yoy": 0.34,
+          "segment_age": "office_25-45",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"weekday lunch thali\" searches +34% year-on-year (office 25-45)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_sugar_free_dessert",
+        "group": "trends",
+        "value": {
+          "query": "sugar free dessert",
+          "delta_yoy": 0.52,
+          "segment_age": "28-45",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"sugar free dessert\" searches +52% year-on-year (age 28-45)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_match_night_offer",
+        "group": "trends",
+        "value": {
+          "query": "match night offer",
+          "delta_yoy": 0.65,
+          "segment_age": "20-40",
+          "skew": "male",
+          "local": false
+        },
+        "display": "\"match night offer\" searches +65% year-on-year (age 20-40, skews male)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_small_party_catering",
+        "group": "trends",
+        "value": {
+          "query": "small party catering",
+          "delta_yoy": 0.22,
+          "segment_age": "30-50",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"small party catering\" searches +22% year-on-year (age 30-50, skews female)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 2,
+      "last_vera_message": {
+        "ts": "2026-04-25T11:00:00Z",
+        "body": "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?",
+        "engagement": "merchant_replied",
+        "hours_ago": 23.5,
+        "origin": "context"
+      },
+      "last_merchant_message": {
+        "ts": "2026-04-25T11:30:00Z",
+        "body": "Yes good idea, what would it look like",
+        "engagement": "intent_question",
+        "hours_ago": 23.0,
+        "origin": "context",
+        "language": "en"
+      },
+      "open_requests": [
+        {
+          "ts": "2026-04-25T11:30:00Z",
+          "message": "Yes good idea, what would it look like",
+          "engagement": "intent_question",
+          "in_reply_to": "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?"
+        }
+      ],
+      "unanswered_streak": 0,
+      "session_window_open": true,
+      "recent_vera_bodies": [
+        "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?"
+      ],
+      "engagement_tags": [
+        "intent_question",
+        "merchant_replied"
+      ]
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "customers",
+      "category_code_mix": "hindi english natural",
+      "greeting": "Hi Suresh",
+      "address_as": "Suresh",
+      "first_name": "Suresh",
+      "honorific": null,
+      "template": "Hi {chef_or_owner_first_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "hi",
+        "kn"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [
+        "kn"
+      ],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "rich",
+      "score": 5,
+      "max": 5,
+      "present": [
+        "offers",
+        "conversation_history",
+        "signals",
+        "review_themes",
+        "customer_aggregate"
+      ],
+      "missing": []
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [
+      "placeholder_payload",
+      "open_merchant_request"
+    ],
+    "warnings": [
+      "placeholder_payload: trigger payload has no event details; anchor on merchant and category facts and invent nothing about the event",
+      "open_merchant_request: merchant is waiting on: Yes good idea, what would it look like"
+    ],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf",
+    "kind": "curious_ask_due",
+    "family": "followup",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+    "customer_id": null,
+    "recipient_id": "m_006_southindiancafe_restaurant_bangalore",
+    "sender_name": "Mylari South Indian Cafe",
+    "greeting": "Hi Suresh",
+    "address_as": "Suresh",
+    "language": {
+      "style": "hi-en",
+      "instruction": "Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.",
+      "hinglish": true
+    },
+    "lead": {
+      "text": "weekly check-in question",
+      "source": "trigger.kind",
+      "key": "payload:ask_template",
+      "phrase": "quick question for this week",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "views +5% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct",
+        "key": "views_change_7d",
+        "phrase": "views +5% this week",
+        "phrase_hi": ""
+      },
+      {
+        "text": "active offers: Weekday Lunch Thali @ ₹149",
+        "source": "merchant.offers (status=active)",
+        "key": "active_offers",
+        "phrase": "your Weekday Lunch Thali @ ₹149 offer is live",
+        "phrase_hi": ""
+      }
+    ],
+    "angle": "ask one easy question anchored on their own momentum this week, and offer to turn the answer into content while the interest is there",
+    "levers": [
+      "asking_the_merchant",
+      "reciprocity",
+      "curiosity"
+    ],
+    "ask": {
+      "cta": "open_ended",
+      "text": "Tell me the most asked-for dish this week, and I'll turn it into a Google post plus a ready WhatsApp reply for price questions.",
+      "text_hi": "Is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+      "intent": "open question: Tell me the most asked-for dish this week, and I'll turn it into a Google post plus a ready WhatsApp reply for price questions."
+    },
+    "template": {
+      "required": false,
+      "name": "vera_curious_ask_due_v1"
+    },
+    "instructions": [
+      "Voice: warm busy practical, fellow operator.",
+      "Category words you can use (vocabulary only, not facts about this business): footfall, covers, AOV, RPC, table turnover, reservations.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson.",
+      "The trigger (curious ask due) gives no details: mention it only in general terms and build the message on the supporting facts."
+    ],
+    "avoid": [
+      "best food in city",
+      "guaranteed packed house",
+      "miracle marketing",
+      "viral guarantee"
+    ],
+    "allowed_numbers": [
+      "5",
+      "7",
+      "149"
+    ],
+    "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+    "urgency": 1,
+    "flags": [
+      "placeholder_payload",
+      "open_merchant_request"
+    ],
+    "notes": [],
+    "render_support": 1,
+    "vocabulary": [
+      "footfall",
+      "covers",
+      "AOV",
+      "RPC",
+      "table turnover",
+      "reservations",
+      "GRO",
+      "weekend brunch",
+      "happy hour",
+      "thali",
+      "biryani",
+      "tandoor"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Suresh, owner of Mylari South Indian Cafe. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Hi Suresh\nLanguage: Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.\nWhy now: weekly check-in question\nSupporting facts (use only these):\n- views +5% over the last 7 days\n- active offers: Weekday Lunch Thali @ ₹149\nAngle: ask one easy question anchored on their own momentum this week, and offer to turn the answer into content while the interest is there. Levers: asking the merchant, reciprocity, curiosity.\nAsk, one only, as the last sentence (open question): Is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.\nFormat: free-form reply allowed.\nRules:\n- Voice: warm busy practical, fellow operator.\n- Category words you can use (vocabulary only, not facts about this business): footfall, covers, AOV, RPC, table turnover, reservations.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- The trigger (curious ask due) gives no details: mention it only in general terms and build the message on the supporting facts.\n- Numbers may only come from: 5, 7, 149.\n- Never use: best food in city, guaranteed packed house, miracle marketing, viral guarantee.",
+  "phase2_plain_message": {
+    "body": "Hi Suresh, quick question for this week. Views +5% this week. Is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+    "cta": "open_ended",
+    "send_as": "vera",
+    "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+    "rationale": "Curious ask due: weekly check-in question. Backed by views +5% over the last 7 days. Angle: ask one easy question anchored on their own momentum this week, and offer to turn the answer into content while the interest is there; one open question ask. Hinglish where their language preference calls for it.",
+    "template_name": "vera_curious_ask_due_v1",
+    "template_params": [
+      "Hi Suresh",
+      "Quick question for this week.",
+      "Views +5% this week.",
+      "Is hafte kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi."
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Hi Suresh, weekly check-in: Mylari South Indian Cafe ke views pichhle 7 din mein 5% badhe hain, aur Weekday Lunch Thali ₹149 par active hai. Interest bana hua hai—kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+    "cta": "open_ended",
+    "send_as": "vera",
+    "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+    "rationale": "Anchors the check-in on the 5% seven-day view increase and the active ₹149 offer, then connects that momentum to a practical content follow-up. Ends with the single requested open question and deliverable.",
+    "template_name": "vera_curious_ask_due_v1",
+    "template_params": [
+      "Hi Suresh",
+      "Hi Suresh, weekly check-in: Mylari South Indian Cafe ke views pichhle 7 din mein 5% badhe hain, aur Weekday Lunch Thali ₹149 par active hai.",
+      "Interest bana hua hai—kis dish ki sabse zyada demand rahi?",
+      "Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi."
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Hi Suresh, weekly check-in: Mylari South Indian Cafe ke views pichhle 7 din mein 5% badhe hain, aur Weekday Lunch Thali ₹149 par active hai. Interest bana hua hai—kis dish ki sabse zyada demand rahi? Bataiye, main uska Google post aur price ke sawaalon ke liye ek ready WhatsApp reply bana doongi.",
+    "cta": "open_ended",
+    "send_as": "vera",
+    "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+    "rationale": "Anchors the check-in on the 5% seven-day view increase and the active ₹149 offer, then connects that momentum to a practical content follow-up. Ends with the single requested open question and deliverable.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "3% overlap with case study 4",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}

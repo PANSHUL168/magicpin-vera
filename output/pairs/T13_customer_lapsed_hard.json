@@ -1,0 +1,1641 @@
+{
+  "pair": {
+    "test_id": "T13",
+    "trigger_id": "trg_015_winback_rashmi",
+    "merchant_id": "m_007_powerhouse_gym_bangalore",
+    "customer_id": "c_010_rashmi_for_m007"
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_015_winback_rashmi",
+      "scope": "customer",
+      "kind": "customer_lapsed_hard",
+      "source": "internal",
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "customer_id": "c_010_rashmi_for_m007",
+      "payload": {
+        "days_since_last_visit": 57,
+        "previous_focus": "weight_loss",
+        "previous_membership_months": 5
+      },
+      "urgency": 3,
+      "suppression_key": "winback:c_010_rashmi_for_m007",
+      "expires_at": "2026-06-15T00:00:00Z"
+    },
+    "merchant": {
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "category_slug": "gyms",
+      "identity": {
+        "name": "PowerHouse Fitness",
+        "city": "Bangalore",
+        "locality": "HSR Layout",
+        "place_id": "ChIJ_HSR_GYM_007",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi",
+          "kn"
+        ],
+        "owner_first_name": "Karthik",
+        "established_year": 2020
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 95
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 1480,
+        "calls": 22,
+        "directions": 48,
+        "ctr": 0.052,
+        "leads": 14,
+        "delta_7d": {
+          "views_pct": -0.3,
+          "calls_pct": -0.35
+        }
+      },
+      "offers": [
+        {
+          "id": "o_powerhouse_001",
+          "title": "3 FREE Trial Classes",
+          "status": "active",
+          "started": "2026-01-01"
+        }
+      ],
+      "conversation_history": [],
+      "customer_aggregate": {
+        "total_active_members": 245,
+        "monthly_churn_pct": 0.1,
+        "trial_to_paid_pct": 0.28
+      },
+      "signals": [
+        "seasonal_dip_apr_may",
+        "above_peer_ctr",
+        "no_recent_post"
+      ],
+      "review_themes": [
+        {
+          "theme": "equipment_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 7
+        },
+        {
+          "theme": "morning_crowd",
+          "sentiment": "neg",
+          "occurrences_30d": 4
+        }
+      ]
+    },
+    "category": {
+      "slug": "gyms",
+      "display_name": "Gyms & Fitness",
+      "voice": {
+        "tone": "energetic_disciplined",
+        "register": "coach_to_member",
+        "code_mix": "english_primary_some_hindi",
+        "vocab_allowed": [
+          "footfall",
+          "membership churn",
+          "PT sessions",
+          "PR (personal record)",
+          "1RM",
+          "EMOM",
+          "AMRAP",
+          "split",
+          "cut",
+          "bulk",
+          "BMR",
+          "VO2max",
+          "functional",
+          "HIIT",
+          "CrossFit",
+          "yoga",
+          "pilates"
+        ],
+        "vocab_taboo": [
+          "guaranteed weight loss",
+          "shred in 7 days",
+          "miracle transformation",
+          "fastest results"
+        ],
+        "salutation_examples": [
+          "Hi {first_name}",
+          "{gym_name} team",
+          "Coach"
+        ],
+        "tone_examples": [
+          "Quick check — your weekday 7-9pm slot has been at 90%+ capacity all month",
+          "Footfall pattern: April drop-off is normal; bookings recover by 2nd week May"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "gym_001",
+          "title": "3 FREE Trial Classes",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_trial"
+        },
+        {
+          "id": "gym_002",
+          "title": "First Month @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_003",
+          "title": "Personal Training Demo @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_004",
+          "title": "Annual Membership @ ₹14,999 (save ₹6,000)",
+          "value": "14999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_005",
+          "title": "Couple/Family Plan @ ₹999/month",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_006",
+          "title": "Free Body Composition Analysis",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "gym_007",
+          "title": "Refer-a-friend: 1 month free for both",
+          "value": "free_addon",
+          "audience": "repeat_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "gym_008",
+          "title": "Yoga + Strength Combo @ ₹1,499/month",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_neighbourhood_gyms_2026",
+        "avg_rating": 4.5,
+        "avg_review_count": 56,
+        "avg_views_30d": 1100,
+        "avg_calls_30d": 18,
+        "avg_directions_30d": 42,
+        "avg_ctr": 0.045,
+        "avg_photos": 16,
+        "avg_post_freq_days": 12,
+        "monthly_churn_pct": 0.08,
+        "trial_to_paid_pct": 0.32
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_resolution_window",
+          "kind": "seasonal",
+          "title": "Post-Jan resolution window closing — last 2 weeks of high trial-walk-ins",
+          "source": "magicpin gym data, Apr 2026",
+          "summary": "Gym trial walk-ins spike Jan 1-15, taper through Mar; April-June hits the lowest acquisition window of the year. Most gyms over-spend on ads now; underspend in October pre-holiday window.",
+          "actionable": "Pause acquisition spend in May; double down Sept-Oct"
+        },
+        {
+          "id": "d_2026W17_pt_demand",
+          "kind": "trend",
+          "title": "Personal Training inquiries +38% YoY in 30-50 corporate cohort",
+          "source": "Multi-gym aggregate Apr 2026",
+          "summary": "Driven by health-check-up findings (rising HbA1c, BP, cholesterol). Demand is for 2x/week PT, not full-program. ₹3,000-5,000/month sweet spot.",
+          "actionable": "Package a '2x/week PT @ ₹3,499' option separate from full membership"
+        },
+        {
+          "id": "d_2026W17_yoga_studio_competition",
+          "kind": "compete",
+          "title": "Boutique yoga/pilates studios opening fast in metro neighbourhoods",
+          "source": "Industry watch Apr 2026",
+          "summary": "Reformer pilates studios at ₹6,000-8,000/month membership are pulling 30-45 women from traditional gyms. Don't compete on price; compete on coach quality + community.",
+          "actionable": "Add one yoga or pilates class to your weekly schedule if you don't have one"
+        },
+        {
+          "id": "d_2026W17_creatine_safety_bulletin",
+          "kind": "research",
+          "title": "ICMR creatine supplementation safety bulletin — adolescent guidance",
+          "source": "ICMR, Apr 2026",
+          "summary": "Creatine monohydrate at 3-5g/day deemed safe for healthy adults; cautioned against under-18 use without medical supervision. Reinforces what most coaches already practice.",
+          "actionable": "Update your store / counter recommendations; flag under-18 customers"
+        },
+        {
+          "id": "d_2026W17_class_schedule_optimization",
+          "kind": "tech",
+          "title": "Schedule density study — peak slots underutilized in mornings",
+          "source": "magicpin internal Apr 2026",
+          "summary": "Across 200+ partner gyms, 6-8am weekday slots run at 60% capacity vs 90%+ for 6-9pm. Adding a 7am class typically doesn't cannibalize evenings.",
+          "actionable": "Consider one new 7am class — yoga or HIIT pulls best in that slot"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_first_30_days",
+          "title": "First 30 days at the gym — what actually changes",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Week 1-2: nervous-system adaptation, lifts feel easier (not muscle gain — coordination). Week 3-4: small visible changes, sleep improves. Real strength/aesthetic changes start at week 8-12. Most people quit at week 3 expecting visible change. Trust the process."
+        },
+        {
+          "id": "pc_pt_or_solo",
+          "title": "PT or solo? A 5-question test",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Solo if: you've trained before, you can read program structure, you don't get injured easily. PT if: you're new, recovering from injury, training for a specific event, or have inconsistent form. Hybrid (PT 1-2x/month + solo): the smartest middle path for most members."
+        },
+        {
+          "id": "pc_protein_basics",
+          "title": "How much protein do you actually need?",
+          "channel": "whatsapp",
+          "length_seconds": 50,
+          "body": "Sedentary adults: 0.8g/kg body weight. Active adults: 1.2-1.6g/kg. Strength training: 1.6-2.2g/kg. For a 70kg active person, that's 84-112g/day — roughly 4 fistful-portions of protein. Indian-veg diets often fall short; supplement with paneer, dal, tofu before adding powders."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Jan",
+          "note": "resolution surge — trial walk-ins 4x baseline; convert window"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "lowest acquisition window — focus on retention, not acquisition"
+        },
+        {
+          "month_range": "Aug-Oct",
+          "note": "wedding-prep + festival window — repeat clients return to shape up"
+        },
+        {
+          "month_range": "Nov-Dec",
+          "note": "holiday slowdown — class density drops 25%; right time to renovate or pilot new programs"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "gym near me",
+          "delta_yoy": 0.05,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "personal trainer cost",
+          "delta_yoy": 0.38,
+          "segment_age": "30-50",
+          "skew": "balanced"
+        },
+        {
+          "query": "yoga classes near me",
+          "delta_yoy": 0.42,
+          "segment_age": "25-55",
+          "skew": "female"
+        },
+        {
+          "query": "weight loss program",
+          "delta_yoy": 0.28,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI (for supplement sales)",
+        "Local Municipal Corp (premises)"
+      ],
+      "professional_journals": [
+        "Indian Journal of Sports Medicine"
+      ]
+    },
+    "customer": {
+      "customer_id": "c_010_rashmi_for_m007",
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "identity": {
+        "name": "Rashmi",
+        "phone_redacted": "<phone>",
+        "language_pref": "english",
+        "age_band": "30-40"
+      },
+      "relationship": {
+        "first_visit": "2025-09-10",
+        "last_visit": "2026-02-28",
+        "visits_total": 22,
+        "services_received": [
+          "membership_x4",
+          "PT_intro"
+        ],
+        "lifetime_value": 4490
+      },
+      "state": "lapsed_hard",
+      "preferences": {
+        "preferred_slots": "weekday_evening",
+        "channel": "whatsapp",
+        "reminder_opt_in": true,
+        "training_focus": "weight_loss"
+      },
+      "consent": {
+        "opted_in_at": "2025-09-10",
+        "scope": [
+          "renewal_reminders",
+          "winback_offers"
+        ]
+      }
+    }
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_015_winback_rashmi",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "customer",
+    "send_as": "merchant_on_behalf",
+    "trigger": {
+      "id": "trg_015_winback_rashmi",
+      "scope": "customer",
+      "kind": "customer_lapsed_hard",
+      "source": "internal",
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "customer_id": "c_010_rashmi_for_m007",
+      "payload": {
+        "days_since_last_visit": 57,
+        "previous_focus": "weight_loss",
+        "previous_membership_months": 5
+      },
+      "urgency": 3,
+      "suppression_key": "winback:c_010_rashmi_for_m007",
+      "expires_at": "2026-06-15T00:00:00Z"
+    },
+    "payload_display": {
+      "days_since_last_visit": "57",
+      "previous_focus": "weight loss",
+      "previous_membership_months": "5"
+    },
+    "merchant": {
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "category_slug": "gyms",
+      "identity": {
+        "name": "PowerHouse Fitness",
+        "city": "Bangalore",
+        "locality": "HSR Layout",
+        "place_id": "ChIJ_HSR_GYM_007",
+        "verified": true,
+        "languages": [
+          "en",
+          "hi",
+          "kn"
+        ],
+        "owner_first_name": "Karthik",
+        "established_year": 2020
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 95
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 1480,
+        "calls": 22,
+        "directions": 48,
+        "ctr": 0.052,
+        "leads": 14,
+        "delta_7d": {
+          "views_pct": -0.3,
+          "calls_pct": -0.35
+        }
+      },
+      "offers": [
+        {
+          "id": "o_powerhouse_001",
+          "title": "3 FREE Trial Classes",
+          "status": "active",
+          "started": "2026-01-01"
+        }
+      ],
+      "conversation_history": [],
+      "customer_aggregate": {
+        "total_active_members": 245,
+        "monthly_churn_pct": 0.1,
+        "trial_to_paid_pct": 0.28
+      },
+      "signals": [
+        "seasonal_dip_apr_may",
+        "above_peer_ctr",
+        "no_recent_post"
+      ],
+      "review_themes": [
+        {
+          "theme": "equipment_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 7
+        },
+        {
+          "theme": "morning_crowd",
+          "sentiment": "neg",
+          "occurrences_30d": 4
+        }
+      ]
+    },
+    "category": {
+      "slug": "gyms",
+      "display_name": "Gyms & Fitness",
+      "voice": {
+        "tone": "energetic_disciplined",
+        "register": "coach_to_member",
+        "code_mix": "english_primary_some_hindi",
+        "vocab_allowed": [
+          "footfall",
+          "membership churn",
+          "PT sessions",
+          "PR (personal record)",
+          "1RM",
+          "EMOM",
+          "AMRAP",
+          "split",
+          "cut",
+          "bulk",
+          "BMR",
+          "VO2max",
+          "functional",
+          "HIIT",
+          "CrossFit",
+          "yoga",
+          "pilates"
+        ],
+        "vocab_taboo": [
+          "guaranteed weight loss",
+          "shred in 7 days",
+          "miracle transformation",
+          "fastest results"
+        ],
+        "salutation_examples": [
+          "Hi {first_name}",
+          "{gym_name} team",
+          "Coach"
+        ],
+        "tone_examples": [
+          "Quick check — your weekday 7-9pm slot has been at 90%+ capacity all month",
+          "Footfall pattern: April drop-off is normal; bookings recover by 2nd week May"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "gym_001",
+          "title": "3 FREE Trial Classes",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_trial"
+        },
+        {
+          "id": "gym_002",
+          "title": "First Month @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_003",
+          "title": "Personal Training Demo @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_004",
+          "title": "Annual Membership @ ₹14,999 (save ₹6,000)",
+          "value": "14999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_005",
+          "title": "Couple/Family Plan @ ₹999/month",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "gym_006",
+          "title": "Free Body Composition Analysis",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "gym_007",
+          "title": "Refer-a-friend: 1 month free for both",
+          "value": "free_addon",
+          "audience": "repeat_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "gym_008",
+          "title": "Yoga + Strength Combo @ ₹1,499/month",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_neighbourhood_gyms_2026",
+        "avg_rating": 4.5,
+        "avg_review_count": 56,
+        "avg_views_30d": 1100,
+        "avg_calls_30d": 18,
+        "avg_directions_30d": 42,
+        "avg_ctr": 0.045,
+        "avg_photos": 16,
+        "avg_post_freq_days": 12,
+        "monthly_churn_pct": 0.08,
+        "trial_to_paid_pct": 0.32
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_resolution_window",
+          "kind": "seasonal",
+          "title": "Post-Jan resolution window closing — last 2 weeks of high trial-walk-ins",
+          "source": "magicpin gym data, Apr 2026",
+          "summary": "Gym trial walk-ins spike Jan 1-15, taper through Mar; April-June hits the lowest acquisition window of the year. Most gyms over-spend on ads now; underspend in October pre-holiday window.",
+          "actionable": "Pause acquisition spend in May; double down Sept-Oct"
+        },
+        {
+          "id": "d_2026W17_pt_demand",
+          "kind": "trend",
+          "title": "Personal Training inquiries +38% YoY in 30-50 corporate cohort",
+          "source": "Multi-gym aggregate Apr 2026",
+          "summary": "Driven by health-check-up findings (rising HbA1c, BP, cholesterol). Demand is for 2x/week PT, not full-program. ₹3,000-5,000/month sweet spot.",
+          "actionable": "Package a '2x/week PT @ ₹3,499' option separate from full membership"
+        },
+        {
+          "id": "d_2026W17_yoga_studio_competition",
+          "kind": "compete",
+          "title": "Boutique yoga/pilates studios opening fast in metro neighbourhoods",
+          "source": "Industry watch Apr 2026",
+          "summary": "Reformer pilates studios at ₹6,000-8,000/month membership are pulling 30-45 women from traditional gyms. Don't compete on price; compete on coach quality + community.",
+          "actionable": "Add one yoga or pilates class to your weekly schedule if you don't have one"
+        },
+        {
+          "id": "d_2026W17_creatine_safety_bulletin",
+          "kind": "research",
+          "title": "ICMR creatine supplementation safety bulletin — adolescent guidance",
+          "source": "ICMR, Apr 2026",
+          "summary": "Creatine monohydrate at 3-5g/day deemed safe for healthy adults; cautioned against under-18 use without medical supervision. Reinforces what most coaches already practice.",
+          "actionable": "Update your store / counter recommendations; flag under-18 customers"
+        },
+        {
+          "id": "d_2026W17_class_schedule_optimization",
+          "kind": "tech",
+          "title": "Schedule density study — peak slots underutilized in mornings",
+          "source": "magicpin internal Apr 2026",
+          "summary": "Across 200+ partner gyms, 6-8am weekday slots run at 60% capacity vs 90%+ for 6-9pm. Adding a 7am class typically doesn't cannibalize evenings.",
+          "actionable": "Consider one new 7am class — yoga or HIIT pulls best in that slot"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_first_30_days",
+          "title": "First 30 days at the gym — what actually changes",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Week 1-2: nervous-system adaptation, lifts feel easier (not muscle gain — coordination). Week 3-4: small visible changes, sleep improves. Real strength/aesthetic changes start at week 8-12. Most people quit at week 3 expecting visible change. Trust the process."
+        },
+        {
+          "id": "pc_pt_or_solo",
+          "title": "PT or solo? A 5-question test",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Solo if: you've trained before, you can read program structure, you don't get injured easily. PT if: you're new, recovering from injury, training for a specific event, or have inconsistent form. Hybrid (PT 1-2x/month + solo): the smartest middle path for most members."
+        },
+        {
+          "id": "pc_protein_basics",
+          "title": "How much protein do you actually need?",
+          "channel": "whatsapp",
+          "length_seconds": 50,
+          "body": "Sedentary adults: 0.8g/kg body weight. Active adults: 1.2-1.6g/kg. Strength training: 1.6-2.2g/kg. For a 70kg active person, that's 84-112g/day — roughly 4 fistful-portions of protein. Indian-veg diets often fall short; supplement with paneer, dal, tofu before adding powders."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Jan",
+          "note": "resolution surge — trial walk-ins 4x baseline; convert window"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "lowest acquisition window — focus on retention, not acquisition"
+        },
+        {
+          "month_range": "Aug-Oct",
+          "note": "wedding-prep + festival window — repeat clients return to shape up"
+        },
+        {
+          "month_range": "Nov-Dec",
+          "note": "holiday slowdown — class density drops 25%; right time to renovate or pilot new programs"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "gym near me",
+          "delta_yoy": 0.05,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "personal trainer cost",
+          "delta_yoy": 0.38,
+          "segment_age": "30-50",
+          "skew": "balanced"
+        },
+        {
+          "query": "yoga classes near me",
+          "delta_yoy": 0.42,
+          "segment_age": "25-55",
+          "skew": "female"
+        },
+        {
+          "query": "weight loss program",
+          "delta_yoy": 0.28,
+          "segment_age": "30-50",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "FSSAI (for supplement sales)",
+        "Local Municipal Corp (premises)"
+      ],
+      "professional_journals": [
+        "Indian Journal of Sports Medicine"
+      ]
+    },
+    "customer": {
+      "customer_id": "c_010_rashmi_for_m007",
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "identity": {
+        "name": "Rashmi",
+        "phone_redacted": "<phone>",
+        "language_pref": "english",
+        "age_band": "30-40"
+      },
+      "relationship": {
+        "first_visit": "2025-09-10",
+        "last_visit": "2026-02-28",
+        "visits_total": 22,
+        "services_received": [
+          "membership_x4",
+          "PT_intro"
+        ],
+        "lifetime_value": 4490
+      },
+      "state": "lapsed_hard",
+      "preferences": {
+        "preferred_slots": "weekday_evening",
+        "channel": "whatsapp",
+        "reminder_opt_in": true,
+        "training_focus": "weight_loss"
+      },
+      "consent": {
+        "opted_in_at": "2025-09-10",
+        "scope": [
+          "renewal_reminders",
+          "winback_offers"
+        ]
+      }
+    },
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "PowerHouse Fitness",
+        "display": "PowerHouse Fitness",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Karthik",
+          "honorific": null
+        },
+        "display": "Karthik",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "HSR Layout",
+          "city": "Bangalore"
+        },
+        "display": "HSR Layout, Bangalore",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": true,
+        "display": "Google profile is verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2020,
+        "display": "in business since 2020",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 1480,
+        "display": "1,480 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 22,
+        "display": "22 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 48,
+        "display": "48 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 14,
+        "display": "14 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.052,
+        "display": "5.2% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": -0.3,
+        "display": "views -30% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": -0.35,
+        "display": "calls -35% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.052,
+          "peer": 0.045,
+          "ratio": 1.156,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "CTR 5.2% vs 4.5% peer average, 16% above peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 1480,
+          "peer": 1100,
+          "ratio": 1.345,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Profile views 1,480 vs 1,100 peer average, 35% above peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 22,
+          "peer": 18,
+          "ratio": 1.222,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Calls 22 vs 18 peer average, 22% above peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 48,
+          "peer": 42,
+          "ratio": 1.143,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 48 vs 42 peer average, 14% above peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_active_members",
+        "group": "customers",
+        "value": 245,
+        "display": "245 active members",
+        "source": "merchant.customer_aggregate.total_active_members"
+      },
+      {
+        "key": "monthly_churn_pct",
+        "group": "customers",
+        "value": 0.1,
+        "display": "monthly churn 10%",
+        "source": "merchant.customer_aggregate.monthly_churn_pct"
+      },
+      {
+        "key": "monthly_churn_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.1,
+          "peer": 0.08,
+          "ratio": 1.25,
+          "position": "above",
+          "higher_is_better": false
+        },
+        "display": "Monthly churn 10% vs 8% peer average, 2 points above peers",
+        "source": "merchant.customer_aggregate.monthly_churn_pct vs category.peer_stats.monthly_churn_pct"
+      },
+      {
+        "key": "trial_to_paid_pct",
+        "group": "customers",
+        "value": 0.28,
+        "display": "trial-to-paid conversion 28%",
+        "source": "merchant.customer_aggregate.trial_to_paid_pct"
+      },
+      {
+        "key": "trial_to_paid_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.28,
+          "peer": 0.32,
+          "ratio": 0.875,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Trial-to-paid conversion 28% vs 32% peer average, 4 points below peers",
+        "source": "merchant.customer_aggregate.trial_to_paid_pct vs category.peer_stats.trial_to_paid_pct"
+      },
+      {
+        "key": "active_offers",
+        "group": "offers",
+        "value": [
+          "3 FREE Trial Classes"
+        ],
+        "display": "active offers: 3 FREE Trial Classes",
+        "source": "merchant.offers (status=active)"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "First Month @ ₹499",
+          "Personal Training Demo @ ₹199",
+          "Annual Membership @ ₹14,999 (save ₹6,000)",
+          "Couple/Family Plan @ ₹999/month",
+          "Yoga + Strength Combo @ ₹1,499/month",
+          "Free Body Composition Analysis",
+          "Refer-a-friend: 1 month free for both"
+        ],
+        "display": "category offers this merchant hasn't run: First Month @ ₹499; Personal Training Demo @ ₹199; Annual Membership @ ₹14,999 (save ₹6,000); Couple/Family Plan @ ₹999/month; Yoga + Strength Combo @ ₹1,499/month",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "active",
+          "plan": "Pro",
+          "days_remaining": 95
+        },
+        "display": "Pro plan active, 95 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "review_theme_equipment_quality",
+        "group": "reviews",
+        "value": {
+          "theme": "equipment_quality",
+          "sentiment": "pos",
+          "occurrences_30d": 7
+        },
+        "display": "7 reviews in the last 30 days mention equipment quality (positive)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "review_theme_morning_crowd",
+        "group": "reviews",
+        "value": {
+          "theme": "morning_crowd",
+          "sentiment": "neg",
+          "occurrences_30d": 4
+        },
+        "display": "4 reviews in the last 30 days mention morning crowding (negative)",
+        "source": "merchant.review_themes"
+      },
+      {
+        "key": "signal_seasonal_dip_apr_may",
+        "group": "signals",
+        "value": {
+          "raw": "seasonal_dip_apr_may",
+          "name": "seasonal_dip_apr_may",
+          "value": null,
+          "unit": null
+        },
+        "display": "seasonal dip expected in Apr-May",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_above_peer_ctr",
+        "group": "signals",
+        "value": {
+          "raw": "above_peer_ctr",
+          "name": "above_peer_ctr",
+          "value": null,
+          "unit": null
+        },
+        "display": "CTR above the peer benchmark",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_no_recent_post",
+        "group": "signals",
+        "value": {
+          "raw": "no_recent_post",
+          "name": "no_recent_post",
+          "value": null,
+          "unit": null
+        },
+        "display": "no recent Google post",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_neighbourhood_gyms_2026",
+        "display": "peer group: metro neighbourhood gyms 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.5,
+        "display": "peers average a 4.5★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 56,
+        "display": "peers average 56 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 12,
+        "display": "peers post on Google every 12 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 16,
+        "display": "peers have 16 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_apr_jun",
+        "group": "season",
+        "value": {
+          "month_range": "Apr-Jun",
+          "note": "lowest acquisition window — focus on retention, not acquisition"
+        },
+        "display": "Apr-Jun: lowest acquisition window — focus on retention, not acquisition",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_gym_near_me",
+        "group": "trends",
+        "value": {
+          "query": "gym near me",
+          "delta_yoy": 0.05,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"gym near me\" searches +5% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_personal_trainer_cost",
+        "group": "trends",
+        "value": {
+          "query": "personal trainer cost",
+          "delta_yoy": 0.38,
+          "segment_age": "30-50",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"personal trainer cost\" searches +38% year-on-year (age 30-50)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_yoga_classes_near_me",
+        "group": "trends",
+        "value": {
+          "query": "yoga classes near me",
+          "delta_yoy": 0.42,
+          "segment_age": "25-55",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"yoga classes near me\" searches +42% year-on-year (age 25-55, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_weight_loss_program",
+        "group": "trends",
+        "value": {
+          "query": "weight loss program",
+          "delta_yoy": 0.28,
+          "segment_age": "30-50",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"weight loss program\" searches +28% year-on-year (age 30-50, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "customer_name",
+        "group": "customer",
+        "value": {
+          "raw": "Rashmi",
+          "anonymous": false,
+          "subject": "Rashmi",
+          "addressee": "Rashmi",
+          "relation": null,
+          "honorific": null,
+          "bare_name": "Rashmi"
+        },
+        "display": "Rashmi",
+        "source": "customer.identity.name"
+      },
+      {
+        "key": "customer_age_band",
+        "group": "customer",
+        "value": "30-40",
+        "display": "age group 30-40",
+        "source": "customer.identity.age_band"
+      },
+      {
+        "key": "customer_state",
+        "group": "customer",
+        "value": "lapsed_hard",
+        "display": "customer status: lapsed for a long time",
+        "source": "customer.state"
+      },
+      {
+        "key": "customer_visits",
+        "group": "customer",
+        "value": 22,
+        "display": "22 visits since 10 Sep 2025",
+        "source": "customer.relationship.visits_total"
+      },
+      {
+        "key": "customer_last_visit",
+        "group": "customer",
+        "value": "2026-02-28",
+        "display": "last visit 28 Feb 2026",
+        "source": "customer.relationship.last_visit"
+      },
+      {
+        "key": "customer_days_since_last_visit",
+        "group": "customer",
+        "value": 57,
+        "display": "57 days since the last visit",
+        "source": "customer.relationship.last_visit vs now"
+      },
+      {
+        "key": "customer_services",
+        "group": "customer",
+        "value": {
+          "services": [
+            "membership_x4",
+            "PT_intro"
+          ],
+          "truncated": false
+        },
+        "display": "services so far are: membership x4, PT intro",
+        "source": "customer.relationship.services_received"
+      },
+      {
+        "key": "customer_lifetime_value",
+        "group": "customer",
+        "value": 4490,
+        "display": "₹4,490 spent so far",
+        "source": "customer.relationship.lifetime_value"
+      },
+      {
+        "key": "customer_pref_preferred_slots",
+        "group": "customer",
+        "value": "weekday_evening",
+        "display": "prefers weekday evening slots",
+        "source": "customer.preferences.preferred_slots"
+      },
+      {
+        "key": "customer_pref_training_focus",
+        "group": "customer",
+        "value": "weight_loss",
+        "display": "training focus: weight loss",
+        "source": "customer.preferences.training_focus"
+      },
+      {
+        "key": "customer_consent",
+        "group": "consent",
+        "value": [
+          "renewal_reminders",
+          "winback_offers"
+        ],
+        "display": "consented on 10 Sep 2025 to: renewal reminders, winback offers",
+        "source": "customer.consent"
+      },
+      {
+        "key": "customer_reminder_opt_in",
+        "group": "consent",
+        "value": true,
+        "display": "opted in to reminders",
+        "source": "customer.preferences.reminder_opt_in"
+      }
+    ],
+    "history": {
+      "turn_count": 0,
+      "last_vera_message": null,
+      "last_merchant_message": null,
+      "open_requests": [],
+      "unanswered_streak": 0,
+      "session_window_open": false,
+      "recent_vera_bodies": [],
+      "engagement_tags": []
+    },
+    "language": {
+      "audience": "customer",
+      "customer_noun": "members",
+      "category_code_mix": "english primary some hindi",
+      "greeting": "Hi Rashmi",
+      "address_as": "Rashmi",
+      "first_name": "Rashmi",
+      "honorific": null,
+      "template": null,
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en"
+      ],
+      "style": "en",
+      "display": "English",
+      "code_mix": null,
+      "regional_languages": [],
+      "source": "customer.identity.language_pref"
+    },
+    "richness": {
+      "level": "rich",
+      "score": 4,
+      "max": 5,
+      "present": [
+        "offers",
+        "signals",
+        "review_themes",
+        "customer_aggregate"
+      ],
+      "missing": [
+        "conversation_history"
+      ]
+    },
+    "consent": {
+      "ok": true,
+      "checked": true,
+      "scopes": [
+        "renewal_reminders",
+        "winback_offers"
+      ],
+      "accepted": [
+        "promotional_offers",
+        "recall_reminders",
+        "winback_offers"
+      ],
+      "matched": [
+        "winback_offers"
+      ],
+      "reason": "covered by consent: winback_offers"
+    },
+    "slots": [],
+    "fresh": {},
+    "flags": [],
+    "warnings": [],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_015_winback_rashmi",
+    "kind": "customer_lapsed_hard",
+    "family": "customer",
+    "audience": "customer",
+    "send_as": "merchant_on_behalf",
+    "merchant_id": "m_007_powerhouse_gym_bangalore",
+    "customer_id": "c_010_rashmi_for_m007",
+    "recipient_id": "c_010_rashmi_for_m007",
+    "sender_name": "PowerHouse Fitness",
+    "greeting": "Hi Rashmi",
+    "address_as": "Rashmi",
+    "language": {
+      "style": "en",
+      "instruction": "English.",
+      "hinglish": false
+    },
+    "lead": {
+      "text": "57 days since last visit",
+      "source": "trigger.payload.days_since_last_visit",
+      "key": "payload:days_since_last_visit",
+      "phrase": "it's been 57 days since your last visit, and we'd love to see you again",
+      "phrase_hi": "aapki last visit ko 57 din ho gaye, hum aapko phir se dekhna chahenge"
+    },
+    "support": [
+      {
+        "text": "their focus: weight loss",
+        "source": "trigger.payload.previous_focus / customer.preferences",
+        "key": "customer:focus",
+        "phrase": "",
+        "phrase_hi": ""
+      },
+      {
+        "text": "active offer: 3 FREE Trial Classes",
+        "source": "merchant.offers",
+        "key": "offer:first",
+        "phrase": "our 3 FREE Trial Classes offer is on right now",
+        "phrase_hi": "abhi hamara 3 FREE Trial Classes offer chal raha hai"
+      },
+      {
+        "text": "prefers weekday evening slots",
+        "source": "customer.preferences.preferred_slots",
+        "key": "customer_pref_preferred_slots",
+        "phrase": "we know weekday evening slots suit you best",
+        "phrase_hi": "weekday evening slots aapke liye best rehte hain"
+      }
+    ],
+    "angle": "warm, no pressure: give them an easy reason to come back",
+    "levers": [
+      "reciprocity",
+      "single_binary_commitment"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Reply YES and we'll book a time that suits you.",
+      "text_hi": "YES reply kijiye, hum aapke liye convenient time book kar denge.",
+      "intent": "yes/no: Reply YES and we'll book a time that suits you."
+    },
+    "template": {
+      "required": true,
+      "name": "merchant_customer_lapsed_hard_v1"
+    },
+    "instructions": [
+      "Voice: warm, clear and respectful, like the shop's front desk writing to a regular customer.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Write as PowerHouse Fitness, not as Vera. No medical or guaranteed-result claims."
+    ],
+    "avoid": [
+      "guaranteed weight loss",
+      "shred in 7 days",
+      "miracle transformation",
+      "fastest results"
+    ],
+    "allowed_numbers": [
+      "3",
+      "57"
+    ],
+    "suppression_key": "winback:c_010_rashmi_for_m007",
+    "urgency": 3,
+    "flags": [],
+    "notes": [],
+    "render_support": 2,
+    "vocabulary": [
+      "footfall",
+      "membership churn",
+      "PT sessions",
+      "PR (personal record)",
+      "1RM",
+      "EMOM",
+      "AMRAP",
+      "split",
+      "cut",
+      "bulk",
+      "BMR",
+      "VO2max",
+      "functional",
+      "HIIT",
+      "CrossFit",
+      "yoga",
+      "pilates"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Rashmi, a customer of PowerHouse Fitness. Sent as: PowerHouse Fitness, on the shop's behalf (not Vera).\nGreeting: Hi Rashmi\nLanguage: English.\nWhy now: 57 days since last visit\nSupporting facts (use only these):\n- their focus: weight loss\n- active offer: 3 FREE Trial Classes\n- prefers weekday evening slots\nAngle: warm, no pressure: give them an easy reason to come back. Levers: reciprocity, single binary commitment.\nAsk, one only, as the last sentence (yes/no): Reply YES and we'll book a time that suits you.\nFormat: first message in this chat window, so keep it template-shaped: greeting, 2-3 short sentences, then the ask.\nRules:\n- Voice: warm, clear and respectful, like the shop's front desk writing to a regular customer.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Write as PowerHouse Fitness, not as Vera. No medical or guaranteed-result claims.\n- Numbers may only come from: 3, 57.\n- Never use: guaranteed weight loss, shred in 7 days, miracle transformation, fastest results.",
+  "phase2_plain_message": {
+    "body": "Hi Rashmi, PowerHouse Fitness here. It's been 57 days since your last visit, and we'd love to see you again. Our 3 FREE Trial Classes offer is on right now. We know weekday evening slots suit you best. Reply YES and we'll book a time that suits you.",
+    "cta": "binary_yes_no",
+    "send_as": "merchant_on_behalf",
+    "suppression_key": "winback:c_010_rashmi_for_m007",
+    "rationale": "Customer lapsed hard: 57 days since last visit. Backed by active offer: 3 FREE Trial Classes; prefers weekday evening slots. Angle: warm, no pressure: give them an easy reason to come back; one yes/no ask.",
+    "template_name": "merchant_customer_lapsed_hard_v1",
+    "template_params": [
+      "Hi Rashmi",
+      "It's been 57 days since your last visit, and we'd love to see you again.",
+      "Our 3 FREE Trial Classes offer is on right now. We know weekday evening slots suit you best.",
+      "Reply YES and we'll book a time that suits you."
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Hi Rashmi, PowerHouse Fitness here. It’s been 57 days since your last visit, and we’d love to welcome you back. Since your focus is weight loss, you can use our 3 FREE Trial Classes in a weekday evening slot that suits you. Reply YES and we'll book a time that suits you.",
+    "cta": "binary_yes_no",
+    "send_as": "merchant_on_behalf",
+    "suppression_key": "winback:c_010_rashmi_for_m007",
+    "rationale": "Names PowerHouse Fitness in the first sentence and keeps the message warm, specific, and low-pressure. It anchors on 57 days, the weight-loss focus, and the 3 FREE Trial Classes, ending with one binary ask.",
+    "template_name": "merchant_customer_lapsed_hard_v1",
+    "template_params": [
+      "Hi Rashmi",
+      "Hi Rashmi, PowerHouse Fitness here.",
+      "It’s been 57 days since your last visit, and we’d love to welcome you back. Since your focus is weight loss, you can use our 3 FREE Trial Classes in a weekday evening slot that suits you.",
+      "Reply YES and we'll book a time that suits you."
+    ],
+    "writer": "ai",
+    "retried": true
+  },
+  "phase3_note": "retried",
+  "final": {
+    "body": "Hi Rashmi, PowerHouse Fitness here. It’s been 57 days since your last visit, and we’d love to welcome you back. Since your focus is weight loss, you can use our 3 FREE Trial Classes in a weekday evening slot that suits you. Reply YES and we'll book a time that suits you.",
+    "cta": "binary_yes_no",
+    "send_as": "merchant_on_behalf",
+    "suppression_key": "winback:c_010_rashmi_for_m007",
+    "rationale": "Names PowerHouse Fitness in the first sentence and keeps the message warm, specific, and low-pressure. It anchors on 57 days, the weight-loss focus, and the 3 FREE Trial Classes, ending with one binary ask.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": null,
+        "detail": "customer message",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "10% overlap with case study 2",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted English, looks en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": null,
+        "detail": "customer message",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "10% overlap with case study 2",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted English, looks en",
+        "hard": false
+      }
+    ]
+  }
+}

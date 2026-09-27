@@ -1,0 +1,1399 @@
+{
+  "pair": {
+    "test_id": "T27",
+    "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+    "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+      "scope": "merchant",
+      "kind": "perf_spike",
+      "source": "internal",
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+      "customer_id": null,
+      "payload": {
+        "placeholder": true,
+        "metric_or_topic": "perf_spike"
+      },
+      "urgency": 1,
+      "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+      "expires_at": "2026-06-30T00:00:00Z"
+    },
+    "merchant": {
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+      "category_slug": "pharmacies",
+      "identity": {
+        "name": "Sunrise Medicos",
+        "city": "Lucknow",
+        "locality": "Gomti Nagar",
+        "place_id": "ChIJ_GOMTINAGAR_PHARMACY_010",
+        "verified": false,
+        "languages": [
+          "en",
+          "hi"
+        ],
+        "owner_first_name": "Vikas",
+        "established_year": 2020
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Basic",
+        "days_remaining": 200
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 720,
+        "calls": 14,
+        "directions": 32,
+        "ctr": 0.041,
+        "leads": 8,
+        "delta_7d": {
+          "views_pct": 0.02,
+          "calls_pct": 0.05
+        }
+      },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": {
+        "total_unique_ytd": 540,
+        "repeat_customer_pct": 0.45,
+        "chronic_rx_count": 60
+      },
+      "signals": [
+        "unverified_gbp",
+        "no_active_offers",
+        "no_recent_conversation",
+        "delivery_not_set_up"
+      ],
+      "review_themes": []
+    },
+    "category": {
+      "slug": "pharmacies",
+      "display_name": "Pharmacies & Medical Stores",
+      "voice": {
+        "tone": "trustworthy_precise",
+        "register": "neighbourhood_pharmacist",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "OTC",
+          "schedule H",
+          "schedule X",
+          "generic",
+          "branded",
+          "molecule",
+          "MRP",
+          "expiry",
+          "batch",
+          "PCR retail",
+          "pharmacist counsel"
+        ],
+        "vocab_taboo": [
+          "miracle cure",
+          "guaranteed result",
+          "100% safe",
+          "doctor recommended (without disclosure)",
+          "best price (without supporting data)"
+        ],
+        "salutation_examples": [
+          "Hi {pharmacist_name}",
+          "{pharmacy_name} team"
+        ],
+        "tone_examples": [
+          "Quick check — your repeat-prescription customer count is up 18% this month",
+          "Heads up: a generic alternative for {molecule} just got approved — likely 30% lower MRP"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "phr_001",
+          "title": "Flat 20% OFF on medicines",
+          "value": "20%",
+          "audience": "new_user",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "phr_002",
+          "title": "Free Home Delivery > ₹499",
+          "value": "free_delivery",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "phr_003",
+          "title": "Annual Health Card @ ₹399 (15% off all year)",
+          "value": "399",
+          "audience": "repeat_user",
+          "type": "membership"
+        },
+        {
+          "id": "phr_004",
+          "title": "Free BP & Sugar Check",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "phr_005",
+          "title": "Senior Citizen 15% OFF (60+ age)",
+          "value": "15%",
+          "audience": "senior",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "phr_006",
+          "title": "Diabetic Care Combo: Glucometer + 50 strips @ ₹999",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "phr_007",
+          "title": "Free Pharmacist Consultation (10 min)",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "phr_008",
+          "title": "Subscription refill reminder + delivery (chronic Rx)",
+          "value": "0",
+          "audience": "repeat_user",
+          "type": "free_service"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_neighbourhood_pharmacies_2026",
+        "avg_rating": 4.6,
+        "avg_review_count": 42,
+        "avg_views_30d": 1400,
+        "avg_calls_30d": 22,
+        "avg_directions_30d": 58,
+        "avg_ctr": 0.038,
+        "avg_photos": 6,
+        "avg_post_freq_days": 21,
+        "delivery_share_pct": 0.35,
+        "repeat_customer_pct": 0.62
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_generic_metformin",
+          "kind": "supply",
+          "title": "Generic metformin SR price drop after 4 new approvals",
+          "source": "DGCI release Apr 2026",
+          "summary": "Three major Indian players got SR-formulation approval; wholesale price down 22% effective next month. Branded retail likely flat for now (margin will absorb).",
+          "actionable": "Audit your shelf — switching diabetic refills to generic now saves the patient ~₹120/month and improves your repeat-buy stickiness"
+        },
+        {
+          "id": "d_2026W17_schedule_h1_compliance",
+          "kind": "compliance",
+          "title": "FDA enforcement audit on Schedule H1 antibiotic dispensing — Q2",
+          "source": "FDA India inspector circular Apr 2026",
+          "summary": "Tighter Q2 audit cycle on H1 antibiotic dispensing — proper Rx capture, register entries, batch tracking. ₹50,000+ penalties for missing entries.",
+          "actionable": "Audit your H1 register; ensure pharmacist signature + Rx photocopy on file for every dispense in last 90 days"
+        },
+        {
+          "id": "d_2026W17_summer_demand",
+          "kind": "seasonal",
+          "title": "Summer demand shift: ORS, sunscreen, anti-fungal up 40%; cold/cough down 60%",
+          "source": "Multi-pharmacy aggregate Apr 2026",
+          "summary": "Standard April-Jun pattern: ORS sachets, sunscreen, anti-fungal creams, deodorant peak; respiratory medication tapers off. Restock + shelf-rearrange.",
+          "actionable": "Move ORS + sunscreen to counter visibility; cold/cough to back shelf"
+        },
+        {
+          "id": "d_2026W17_chronic_subscription",
+          "kind": "tech",
+          "title": "Chronic-Rx subscription retention 3.2x higher than walk-in",
+          "source": "magicpin pharmacy data Apr 2026",
+          "summary": "Pharmacies with WhatsApp-based refill reminder + auto-delivery for chronic patients see 88% 12-month retention vs 27% for walk-in-only chronic customers.",
+          "actionable": "Set up the WhatsApp reminder — covers diabetic, hypertensive, thyroid Rx"
+        },
+        {
+          "id": "d_2026W17_atorvastatin_recall",
+          "kind": "alert",
+          "title": "Voluntary recall: Specific atorvastatin batches by manufacturer X",
+          "source": "CDSCO alert Apr 2026",
+          "summary": "Two batches (numbers in alert) flagged for sub-potency. Customers should be informed; replacement available via distributor return chain. No safety risk for patients beyond suboptimal LDL control.",
+          "actionable": "Pull the batches; WhatsApp affected customers from your repeat-Rx list"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_generic_branded",
+          "title": "Generic vs branded medicines — what's actually different?",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "The active molecule is identical and regulator-tested. Difference is in the binders, fillers, and brand markup. Generic is typically 40-60% cheaper. Two cases where brand may help: (1) very narrow-therapeutic-index drugs (some thyroid, blood thinners) where bioequivalence varies, (2) extended-release formulations. Otherwise, generic is the rational choice."
+        },
+        {
+          "id": "pc_storage",
+          "title": "Where to NOT store your medicines",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Three places: (1) bathroom — humidity wrecks tablet integrity. (2) car glove box — temperature swings degrade most molecules in a month. (3) refrigerator door — temperature varies too much; use the main shelf if cold storage is needed. The kitchen at room temperature, away from sunlight, is best."
+        },
+        {
+          "id": "pc_summer_basics",
+          "title": "Summer first-aid: what every Indian household should have",
+          "channel": "whatsapp",
+          "length_seconds": 50,
+          "body": "Five items: ORS sachets (heat-stroke is sudden), broad-spectrum sunscreen SPF 50+ (apply 30 min before sun), anti-fungal cream (sweat triggers infections), Vaseline (chafing relief), and a thermometer. Skip energy drinks marketed as 'summer drinks' — sugar load is counterproductive when dehydrated."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Apr-Jun",
+          "note": "summer surge — ORS, sunscreen, anti-fungal, deodorant"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon — anti-bacterial, anti-fungal, immunity supplements peak"
+        },
+        {
+          "month_range": "Oct-Nov",
+          "note": "festival sweets → blood sugar spike — diabetic monitoring needs surge"
+        },
+        {
+          "month_range": "Dec-Jan",
+          "note": "respiratory peak — cough/cold/anti-allergic 2x baseline"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "medicine home delivery",
+          "delta_yoy": 0.42,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "generic medicine",
+          "delta_yoy": 0.34,
+          "segment_age": "30-65",
+          "skew": "balanced"
+        },
+        {
+          "query": "diabetes care kit",
+          "delta_yoy": 0.28,
+          "segment_age": "40-65",
+          "skew": "balanced"
+        },
+        {
+          "query": "blood pressure monitor",
+          "delta_yoy": 0.18,
+          "segment_age": "45-70",
+          "skew": "balanced"
+        }
+      ],
+      "regulatory_authorities": [
+        "CDSCO",
+        "State FDA",
+        "Drug Controller General of India (DCGI)"
+      ],
+      "professional_journals": [
+        "Pharmabiz",
+        "ChemistryView India",
+        "IPA Bulletin"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+      "scope": "merchant",
+      "kind": "perf_spike",
+      "source": "internal",
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+      "customer_id": null,
+      "payload": {
+        "placeholder": true,
+        "metric_or_topic": "perf_spike"
+      },
+      "urgency": 1,
+      "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+      "expires_at": "2026-06-30T00:00:00Z"
+    },
+    "payload_display": {
+      "placeholder": true,
+      "metric_or_topic": "perf spike"
+    },
+    "merchant": {
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+      "category_slug": "pharmacies",
+      "identity": {
+        "name": "Sunrise Medicos",
+        "city": "Lucknow",
+        "locality": "Gomti Nagar",
+        "place_id": "ChIJ_GOMTINAGAR_PHARMACY_010",
+        "verified": false,
+        "languages": [
+          "en",
+          "hi"
+        ],
+        "owner_first_name": "Vikas",
+        "established_year": 2020
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Basic",
+        "days_remaining": 200
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 720,
+        "calls": 14,
+        "directions": 32,
+        "ctr": 0.041,
+        "leads": 8,
+        "delta_7d": {
+          "views_pct": 0.02,
+          "calls_pct": 0.05
+        }
+      },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": {
+        "total_unique_ytd": 540,
+        "repeat_customer_pct": 0.45,
+        "chronic_rx_count": 60
+      },
+      "signals": [
+        "unverified_gbp",
+        "no_active_offers",
+        "no_recent_conversation",
+        "delivery_not_set_up"
+      ],
+      "review_themes": []
+    },
+    "category": {
+      "slug": "pharmacies",
+      "display_name": "Pharmacies & Medical Stores",
+      "voice": {
+        "tone": "trustworthy_precise",
+        "register": "neighbourhood_pharmacist",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "OTC",
+          "schedule H",
+          "schedule X",
+          "generic",
+          "branded",
+          "molecule",
+          "MRP",
+          "expiry",
+          "batch",
+          "PCR retail",
+          "pharmacist counsel"
+        ],
+        "vocab_taboo": [
+          "miracle cure",
+          "guaranteed result",
+          "100% safe",
+          "doctor recommended (without disclosure)",
+          "best price (without supporting data)"
+        ],
+        "salutation_examples": [
+          "Hi {pharmacist_name}",
+          "{pharmacy_name} team"
+        ],
+        "tone_examples": [
+          "Quick check — your repeat-prescription customer count is up 18% this month",
+          "Heads up: a generic alternative for {molecule} just got approved — likely 30% lower MRP"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "phr_001",
+          "title": "Flat 20% OFF on medicines",
+          "value": "20%",
+          "audience": "new_user",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "phr_002",
+          "title": "Free Home Delivery > ₹499",
+          "value": "free_delivery",
+          "audience": "new_user",
+          "type": "free_addon"
+        },
+        {
+          "id": "phr_003",
+          "title": "Annual Health Card @ ₹399 (15% off all year)",
+          "value": "399",
+          "audience": "repeat_user",
+          "type": "membership"
+        },
+        {
+          "id": "phr_004",
+          "title": "Free BP & Sugar Check",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "phr_005",
+          "title": "Senior Citizen 15% OFF (60+ age)",
+          "value": "15%",
+          "audience": "senior",
+          "type": "percentage_discount"
+        },
+        {
+          "id": "phr_006",
+          "title": "Diabetic Care Combo: Glucometer + 50 strips @ ₹999",
+          "value": "999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "phr_007",
+          "title": "Free Pharmacist Consultation (10 min)",
+          "value": "0",
+          "audience": "all",
+          "type": "free_service"
+        },
+        {
+          "id": "phr_008",
+          "title": "Subscription refill reminder + delivery (chronic Rx)",
+          "value": "0",
+          "audience": "repeat_user",
+          "type": "free_service"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_neighbourhood_pharmacies_2026",
+        "avg_rating": 4.6,
+        "avg_review_count": 42,
+        "avg_views_30d": 1400,
+        "avg_calls_30d": 22,
+        "avg_directions_30d": 58,
+        "avg_ctr": 0.038,
+        "avg_photos": 6,
+        "avg_post_freq_days": 21,
+        "delivery_share_pct": 0.35,
+        "repeat_customer_pct": 0.62
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_generic_metformin",
+          "kind": "supply",
+          "title": "Generic metformin SR price drop after 4 new approvals",
+          "source": "DGCI release Apr 2026",
+          "summary": "Three major Indian players got SR-formulation approval; wholesale price down 22% effective next month. Branded retail likely flat for now (margin will absorb).",
+          "actionable": "Audit your shelf — switching diabetic refills to generic now saves the patient ~₹120/month and improves your repeat-buy stickiness"
+        },
+        {
+          "id": "d_2026W17_schedule_h1_compliance",
+          "kind": "compliance",
+          "title": "FDA enforcement audit on Schedule H1 antibiotic dispensing — Q2",
+          "source": "FDA India inspector circular Apr 2026",
+          "summary": "Tighter Q2 audit cycle on H1 antibiotic dispensing — proper Rx capture, register entries, batch tracking. ₹50,000+ penalties for missing entries.",
+          "actionable": "Audit your H1 register; ensure pharmacist signature + Rx photocopy on file for every dispense in last 90 days"
+        },
+        {
+          "id": "d_2026W17_summer_demand",
+          "kind": "seasonal",
+          "title": "Summer demand shift: ORS, sunscreen, anti-fungal up 40%; cold/cough down 60%",
+          "source": "Multi-pharmacy aggregate Apr 2026",
+          "summary": "Standard April-Jun pattern: ORS sachets, sunscreen, anti-fungal creams, deodorant peak; respiratory medication tapers off. Restock + shelf-rearrange.",
+          "actionable": "Move ORS + sunscreen to counter visibility; cold/cough to back shelf"
+        },
+        {
+          "id": "d_2026W17_chronic_subscription",
+          "kind": "tech",
+          "title": "Chronic-Rx subscription retention 3.2x higher than walk-in",
+          "source": "magicpin pharmacy data Apr 2026",
+          "summary": "Pharmacies with WhatsApp-based refill reminder + auto-delivery for chronic patients see 88% 12-month retention vs 27% for walk-in-only chronic customers.",
+          "actionable": "Set up the WhatsApp reminder — covers diabetic, hypertensive, thyroid Rx"
+        },
+        {
+          "id": "d_2026W17_atorvastatin_recall",
+          "kind": "alert",
+          "title": "Voluntary recall: Specific atorvastatin batches by manufacturer X",
+          "source": "CDSCO alert Apr 2026",
+          "summary": "Two batches (numbers in alert) flagged for sub-potency. Customers should be informed; replacement available via distributor return chain. No safety risk for patients beyond suboptimal LDL control.",
+          "actionable": "Pull the batches; WhatsApp affected customers from your repeat-Rx list"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_generic_branded",
+          "title": "Generic vs branded medicines — what's actually different?",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "The active molecule is identical and regulator-tested. Difference is in the binders, fillers, and brand markup. Generic is typically 40-60% cheaper. Two cases where brand may help: (1) very narrow-therapeutic-index drugs (some thyroid, blood thinners) where bioequivalence varies, (2) extended-release formulations. Otherwise, generic is the rational choice."
+        },
+        {
+          "id": "pc_storage",
+          "title": "Where to NOT store your medicines",
+          "channel": "whatsapp",
+          "length_seconds": 45,
+          "body": "Three places: (1) bathroom — humidity wrecks tablet integrity. (2) car glove box — temperature swings degrade most molecules in a month. (3) refrigerator door — temperature varies too much; use the main shelf if cold storage is needed. The kitchen at room temperature, away from sunlight, is best."
+        },
+        {
+          "id": "pc_summer_basics",
+          "title": "Summer first-aid: what every Indian household should have",
+          "channel": "whatsapp",
+          "length_seconds": 50,
+          "body": "Five items: ORS sachets (heat-stroke is sudden), broad-spectrum sunscreen SPF 50+ (apply 30 min before sun), anti-fungal cream (sweat triggers infections), Vaseline (chafing relief), and a thermometer. Skip energy drinks marketed as 'summer drinks' — sugar load is counterproductive when dehydrated."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Apr-Jun",
+          "note": "summer surge — ORS, sunscreen, anti-fungal, deodorant"
+        },
+        {
+          "month_range": "Jul-Aug",
+          "note": "monsoon — anti-bacterial, anti-fungal, immunity supplements peak"
+        },
+        {
+          "month_range": "Oct-Nov",
+          "note": "festival sweets → blood sugar spike — diabetic monitoring needs surge"
+        },
+        {
+          "month_range": "Dec-Jan",
+          "note": "respiratory peak — cough/cold/anti-allergic 2x baseline"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "medicine home delivery",
+          "delta_yoy": 0.42,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "generic medicine",
+          "delta_yoy": 0.34,
+          "segment_age": "30-65",
+          "skew": "balanced"
+        },
+        {
+          "query": "diabetes care kit",
+          "delta_yoy": 0.28,
+          "segment_age": "40-65",
+          "skew": "balanced"
+        },
+        {
+          "query": "blood pressure monitor",
+          "delta_yoy": 0.18,
+          "segment_age": "45-70",
+          "skew": "balanced"
+        }
+      ],
+      "regulatory_authorities": [
+        "CDSCO",
+        "State FDA",
+        "Drug Controller General of India (DCGI)"
+      ],
+      "professional_journals": [
+        "Pharmabiz",
+        "ChemistryView India",
+        "IPA Bulletin"
+      ]
+    },
+    "customer": null,
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "Sunrise Medicos",
+        "display": "Sunrise Medicos",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Vikas",
+          "honorific": null
+        },
+        "display": "Vikas",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Gomti Nagar",
+          "city": "Lucknow"
+        },
+        "display": "Gomti Nagar, Lucknow",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": false,
+        "display": "Google profile is not verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2020,
+        "display": "in business since 2020",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 720,
+        "display": "720 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 14,
+        "display": "14 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 32,
+        "display": "32 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 8,
+        "display": "8 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.041,
+        "display": "4.1% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": 0.02,
+        "display": "views +2% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": 0.05,
+        "display": "calls +5% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.041,
+          "peer": 0.038,
+          "ratio": 1.079,
+          "position": "above",
+          "higher_is_better": true
+        },
+        "display": "CTR 4.1% vs 3.8% peer average, 8% above peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 720,
+          "peer": 1400,
+          "ratio": 0.514,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Profile views 720 vs 1,400 peer average, 49% below peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 14,
+          "peer": 22,
+          "ratio": 0.636,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Calls 14 vs 22 peer average, 36% below peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 32,
+          "peer": 58,
+          "ratio": 0.552,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 32 vs 58 peer average, 45% below peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_unique_ytd",
+        "group": "customers",
+        "value": 540,
+        "display": "540 unique customers this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd"
+      },
+      {
+        "key": "repeat_customer_pct",
+        "group": "customers",
+        "value": 0.45,
+        "display": "repeat-customer share 45%",
+        "source": "merchant.customer_aggregate.repeat_customer_pct"
+      },
+      {
+        "key": "repeat_customer_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.45,
+          "peer": 0.62,
+          "ratio": 0.726,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Repeat-customer share 45% vs 62% peer average, 17 points below peers",
+        "source": "merchant.customer_aggregate.repeat_customer_pct vs category.peer_stats.repeat_customer_pct"
+      },
+      {
+        "key": "chronic_rx_count",
+        "group": "customers",
+        "value": 60,
+        "display": "60 customers on chronic prescriptions",
+        "source": "merchant.customer_aggregate.chronic_rx_count"
+      },
+      {
+        "key": "no_active_offers",
+        "group": "offers",
+        "value": true,
+        "display": "no active offers right now",
+        "source": "merchant.offers"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Diabetic Care Combo: Glucometer + 50 strips @ ₹999",
+          "Free BP & Sugar Check",
+          "Free Pharmacist Consultation (10 min)",
+          "Subscription refill reminder + delivery (chronic Rx)",
+          "Free Home Delivery > ₹499",
+          "Annual Health Card @ ₹399 (15% off all year)",
+          "Flat 20% OFF on medicines",
+          "Senior Citizen 15% OFF (60+ age)"
+        ],
+        "display": "category offers this merchant hasn't run: Diabetic Care Combo: Glucometer + 50 strips @ ₹999; Free BP & Sugar Check; Free Pharmacist Consultation (10 min); Subscription refill reminder + delivery (chronic Rx); Free Home Delivery > ₹499",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "active",
+          "plan": "Basic",
+          "days_remaining": 200
+        },
+        "display": "Basic plan active, 200 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "signal_unverified_gbp",
+        "group": "signals",
+        "value": {
+          "raw": "unverified_gbp",
+          "name": "unverified_gbp",
+          "value": null,
+          "unit": null
+        },
+        "display": "Google Business Profile not verified",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_no_active_offers",
+        "group": "signals",
+        "value": {
+          "raw": "no_active_offers",
+          "name": "no_active_offers",
+          "value": null,
+          "unit": null
+        },
+        "display": "no active offers",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_no_recent_conversation",
+        "group": "signals",
+        "value": {
+          "raw": "no_recent_conversation",
+          "name": "no_recent_conversation",
+          "value": null,
+          "unit": null
+        },
+        "display": "no recent conversation with Vera",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_delivery_not_set_up",
+        "group": "signals",
+        "value": {
+          "raw": "delivery_not_set_up",
+          "name": "delivery_not_set_up",
+          "value": null,
+          "unit": null
+        },
+        "display": "delivery not set up",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_neighbourhood_pharmacies_2026",
+        "display": "peer group: metro neighbourhood pharmacies 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.6,
+        "display": "peers average a 4.6★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 42,
+        "display": "peers average 42 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 21,
+        "display": "peers post on Google every 21 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 6,
+        "display": "peers have 6 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_apr_jun",
+        "group": "season",
+        "value": {
+          "month_range": "Apr-Jun",
+          "note": "summer surge — ORS, sunscreen, anti-fungal, deodorant"
+        },
+        "display": "Apr-Jun: summer surge — ORS, sunscreen, anti-fungal, deodorant",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_medicine_home_delivery",
+        "group": "trends",
+        "value": {
+          "query": "medicine home delivery",
+          "delta_yoy": 0.42,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"medicine home delivery\" searches +42% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_generic_medicine",
+        "group": "trends",
+        "value": {
+          "query": "generic medicine",
+          "delta_yoy": 0.34,
+          "segment_age": "30-65",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"generic medicine\" searches +34% year-on-year (age 30-65)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_diabetes_care_kit",
+        "group": "trends",
+        "value": {
+          "query": "diabetes care kit",
+          "delta_yoy": 0.28,
+          "segment_age": "40-65",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"diabetes care kit\" searches +28% year-on-year (age 40-65)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_blood_pressure_monitor",
+        "group": "trends",
+        "value": {
+          "query": "blood pressure monitor",
+          "delta_yoy": 0.18,
+          "segment_age": "45-70",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"blood pressure monitor\" searches +18% year-on-year (age 45-70)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 0,
+      "last_vera_message": null,
+      "last_merchant_message": null,
+      "open_requests": [],
+      "unanswered_streak": 0,
+      "session_window_open": false,
+      "recent_vera_bodies": [],
+      "engagement_tags": []
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "customers",
+      "category_code_mix": "hindi english natural",
+      "greeting": "Hi Vikas",
+      "address_as": "Vikas",
+      "first_name": "Vikas",
+      "honorific": null,
+      "template": "Hi {pharmacist_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "moderate",
+      "score": 2,
+      "max": 5,
+      "present": [
+        "signals",
+        "customer_aggregate"
+      ],
+      "missing": [
+        "offers",
+        "conversation_history",
+        "review_themes"
+      ]
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [
+      "placeholder_payload"
+    ],
+    "warnings": [
+      "placeholder_payload: trigger payload has no event details; anchor on merchant and category facts and invent nothing about the event"
+    ],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+    "kind": "perf_spike",
+    "family": "performance",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+    "customer_id": null,
+    "recipient_id": "m_010_sunrisepharm_pharmacy_lucknow",
+    "sender_name": "Sunrise Medicos",
+    "greeting": "Hi Vikas",
+    "address_as": "Vikas",
+    "language": {
+      "style": "hi-en",
+      "instruction": "Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.",
+      "hinglish": true
+    },
+    "lead": {
+      "text": "perf spike (the trigger gives no details)",
+      "source": "trigger.kind",
+      "key": "payload:kind",
+      "phrase": "your recent numbers show a jump",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "calls +5% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct",
+        "key": "calls_change_7d",
+        "phrase": "calls +5% this week",
+        "phrase_hi": ""
+      },
+      {
+        "text": "CTR 4.1% vs 3.8% peer average, 8% above peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr",
+        "key": "ctr_vs_peer",
+        "phrase": "your CTR is 4.1% vs 3.8% for similar pharmacies",
+        "phrase_hi": ""
+      },
+      {
+        "text": "540 unique customers this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd",
+        "key": "total_unique_ytd",
+        "phrase": "you have 540 unique customers this year",
+        "phrase_hi": ""
+      }
+    ],
+    "angle": "celebrate the jump and build on what caused it",
+    "levers": [
+      "specificity",
+      "curiosity"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Want me to line up two more posts like the one that worked?",
+      "text_hi": "Kya main isi tarah ke do aur posts plan kar doon?",
+      "intent": "yes/no: Want me to line up two more posts like the one that worked?"
+    },
+    "template": {
+      "required": true,
+      "name": "vera_perf_spike_v1"
+    },
+    "instructions": [
+      "Voice: trustworthy precise, neighbourhood pharmacist.",
+      "Category words you can use (vocabulary only, not facts about this business): OTC, schedule H, schedule X, generic, branded, molecule.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson.",
+      "The trigger (perf spike) gives no details: mention it only in general terms and build the message on the supporting facts."
+    ],
+    "avoid": [
+      "miracle cure",
+      "guaranteed result",
+      "100% safe",
+      "doctor recommended",
+      "best price"
+    ],
+    "allowed_numbers": [
+      "3.8",
+      "4.1",
+      "5",
+      "7",
+      "8",
+      "540"
+    ],
+    "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+    "urgency": 1,
+    "flags": [
+      "placeholder_payload"
+    ],
+    "notes": [
+      "the trigger has no usable details, so the message leans on merchant and category facts"
+    ],
+    "render_support": 2,
+    "vocabulary": [
+      "OTC",
+      "schedule H",
+      "schedule X",
+      "generic",
+      "branded",
+      "molecule",
+      "MRP",
+      "expiry",
+      "batch",
+      "PCR retail",
+      "pharmacist counsel"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Vikas, owner of Sunrise Medicos. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Hi Vikas\nLanguage: Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.\nWhy now: perf spike (the trigger gives no details)\nSupporting facts (use only these):\n- calls +5% over the last 7 days\n- CTR 4.1% vs 3.8% peer average, 8% above peers\n- 540 unique customers this year\nAngle: celebrate the jump and build on what caused it. Levers: specificity, curiosity.\nAsk, one only, as the last sentence (yes/no): Kya main isi tarah ke do aur posts plan kar doon?\nFormat: first message in this chat window, so keep it template-shaped: greeting, 2-3 short sentences, then the ask.\nRules:\n- Voice: trustworthy precise, neighbourhood pharmacist.\n- Category words you can use (vocabulary only, not facts about this business): OTC, schedule H, schedule X, generic, branded, molecule.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- The trigger (perf spike) gives no details: mention it only in general terms and build the message on the supporting facts.\n- Numbers may only come from: 3.8, 4.1, 5, 7, 8, 540.\n- Never use: miracle cure, guaranteed result, 100% safe, doctor recommended, best price.",
+  "phase2_plain_message": {
+    "body": "Hi Vikas, your recent numbers show a jump. Calls +5% this week. Your CTR is 4.1% vs 3.8% for similar pharmacies. Kya main isi tarah ke do aur posts plan kar doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+    "rationale": "Perf spike: perf spike (the trigger gives no details). Backed by calls +5% over the last 7 days; CTR 4.1% vs 3.8% peer average, 8% above peers. Angle: celebrate the jump and build on what caused it; one yes/no ask. Hinglish where their language preference calls for it. The trigger has no usable details, so the message leans on merchant and category facts.",
+    "template_name": "vera_perf_spike_v1",
+    "template_params": [
+      "Hi Vikas",
+      "Your recent numbers show a jump.",
+      "Calls +5% this week. Your CTR is 4.1% vs 3.8% for similar pharmacies.",
+      "Kya main isi tarah ke do aur posts plan kar doon?"
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Hi Vikas, Sunrise Medicos ke calls pichhle 7 din mein 5% badhe hain. CTR 4.1% hai, jo peer average 3.8% se 8% upar hai—aur is saal 540 unique customers bhi aaye hain. Kya main isi tarah ke do aur posts plan kar doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+    "rationale": "The message opens with the greeting and current performance jump, then connects calls, CTR, and customer reach to support building on the momentum. It ends with the exact yes/no ask and uses no unsupported claims.",
+    "template_name": "vera_perf_spike_v1",
+    "template_params": [
+      "Hi Vikas",
+      "Hi Vikas, Sunrise Medicos ke calls pichhle 7 din mein 5% badhe hain.",
+      "CTR 4.1% hai, jo peer average 3.8% se 8% upar hai—aur is saal 540 unique customers bhi aaye hain.",
+      "Kya main isi tarah ke do aur posts plan kar doon?"
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Hi Vikas, Sunrise Medicos ke calls pichhle 7 din mein 5% badhe hain. CTR 4.1% hai, jo peer average 3.8% se 8% upar hai—aur is saal 540 unique customers bhi aaye hain. Kya main isi tarah ke do aur posts plan kar doon?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+    "rationale": "The message opens with the greeting and current performance jump, then connects calls, CTR, and customer reach to support building on the momentum. It ends with the exact yes/no ask and uses no unsupported claims.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.env
+.venv/
+.cache/
+.pytest_cache/
+__pycache__/
+dataset/expanded/
+output/
+tests/

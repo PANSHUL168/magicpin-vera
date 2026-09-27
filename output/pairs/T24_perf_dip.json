@@ -1,0 +1,1481 @@
+{
+  "pair": {
+    "test_id": "T24",
+    "trigger_id": "trg_004_perf_dip_bharat",
+    "merchant_id": "m_002_bharat_dentist_mumbai",
+    "customer_id": null
+  },
+  "input": {
+    "trigger": {
+      "id": "trg_004_perf_dip_bharat",
+      "scope": "merchant",
+      "kind": "perf_dip",
+      "source": "internal",
+      "merchant_id": "m_002_bharat_dentist_mumbai",
+      "customer_id": null,
+      "payload": {
+        "metric": "calls",
+        "delta_pct": -0.5,
+        "window": "7d",
+        "vs_baseline": 12
+      },
+      "urgency": 4,
+      "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+      "expires_at": "2026-05-10T00:00:00Z"
+    },
+    "merchant": {
+      "merchant_id": "m_002_bharat_dentist_mumbai",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Bharat Dental Care",
+        "city": "Mumbai",
+        "locality": "Andheri West",
+        "place_id": "ChIJ_ANDHERI_DENTIST_002",
+        "verified": false,
+        "languages": [
+          "en",
+          "hi",
+          "mr"
+        ],
+        "owner_first_name": "Bharat",
+        "established_year": 2010
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 12,
+        "renewed_at": "2025-04-26"
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 980,
+        "calls": 4,
+        "directions": 18,
+        "ctr": 0.018,
+        "leads": 2,
+        "delta_7d": {
+          "views_pct": -0.22,
+          "calls_pct": -0.5,
+          "ctr_pct": -0.1
+        }
+      },
+      "offers": [],
+      "conversation_history": [
+        {
+          "ts": "2026-04-10T11:00:00Z",
+          "from": "vera",
+          "body": "Subscription expires in 16 days — Bharat Dental Care...",
+          "engagement": "merchant_no_reply"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 220,
+        "lapsed_180d_plus": 95,
+        "retention_6mo_pct": 0.18
+      },
+      "signals": [
+        "renewal_due_soon:12d",
+        "perf_dip_severe",
+        "unverified_gbp",
+        "dormant_with_vera_14d",
+        "no_active_offers"
+      ],
+      "review_themes": []
+    },
+    "category": {
+      "slug": "dentists",
+      "display_name": "Dentists",
+      "voice": {
+        "tone": "peer_clinical",
+        "register": "respectful_collegial",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "fluoride varnish",
+          "scaling",
+          "caries",
+          "occlusion",
+          "bruxism",
+          "endodontic",
+          "periodontal",
+          "implant",
+          "aligner",
+          "veneer",
+          "OPG",
+          "IOPA",
+          "RCT",
+          "CAD/CAM",
+          "zirconia",
+          "PFM"
+        ],
+        "vocab_taboo": [
+          "guaranteed",
+          "100% safe",
+          "completely cure",
+          "miracle",
+          "best in city",
+          "doctor approved",
+          "FDA-approved (use only when actually applicable)"
+        ],
+        "salutation_examples": [
+          "Dr. {first_name}",
+          "Doc"
+        ],
+        "tone_examples": [
+          "Worth a look — JIDA Oct 2026 p.14",
+          "This one likely affects your high-risk adult cohort",
+          "If your case-mix is mostly cosmetic, may not be relevant"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "den_001",
+          "title": "Dental Cleaning @ ₹299",
+          "value": "299",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_002",
+          "title": "Free Consultation",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_003",
+          "title": "Teeth Whitening @ ₹1,499",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_004",
+          "title": "Root Canal @ ₹2,999 (single rooted)",
+          "value": "2999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_005",
+          "title": "Free Smile Analysis + Digital Scan",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_006",
+          "title": "Aligner Consultation @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_007",
+          "title": "Pediatric Dental Checkup @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_008",
+          "title": "Annual Family Dental Plan @ ₹4,999",
+          "value": "4999",
+          "audience": "repeat_user",
+          "type": "membership"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_solo_practices_2026",
+        "avg_rating": 4.4,
+        "avg_review_count": 62,
+        "avg_views_30d": 1820,
+        "avg_calls_30d": 12,
+        "avg_directions_30d": 38,
+        "avg_ctr": 0.03,
+        "avg_photos": 9,
+        "avg_post_freq_days": 14,
+        "retention_6mo_pct": 0.42
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_jida_fluoride",
+          "kind": "research",
+          "title": "3-month fluoride varnish recall outperforms 6-month for high-risk adult caries",
+          "source": "JIDA Oct 2026, p.14",
+          "trial_n": 2100,
+          "patient_segment": "high_risk_adults",
+          "summary": "Multi-center Indian trial shows 38% lower caries recurrence with 3-month vs 6-month recall in adults with active decay history. No effect in low-risk patients.",
+          "actionable": "Reassess recall interval for adults flagged high-risk in your charting"
+        },
+        {
+          "id": "d_2026W17_dci_radiograph",
+          "kind": "compliance",
+          "title": "DCI revised radiograph dose limits effective 2026-12-15",
+          "source": "Dental Council of India circular 2026-11-04",
+          "summary": "Maximum dose per IOPA exposure drops from 1.5 mSv to 1.0 mSv. E-speed film passes at the new limit; D-speed does not. Digital RVG sensors unaffected.",
+          "actionable": "Audit your X-ray setup before Dec 15; document E-speed or RVG in your SOPs"
+        },
+        {
+          "id": "d_2026W17_ida_webinar",
+          "kind": "cde",
+          "title": "IDA Delhi: Digital impressions — 2026 state of the art",
+          "source": "IDA Delhi chapter calendar",
+          "date": "2026-05-02T19:00:00+05:30",
+          "credits": 2,
+          "summary": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+          "actionable": "Free for IDA members; ₹500 for non-members"
+        },
+        {
+          "id": "d_2026W17_aligner_trend",
+          "kind": "trend",
+          "title": "Clear aligner consultations searches +62% YoY in metros",
+          "source": "Practo + Google Trends, Apr 2026",
+          "summary": "'Clear aligners near me' query growth concentrated in 28-45 age band; female-skewed. Pricing pressure as DIY aligner brands hit the market.",
+          "actionable": "Position your supervised-aligner offer against DIY in your GBP description"
+        },
+        {
+          "id": "d_2026W17_e_max_press",
+          "kind": "tech",
+          "title": "Dentsply launches IPS e.max Press for zirconia crowns in India at ₹3,200/unit (Delhi labs)",
+          "source": "Dentsply India launch note 2026-04-18",
+          "summary": "Better aesthetic, similar fracture resistance to standard zirconia. Two Delhi labs (Dental Direkt, Siam Dental) confirmed stocking. Shared-lease scanner deals available.",
+          "actionable": "Worth comparing if crown work is >15% of monthly revenue"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_oral_heart",
+          "title": "3 things your teeth tell you about your heart",
+          "channel": "whatsapp",
+          "length_seconds": 90,
+          "body": "Periodontal disease shares inflammation pathways with cardiovascular disease. Bleeding gums, persistent bad breath, and loose teeth in middle age are early signals. A 2024 meta-analysis of 18 studies found periodontal patients had 22% higher CVD events. The simplest action: scaling every 6 months reduces both gum and inflammation markers."
+        },
+        {
+          "id": "pc_kid_brushing",
+          "title": "Why your child resists brushing — and what to try this week",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Most resistance under age 7 is sensory, not behavioural. Try: (1) a softer brush than you think necessary, (2) brushing in front of a mirror so they see what's happening, (3) two minutes of music as the timer. If resistance persists past 4 weeks, it's worth a pediatric dental consult."
+        },
+        {
+          "id": "pc_aligner_vs_braces",
+          "title": "Aligners or braces? What I tell my patients in their 30s",
+          "channel": "whatsapp",
+          "length_seconds": 75,
+          "body": "Aligners work for ~70% of cases — mild-to-moderate crowding, spacing, and minor rotations. Braces still win for severe rotations, deep bites, and skeletal corrections. The tell: if you can't keep aligners on for 22 hours/day, braces are the safer choice."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Nov-Feb",
+          "note": "exam-stress bruxism spike — ortho consults rise 30% in 18-24 cohort"
+        },
+        {
+          "month_range": "Oct-Dec",
+          "note": "wedding whitening peak — bookings 2x baseline; ladies' segment dominant"
+        },
+        {
+          "month_range": "Jan",
+          "note": "new-year resolution surge — annual check-up bookings +40%"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "school holiday window — pediatric appointments +50%"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "clear aligners delhi",
+          "delta_yoy": 0.62,
+          "segment_age": "28-45",
+          "skew": "female"
+        },
+        {
+          "query": "teeth whitening price",
+          "delta_yoy": 0.41,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "dental implants near me",
+          "delta_yoy": 0.18,
+          "segment_age": "45-65",
+          "skew": "male"
+        },
+        {
+          "query": "kids first dental visit",
+          "delta_yoy": 0.27,
+          "segment_age": "parents_25-40",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "Dental Council of India (DCI)",
+        "Indian Dental Association (IDA)"
+      ],
+      "professional_journals": [
+        "JIDA",
+        "Indian Journal of Dental Research",
+        "Dental Tribune India"
+      ]
+    },
+    "customer": null
+  },
+  "phase1_briefing": {
+    "trigger_id": "trg_004_perf_dip_bharat",
+    "now": "2026-04-26T10:30:00.000Z",
+    "now_source": "given",
+    "audience": "merchant",
+    "send_as": "vera",
+    "trigger": {
+      "id": "trg_004_perf_dip_bharat",
+      "scope": "merchant",
+      "kind": "perf_dip",
+      "source": "internal",
+      "merchant_id": "m_002_bharat_dentist_mumbai",
+      "customer_id": null,
+      "payload": {
+        "metric": "calls",
+        "delta_pct": -0.5,
+        "window": "7d",
+        "vs_baseline": 12
+      },
+      "urgency": 4,
+      "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+      "expires_at": "2026-05-10T00:00:00Z"
+    },
+    "payload_display": {
+      "metric": "calls",
+      "delta_pct": "-50%",
+      "window": "7 days",
+      "vs_baseline": "12"
+    },
+    "merchant": {
+      "merchant_id": "m_002_bharat_dentist_mumbai",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Bharat Dental Care",
+        "city": "Mumbai",
+        "locality": "Andheri West",
+        "place_id": "ChIJ_ANDHERI_DENTIST_002",
+        "verified": false,
+        "languages": [
+          "en",
+          "hi",
+          "mr"
+        ],
+        "owner_first_name": "Bharat",
+        "established_year": 2010
+      },
+      "subscription": {
+        "status": "active",
+        "plan": "Pro",
+        "days_remaining": 12,
+        "renewed_at": "2025-04-26"
+      },
+      "performance": {
+        "window_days": 30,
+        "views": 980,
+        "calls": 4,
+        "directions": 18,
+        "ctr": 0.018,
+        "leads": 2,
+        "delta_7d": {
+          "views_pct": -0.22,
+          "calls_pct": -0.5,
+          "ctr_pct": -0.1
+        }
+      },
+      "offers": [],
+      "conversation_history": [
+        {
+          "ts": "2026-04-10T11:00:00Z",
+          "from": "vera",
+          "body": "Subscription expires in 16 days — Bharat Dental Care...",
+          "engagement": "merchant_no_reply"
+        }
+      ],
+      "customer_aggregate": {
+        "total_unique_ytd": 220,
+        "lapsed_180d_plus": 95,
+        "retention_6mo_pct": 0.18
+      },
+      "signals": [
+        "renewal_due_soon:12d",
+        "perf_dip_severe",
+        "unverified_gbp",
+        "dormant_with_vera_14d",
+        "no_active_offers"
+      ],
+      "review_themes": []
+    },
+    "category": {
+      "slug": "dentists",
+      "display_name": "Dentists",
+      "voice": {
+        "tone": "peer_clinical",
+        "register": "respectful_collegial",
+        "code_mix": "hindi_english_natural",
+        "vocab_allowed": [
+          "fluoride varnish",
+          "scaling",
+          "caries",
+          "occlusion",
+          "bruxism",
+          "endodontic",
+          "periodontal",
+          "implant",
+          "aligner",
+          "veneer",
+          "OPG",
+          "IOPA",
+          "RCT",
+          "CAD/CAM",
+          "zirconia",
+          "PFM"
+        ],
+        "vocab_taboo": [
+          "guaranteed",
+          "100% safe",
+          "completely cure",
+          "miracle",
+          "best in city",
+          "doctor approved",
+          "FDA-approved (use only when actually applicable)"
+        ],
+        "salutation_examples": [
+          "Dr. {first_name}",
+          "Doc"
+        ],
+        "tone_examples": [
+          "Worth a look — JIDA Oct 2026 p.14",
+          "This one likely affects your high-risk adult cohort",
+          "If your case-mix is mostly cosmetic, may not be relevant"
+        ]
+      },
+      "offer_catalog": [
+        {
+          "id": "den_001",
+          "title": "Dental Cleaning @ ₹299",
+          "value": "299",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_002",
+          "title": "Free Consultation",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_003",
+          "title": "Teeth Whitening @ ₹1,499",
+          "value": "1499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_004",
+          "title": "Root Canal @ ₹2,999 (single rooted)",
+          "value": "2999",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_005",
+          "title": "Free Smile Analysis + Digital Scan",
+          "value": "0",
+          "audience": "new_user",
+          "type": "free_service"
+        },
+        {
+          "id": "den_006",
+          "title": "Aligner Consultation @ ₹499",
+          "value": "499",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_007",
+          "title": "Pediatric Dental Checkup @ ₹199",
+          "value": "199",
+          "audience": "new_user",
+          "type": "service_at_price"
+        },
+        {
+          "id": "den_008",
+          "title": "Annual Family Dental Plan @ ₹4,999",
+          "value": "4999",
+          "audience": "repeat_user",
+          "type": "membership"
+        }
+      ],
+      "peer_stats": {
+        "scope": "metro_solo_practices_2026",
+        "avg_rating": 4.4,
+        "avg_review_count": 62,
+        "avg_views_30d": 1820,
+        "avg_calls_30d": 12,
+        "avg_directions_30d": 38,
+        "avg_ctr": 0.03,
+        "avg_photos": 9,
+        "avg_post_freq_days": 14,
+        "retention_6mo_pct": 0.42
+      },
+      "digest": [
+        {
+          "id": "d_2026W17_jida_fluoride",
+          "kind": "research",
+          "title": "3-month fluoride varnish recall outperforms 6-month for high-risk adult caries",
+          "source": "JIDA Oct 2026, p.14",
+          "trial_n": 2100,
+          "patient_segment": "high_risk_adults",
+          "summary": "Multi-center Indian trial shows 38% lower caries recurrence with 3-month vs 6-month recall in adults with active decay history. No effect in low-risk patients.",
+          "actionable": "Reassess recall interval for adults flagged high-risk in your charting"
+        },
+        {
+          "id": "d_2026W17_dci_radiograph",
+          "kind": "compliance",
+          "title": "DCI revised radiograph dose limits effective 2026-12-15",
+          "source": "Dental Council of India circular 2026-11-04",
+          "summary": "Maximum dose per IOPA exposure drops from 1.5 mSv to 1.0 mSv. E-speed film passes at the new limit; D-speed does not. Digital RVG sensors unaffected.",
+          "actionable": "Audit your X-ray setup before Dec 15; document E-speed or RVG in your SOPs"
+        },
+        {
+          "id": "d_2026W17_ida_webinar",
+          "kind": "cde",
+          "title": "IDA Delhi: Digital impressions — 2026 state of the art",
+          "source": "IDA Delhi chapter calendar",
+          "date": "2026-05-02T19:00:00+05:30",
+          "credits": 2,
+          "summary": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+          "actionable": "Free for IDA members; ₹500 for non-members"
+        },
+        {
+          "id": "d_2026W17_aligner_trend",
+          "kind": "trend",
+          "title": "Clear aligner consultations searches +62% YoY in metros",
+          "source": "Practo + Google Trends, Apr 2026",
+          "summary": "'Clear aligners near me' query growth concentrated in 28-45 age band; female-skewed. Pricing pressure as DIY aligner brands hit the market.",
+          "actionable": "Position your supervised-aligner offer against DIY in your GBP description"
+        },
+        {
+          "id": "d_2026W17_e_max_press",
+          "kind": "tech",
+          "title": "Dentsply launches IPS e.max Press for zirconia crowns in India at ₹3,200/unit (Delhi labs)",
+          "source": "Dentsply India launch note 2026-04-18",
+          "summary": "Better aesthetic, similar fracture resistance to standard zirconia. Two Delhi labs (Dental Direkt, Siam Dental) confirmed stocking. Shared-lease scanner deals available.",
+          "actionable": "Worth comparing if crown work is >15% of monthly revenue"
+        }
+      ],
+      "patient_content_library": [
+        {
+          "id": "pc_oral_heart",
+          "title": "3 things your teeth tell you about your heart",
+          "channel": "whatsapp",
+          "length_seconds": 90,
+          "body": "Periodontal disease shares inflammation pathways with cardiovascular disease. Bleeding gums, persistent bad breath, and loose teeth in middle age are early signals. A 2024 meta-analysis of 18 studies found periodontal patients had 22% higher CVD events. The simplest action: scaling every 6 months reduces both gum and inflammation markers."
+        },
+        {
+          "id": "pc_kid_brushing",
+          "title": "Why your child resists brushing — and what to try this week",
+          "channel": "whatsapp",
+          "length_seconds": 60,
+          "body": "Most resistance under age 7 is sensory, not behavioural. Try: (1) a softer brush than you think necessary, (2) brushing in front of a mirror so they see what's happening, (3) two minutes of music as the timer. If resistance persists past 4 weeks, it's worth a pediatric dental consult."
+        },
+        {
+          "id": "pc_aligner_vs_braces",
+          "title": "Aligners or braces? What I tell my patients in their 30s",
+          "channel": "whatsapp",
+          "length_seconds": 75,
+          "body": "Aligners work for ~70% of cases — mild-to-moderate crowding, spacing, and minor rotations. Braces still win for severe rotations, deep bites, and skeletal corrections. The tell: if you can't keep aligners on for 22 hours/day, braces are the safer choice."
+        }
+      ],
+      "seasonal_beats": [
+        {
+          "month_range": "Nov-Feb",
+          "note": "exam-stress bruxism spike — ortho consults rise 30% in 18-24 cohort"
+        },
+        {
+          "month_range": "Oct-Dec",
+          "note": "wedding whitening peak — bookings 2x baseline; ladies' segment dominant"
+        },
+        {
+          "month_range": "Jan",
+          "note": "new-year resolution surge — annual check-up bookings +40%"
+        },
+        {
+          "month_range": "Apr-Jun",
+          "note": "school holiday window — pediatric appointments +50%"
+        }
+      ],
+      "trend_signals": [
+        {
+          "query": "clear aligners delhi",
+          "delta_yoy": 0.62,
+          "segment_age": "28-45",
+          "skew": "female"
+        },
+        {
+          "query": "teeth whitening price",
+          "delta_yoy": 0.41,
+          "segment_age": "all",
+          "skew": "balanced"
+        },
+        {
+          "query": "dental implants near me",
+          "delta_yoy": 0.18,
+          "segment_age": "45-65",
+          "skew": "male"
+        },
+        {
+          "query": "kids first dental visit",
+          "delta_yoy": 0.27,
+          "segment_age": "parents_25-40",
+          "skew": "female"
+        }
+      ],
+      "regulatory_authorities": [
+        "Dental Council of India (DCI)",
+        "Indian Dental Association (IDA)"
+      ],
+      "professional_journals": [
+        "JIDA",
+        "Indian Journal of Dental Research",
+        "Dental Tribune India"
+      ]
+    },
+    "customer": null,
+    "digest_items": [],
+    "facts": [
+      {
+        "key": "merchant_name",
+        "group": "identity",
+        "value": "Bharat Dental Care",
+        "display": "Bharat Dental Care",
+        "source": "merchant.identity.name"
+      },
+      {
+        "key": "owner_first_name",
+        "group": "identity",
+        "value": {
+          "first_name": "Bharat",
+          "honorific": null
+        },
+        "display": "Bharat",
+        "source": "merchant.identity.owner_first_name"
+      },
+      {
+        "key": "location",
+        "group": "identity",
+        "value": {
+          "locality": "Andheri West",
+          "city": "Mumbai"
+        },
+        "display": "Andheri West, Mumbai",
+        "source": "merchant.identity.locality, merchant.identity.city"
+      },
+      {
+        "key": "gbp_verified",
+        "group": "identity",
+        "value": false,
+        "display": "Google profile is not verified",
+        "source": "merchant.identity.verified"
+      },
+      {
+        "key": "established_year",
+        "group": "identity",
+        "value": 2010,
+        "display": "in business since 2010",
+        "source": "merchant.identity.established_year"
+      },
+      {
+        "key": "views_30d",
+        "group": "performance",
+        "value": 980,
+        "display": "980 profile views in the last 30 days",
+        "source": "merchant.performance.views"
+      },
+      {
+        "key": "calls_30d",
+        "group": "performance",
+        "value": 4,
+        "display": "4 calls in the last 30 days",
+        "source": "merchant.performance.calls"
+      },
+      {
+        "key": "directions_30d",
+        "group": "performance",
+        "value": 18,
+        "display": "18 direction requests in the last 30 days",
+        "source": "merchant.performance.directions"
+      },
+      {
+        "key": "leads_30d",
+        "group": "performance",
+        "value": 2,
+        "display": "2 leads in the last 30 days",
+        "source": "merchant.performance.leads"
+      },
+      {
+        "key": "ctr",
+        "group": "performance",
+        "value": 0.018,
+        "display": "1.8% CTR over the last 30 days",
+        "source": "merchant.performance.ctr"
+      },
+      {
+        "key": "views_change_7d",
+        "group": "performance",
+        "value": -0.22,
+        "display": "views -22% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct"
+      },
+      {
+        "key": "calls_change_7d",
+        "group": "performance",
+        "value": -0.5,
+        "display": "calls -50% over the last 7 days",
+        "source": "merchant.performance.delta_7d.calls_pct"
+      },
+      {
+        "key": "ctr_change_7d",
+        "group": "performance",
+        "value": -0.1,
+        "display": "CTR -10% over the last 7 days",
+        "source": "merchant.performance.delta_7d.ctr_pct"
+      },
+      {
+        "key": "ctr_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.018,
+          "peer": 0.03,
+          "ratio": 0.6,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "CTR 1.8% vs 3.0% peer average, 40% below peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr"
+      },
+      {
+        "key": "views_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 980,
+          "peer": 1820,
+          "ratio": 0.538,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Profile views 980 vs 1,820 peer average, 46% below peers",
+        "source": "merchant.performance.views vs category.peer_stats.avg_views_30d"
+      },
+      {
+        "key": "calls_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 4,
+          "peer": 12,
+          "ratio": 0.333,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Calls 4 vs 12 peer average, 67% below peers",
+        "source": "merchant.performance.calls vs category.peer_stats.avg_calls_30d"
+      },
+      {
+        "key": "directions_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 18,
+          "peer": 38,
+          "ratio": 0.474,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "Direction requests 18 vs 38 peer average, 53% below peers",
+        "source": "merchant.performance.directions vs category.peer_stats.avg_directions_30d"
+      },
+      {
+        "key": "total_unique_ytd",
+        "group": "customers",
+        "value": 220,
+        "display": "220 unique patients this year",
+        "source": "merchant.customer_aggregate.total_unique_ytd"
+      },
+      {
+        "key": "lapsed_180d_plus",
+        "group": "customers",
+        "value": 95,
+        "display": "95 patients not seen in 180+ days",
+        "source": "merchant.customer_aggregate.lapsed_180d_plus"
+      },
+      {
+        "key": "retention_6mo_pct",
+        "group": "customers",
+        "value": 0.18,
+        "display": "6-month retention 18%",
+        "source": "merchant.customer_aggregate.retention_6mo_pct"
+      },
+      {
+        "key": "retention_6mo_pct_vs_peer",
+        "group": "peer",
+        "value": {
+          "merchant": 0.18,
+          "peer": 0.42,
+          "ratio": 0.429,
+          "position": "below",
+          "higher_is_better": true
+        },
+        "display": "6-month retention 18% vs 42% peer average, 24 points below peers",
+        "source": "merchant.customer_aggregate.retention_6mo_pct vs category.peer_stats.retention_6mo_pct"
+      },
+      {
+        "key": "no_active_offers",
+        "group": "offers",
+        "value": true,
+        "display": "no active offers right now",
+        "source": "merchant.offers"
+      },
+      {
+        "key": "catalog_offers_not_run",
+        "group": "offers",
+        "value": [
+          "Dental Cleaning @ ₹299",
+          "Teeth Whitening @ ₹1,499",
+          "Root Canal @ ₹2,999 (single rooted)",
+          "Aligner Consultation @ ₹499",
+          "Pediatric Dental Checkup @ ₹199",
+          "Free Consultation",
+          "Free Smile Analysis + Digital Scan",
+          "Annual Family Dental Plan @ ₹4,999"
+        ],
+        "display": "category offers this merchant hasn't run: Dental Cleaning @ ₹299; Teeth Whitening @ ₹1,499; Root Canal @ ₹2,999 (single rooted); Aligner Consultation @ ₹499; Pediatric Dental Checkup @ ₹199",
+        "source": "category.offer_catalog minus merchant.offers"
+      },
+      {
+        "key": "subscription",
+        "group": "subscription",
+        "value": {
+          "status": "active",
+          "plan": "Pro",
+          "days_remaining": 12,
+          "renewed_at": "2025-04-26"
+        },
+        "display": "Pro plan active, 12 days left",
+        "source": "merchant.subscription"
+      },
+      {
+        "key": "signal_renewal_due_soon",
+        "group": "signals",
+        "value": {
+          "raw": "renewal_due_soon:12d",
+          "name": "renewal_due_soon",
+          "value": 12,
+          "unit": "d"
+        },
+        "display": "subscription renewal due in 12 days",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_perf_dip_severe",
+        "group": "signals",
+        "value": {
+          "raw": "perf_dip_severe",
+          "name": "perf_dip_severe",
+          "value": null,
+          "unit": null
+        },
+        "display": "severe drop in performance",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_unverified_gbp",
+        "group": "signals",
+        "value": {
+          "raw": "unverified_gbp",
+          "name": "unverified_gbp",
+          "value": null,
+          "unit": null
+        },
+        "display": "Google Business Profile not verified",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_dormant_with_vera",
+        "group": "signals",
+        "value": {
+          "raw": "dormant_with_vera_14d",
+          "name": "dormant_with_vera",
+          "value": 14,
+          "unit": "d"
+        },
+        "display": "no message to Vera in 14 days",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "signal_no_active_offers",
+        "group": "signals",
+        "value": {
+          "raw": "no_active_offers",
+          "name": "no_active_offers",
+          "value": null,
+          "unit": null
+        },
+        "display": "no active offers",
+        "source": "merchant.signals"
+      },
+      {
+        "key": "peer_group",
+        "group": "category",
+        "value": "metro_solo_practices_2026",
+        "display": "peer group: metro solo practices 2026",
+        "source": "category.peer_stats.scope"
+      },
+      {
+        "key": "peer_avg_rating",
+        "group": "category",
+        "value": 4.4,
+        "display": "peers average a 4.4★ rating",
+        "source": "category.peer_stats.avg_rating"
+      },
+      {
+        "key": "peer_avg_reviews",
+        "group": "category",
+        "value": 62,
+        "display": "peers average 62 reviews",
+        "source": "category.peer_stats.avg_review_count"
+      },
+      {
+        "key": "peer_post_frequency",
+        "group": "category",
+        "value": 14,
+        "display": "peers post on Google every 14 days on average",
+        "source": "category.peer_stats.avg_post_freq_days"
+      },
+      {
+        "key": "peer_avg_photos",
+        "group": "category",
+        "value": 9,
+        "display": "peers have 9 photos on average",
+        "source": "category.peer_stats.avg_photos"
+      },
+      {
+        "key": "season_apr_jun",
+        "group": "season",
+        "value": {
+          "month_range": "Apr-Jun",
+          "note": "school holiday window — pediatric appointments +50%"
+        },
+        "display": "Apr-Jun: school holiday window — pediatric appointments +50%",
+        "source": "category.seasonal_beats"
+      },
+      {
+        "key": "trend_clear_aligners_delhi",
+        "group": "trends",
+        "value": {
+          "query": "clear aligners delhi",
+          "delta_yoy": 0.62,
+          "segment_age": "28-45",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"clear aligners delhi\" searches +62% year-on-year (age 28-45, skews female)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_teeth_whitening_price",
+        "group": "trends",
+        "value": {
+          "query": "teeth whitening price",
+          "delta_yoy": 0.41,
+          "segment_age": "all",
+          "skew": "balanced",
+          "local": false
+        },
+        "display": "\"teeth whitening price\" searches +41% year-on-year",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_dental_implants_near_me",
+        "group": "trends",
+        "value": {
+          "query": "dental implants near me",
+          "delta_yoy": 0.18,
+          "segment_age": "45-65",
+          "skew": "male",
+          "local": false
+        },
+        "display": "\"dental implants near me\" searches +18% year-on-year (age 45-65, skews male)",
+        "source": "category.trend_signals"
+      },
+      {
+        "key": "trend_kids_first_dental_visit",
+        "group": "trends",
+        "value": {
+          "query": "kids first dental visit",
+          "delta_yoy": 0.27,
+          "segment_age": "parents_25-40",
+          "skew": "female",
+          "local": false
+        },
+        "display": "\"kids first dental visit\" searches +27% year-on-year (parents 25-40, skews female)",
+        "source": "category.trend_signals"
+      }
+    ],
+    "history": {
+      "turn_count": 1,
+      "last_vera_message": {
+        "ts": "2026-04-10T11:00:00Z",
+        "body": "Subscription expires in 16 days — Bharat Dental Care...",
+        "engagement": "merchant_no_reply",
+        "hours_ago": 383.5,
+        "origin": "context"
+      },
+      "last_merchant_message": null,
+      "open_requests": [],
+      "unanswered_streak": 1,
+      "session_window_open": false,
+      "recent_vera_bodies": [
+        "Subscription expires in 16 days — Bharat Dental Care..."
+      ],
+      "engagement_tags": [
+        "merchant_no_reply"
+      ]
+    },
+    "language": {
+      "audience": "merchant",
+      "customer_noun": "patients",
+      "category_code_mix": "hindi english natural",
+      "greeting": "Dr. Bharat",
+      "address_as": "Dr. Bharat",
+      "first_name": "Bharat",
+      "honorific": null,
+      "template": "Dr. {first_name}",
+      "about": null,
+      "relation": null,
+      "languages": [
+        "en",
+        "hi",
+        "mr"
+      ],
+      "style": "hi-en",
+      "display": "English with natural Hindi code-mix (Hinglish)",
+      "code_mix": "hi",
+      "regional_languages": [
+        "mr"
+      ],
+      "source": "merchant.identity.languages"
+    },
+    "richness": {
+      "level": "moderate",
+      "score": 3,
+      "max": 5,
+      "present": [
+        "conversation_history",
+        "signals",
+        "customer_aggregate"
+      ],
+      "missing": [
+        "offers",
+        "review_themes"
+      ]
+    },
+    "consent": null,
+    "slots": [],
+    "fresh": {},
+    "flags": [],
+    "warnings": [],
+    "missing": []
+  },
+  "phase2_writing_brief": {
+    "trigger_id": "trg_004_perf_dip_bharat",
+    "kind": "perf_dip",
+    "family": "performance",
+    "audience": "merchant",
+    "send_as": "vera",
+    "merchant_id": "m_002_bharat_dentist_mumbai",
+    "customer_id": null,
+    "recipient_id": "m_002_bharat_dentist_mumbai",
+    "sender_name": "Bharat Dental Care",
+    "greeting": "Dr. Bharat",
+    "address_as": "Dr. Bharat",
+    "language": {
+      "style": "hi-en",
+      "instruction": "Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.",
+      "hinglish": true
+    },
+    "lead": {
+      "text": "calls -50% over the last 7 days (usually around 12)",
+      "source": "trigger.payload.metric, delta_pct, window",
+      "key": "payload:delta_pct",
+      "phrase": "your calls are down 50% over the last 7 days (usually around 12)",
+      "phrase_hi": ""
+    },
+    "support": [
+      {
+        "text": "views -22% over the last 7 days",
+        "source": "merchant.performance.delta_7d.views_pct",
+        "key": "views_change_7d",
+        "phrase": "views -22% this week",
+        "phrase_hi": ""
+      },
+      {
+        "text": "CTR 1.8% vs 3.0% peer average, 40% below peers",
+        "source": "merchant.performance.ctr vs category.peer_stats.avg_ctr",
+        "key": "ctr_vs_peer",
+        "phrase": "your CTR is 1.8% vs 3.0% for similar clinics",
+        "phrase_hi": ""
+      },
+      {
+        "text": "Google profile is not verified",
+        "source": "merchant.identity.verified",
+        "key": "gbp_verified",
+        "phrase": "your Google profile isn't verified yet",
+        "phrase_hi": ""
+      }
+    ],
+    "angle": "name the drop plainly, then offer a concrete fix",
+    "levers": [
+      "specificity",
+      "loss_aversion",
+      "effort_externalization"
+    ],
+    "ask": {
+      "cta": "binary_yes_no",
+      "text": "Want two quick fixes you can try this week, drafted in 5 min?",
+      "text_hi": "Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+      "intent": "yes/no: Want two quick fixes you can try this week, drafted in 5 min?"
+    },
+    "template": {
+      "required": true,
+      "name": "vera_perf_dip_v1"
+    },
+    "instructions": [
+      "Voice: peer clinical, respectful collegial.",
+      "Category words you can use (vocabulary only, not facts about this business): fluoride varnish, scaling, caries, occlusion, bruxism, endodontic.",
+      "One ask only, and make it the last sentence. No links. No preamble.",
+      "Use only the facts listed here: no invented offers, prices, dates, names or statistics.",
+      "Don't re-introduce Vera; speak as a peer, not a salesperson."
+    ],
+    "avoid": [
+      "guaranteed",
+      "100% safe",
+      "completely cure",
+      "miracle",
+      "best in city",
+      "doctor approved",
+      "FDA-approved"
+    ],
+    "allowed_numbers": [
+      "1.8",
+      "3",
+      "5",
+      "7",
+      "12",
+      "22",
+      "40",
+      "50"
+    ],
+    "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+    "urgency": 4,
+    "flags": [],
+    "notes": [],
+    "render_support": 2,
+    "vocabulary": [
+      "fluoride varnish",
+      "scaling",
+      "caries",
+      "occlusion",
+      "bruxism",
+      "endodontic",
+      "periodontal",
+      "implant",
+      "aligner",
+      "veneer",
+      "OPG",
+      "IOPA",
+      "RCT",
+      "CAD/CAM",
+      "zirconia",
+      "PFM"
+    ]
+  },
+  "phase2_prompt": "Write one WhatsApp message.\nTo: Dr. Bharat, owner of Bharat Dental Care. Sent as: Vera, magicpin's merchant assistant.\nGreeting: Dr. Bharat\nLanguage: Natural Hindi-English mix (Hinglish) is welcome; plain English is fine too.\nWhy now: calls -50% over the last 7 days (usually around 12)\nSupporting facts (use only these):\n- views -22% over the last 7 days\n- CTR 1.8% vs 3.0% peer average, 40% below peers\n- Google profile is not verified\nAngle: name the drop plainly, then offer a concrete fix. Levers: specificity, loss aversion, effort externalization.\nAsk, one only, as the last sentence (yes/no): Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?\nFormat: first message in this chat window, so keep it template-shaped: greeting, 2-3 short sentences, then the ask.\nRules:\n- Voice: peer clinical, respectful collegial.\n- Category words you can use (vocabulary only, not facts about this business): fluoride varnish, scaling, caries, occlusion, bruxism, endodontic.\n- One ask only, and make it the last sentence. No links. No preamble.\n- Use only the facts listed here: no invented offers, prices, dates, names or statistics.\n- Don't re-introduce Vera; speak as a peer, not a salesperson.\n- Numbers may only come from: 1.8, 3, 5, 7, 12, 22, 40, 50.\n- Never use: guaranteed, 100% safe, completely cure, miracle, best in city, doctor approved, FDA-approved.",
+  "phase2_plain_message": {
+    "body": "Dr. Bharat, your calls are down 50% over the last 7 days (usually around 12). Views -22% this week. Your CTR is 1.8% vs 3.0% for similar clinics. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+    "rationale": "Perf dip: calls -50% over the last 7 days (usually around 12). Backed by views -22% over the last 7 days; CTR 1.8% vs 3.0% peer average, 40% below peers. Angle: name the drop plainly, then offer a concrete fix; one yes/no ask. Hinglish where their language preference calls for it.",
+    "template_name": "vera_perf_dip_v1",
+    "template_params": [
+      "Dr. Bharat",
+      "Your calls are down 50% over the last 7 days (usually around 12).",
+      "Views -22% this week. Your CTR is 1.8% vs 3.0% for similar clinics.",
+      "Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?"
+    ],
+    "writer": "template"
+  },
+  "phase3_ai_message": {
+    "body": "Dr. Bharat, pichhle 7 din mein calls 50% down hain—usually around 12—and views bhi 22% gire hain. CTR 1.8% hai, peer average 3.0%, aur Google profile verified nahi hai; pehla quick fix verification hoga. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+    "rationale": "Anchors on the call and view drop, then connects the below-peer CTR to the unverified Google profile. It offers a specific, low-effort fix while keeping the single yes/no ask exactly as requested.",
+    "template_name": "vera_perf_dip_v1",
+    "template_params": [
+      "Dr. Bharat",
+      "Dr.",
+      "Bharat, pichhle 7 din mein calls 50% down hain—usually around 12—and views bhi 22% gire hain. CTR 1.8% hai, peer average 3.0%, aur Google profile verified nahi hai; pehla quick fix verification hoga.",
+      "Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?"
+    ],
+    "writer": "ai",
+    "retried": false
+  },
+  "phase3_note": "ok",
+  "final": {
+    "body": "Dr. Bharat, pichhle 7 din mein calls 50% down hain—usually around 12—and views bhi 22% gire hain. CTR 1.8% hai, peer average 3.0%, aur Google profile verified nahi hai; pehla quick fix verification hoga. Kya main is hafte ke liye do quick fixes bhej doon, 5 min mein?",
+    "cta": "binary_yes_no",
+    "send_as": "vera",
+    "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+    "rationale": "Anchors on the call and view drop, then connects the below-peer CTR to the unverified Google profile. It offers a specific, low-effort fix while keeping the single yes/no ask exactly as requested.",
+    "writer": "ai"
+  },
+  "checks": {
+    "plain": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ],
+    "ai": [
+      {
+        "name": "Not empty",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Numbers all from the brief",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No links",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No taboo words",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No internal codes",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No template braces",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one question",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "At most one ! and one emoji",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No preamble or self-introduction",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Doesn't repeat itself",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "No services the brief doesn't list",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Customer message speaks as the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Customer message names the shop",
+        "ok": null,
+        "detail": "merchant-facing",
+        "hard": true
+      },
+      {
+        "name": "Addresses them by name",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Has a concrete number, date or price",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Ends with the ask",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Not copied from a case study",
+        "ok": true,
+        "detail": "0% overlap with case study 9",
+        "hard": true
+      },
+      {
+        "name": "Under 600 characters",
+        "ok": true,
+        "detail": "",
+        "hard": true
+      },
+      {
+        "name": "Language as expected",
+        "ok": true,
+        "detail": "wanted Hinglish, looks hi-en",
+        "hard": false
+      }
+    ]
+  }
+}
