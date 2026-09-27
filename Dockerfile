@@ -10,4 +10,4 @@ COPY . .
 
 # One worker only: conversations and pushed contexts live in this process's memory.
 EXPOSE 8080
-CMD ["sh", "-c", "uvicorn bot:app --host 0.0.0.0 --port ${PORT:-8080} --workers 1 --timeout-keep-alive 75"]
+CMD ["python", "serve.py"]
